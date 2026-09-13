@@ -1,6 +1,7 @@
 # Arc Light Bureau
 
 English translation of Arc Light Bureau 1.12.3 for Starsector 0.98a-RC8.
+Arc Light Bureau is the new name of Traverser Design Bureau mod.
 
 ## Requirements
 
