@@ -63,12 +63,12 @@ This ship was discovered in uninhabited deep space, and was partially repaired. 
 
 The ship's log contains several letter and an unsent draft.
 [Comm Log C8-02D1-205709]
-“The days are peaceful, worry not”
+""The days are peaceful; worry not.""
 [Status: Unsent]",,,,,
 ,,,,,,,
 TDB_yun_cheng,SHIP,"A dedicated logistic ship designed for explorers, she can carry substantial amount of cargo as well as fuel.
 
-Cloud City class is the most eye catching presence of project Vulpecula. It has a powerful and complete logistic and ground support system, allowing it to meet all logistic needs of a medium to small sized fleet. Servomg as the support of a Cumulonimbus class in the fleet pushes the Cloud City's capability to an extreme. Including carrying out extremely difficult repairs that are no easier than making ships from scratch. If you wishes to explore the stars but lack a good freighter, you can't go wrong with her! ",,,,,
+The Cloud City class is the most eye-catching product of Project Vulpecula. It has powerful, comprehensive logistics and ground-support systems, allowing it to meet every logistical need of a small or medium-sized fleet. Supporting a Cumulonimbus class pushes the Cloud City's capabilities to their limit, including extremely difficult repairs scarcely easier than building a ship from scratch. If you wish to explore the stars but lack a good freighter, you can't go wrong with her! ",,,,,
 ,,,,,,,
 TDB_ye_guang_yun,SHIP,"The Noctilucent Cloud frigate takes the principle of 'safety first' to its limit. Unmanned defense platforms and a small shield-pressure system make it nearly indestructible in small and medium engagements, while its anti-air vertical-launch missiles can protect distant allies. Unfortunately, the ship's role ensures that it is assigned to the most dangerous front lines. All those carefully designed safeguards ultimately become little more than psychological comfort for its crew. For that reason, most crew members privately regard assignment to a Noctilucent Cloud as drawing the worst possible lot.",,,,,
 ,,,,,,,
@@ -166,7 +166,7 @@ TDB_jue_xiang1,WEAPON,"Point-Defence missile designed by the Arc Light Bureau, i
 TDB_han_chao,WEAPON,"Coldtide Drone Launch Module seems like a product for militarized use, but it is part of Project Vulpecula. The launcher is only used to eject the launch module and reloading it. The launch module will deploy some distance from the mothership and quickly catapult a one-use Photophobia drone. The drone will independently scout and engage enemies after leaving its mothership. When the drone is severely damaged, it will charge the enemy and activate its 'Sky Mirror' self destruct system. This weapon became well-received by survey groups and mercenary company the moment it was released into the market. 
 ",,,,,
 ,,,,,,,
-TDB_feng_zu,WEAPON,"Ballistic CIWS system designed by the Bureau for captains preferring ballistic weapon. Windstopper CIWS relies on a pair of three-barreled gatling gun to pour a massive amount of shells to intercept incoming target. At the sametime, the ridiculous rate of fire also means its accuracy will drop quickly in extended firing.  
+TDB_feng_zu,WEAPON,"The Bureau designed this ballistic CIWS for captains who prefer ballistic weapons. Windstopper CIWS uses a pair of three-barreled Gatling guns to pour out a massive volume of shells and intercept incoming targets. At the same time, its extreme rate of fire causes its accuracy to fall rapidly during sustained fire.
 ",,,,,
 ,,,,,,,
 TDB_yuen_ying,WEAPON,"The Cloud Shadow Proton Collider Cannon fires a specialized warhead whose internal proton-cluster striker collides with atoms after penetrating a hull, releasing energy and triggering a chain reaction of molecular disintegration. Its ability to break down hull structures at the molecular level makes its destructive power impossible to dismiss.",,,,,
@@ -208,7 +208,7 @@ TDB_Focuspd,WEAPON,"The Bureau's PD laser design. Compared to the unique PD weap
 ,,,,,,,
 TDB_changkongpod,WEAPON,"An energy support missile designed by the Arc Light Bureau, trading high flux requirements for rapid regeneration and considerable range. Built specifically for rear-line support ships, these missiles are generally used to suppress the enemy.",,,,,
 ,,,,,,,
-TDB_changkongpod_l,WEAPON,"Upscaled version of Endless Sky LRM launcher, unlike other large missile that focuses on expanded ammo capacity, this system uses a more advanced nanoforge - allowing her to constantly project firepower at the enemy at considerable density. Like the mid-sized version, the  unmatched support and suppression capability comes at a high flux cost. 
+TDB_changkongpod_l,WEAPON,"Unlike other large missile systems that focus on expanded ammunition capacity, this enlarged Endless Sky LRM Launcher uses a more advanced nanoforge to maintain a dense stream of fire. Like the medium version, its unmatched support and suppression capabilities come at a high flux cost.
 ",,,,,
 ,,,,,,,
 TDB_shuang_jiang,WEAPON,"The Graupel anti-aircraft cannon carries an advanced fire-control system, allowing it to handle both missiles and strike craft with ease.",,,,,
@@ -216,7 +216,7 @@ TDB_shuang_jiang,WEAPON,"The Graupel anti-aircraft cannon carries an advanced fi
 TDB_hu_luo_bo1,WEAPON,"Built in VLS array of the Sunshower Drone Arsenal Ship capable of quickly launch suppression missile against the enemy force, an massive advanced nanoforge allows her to provide heavy sustained fire to the battlefield. 
 ",,,,,
 ,,,,,,,
-TDB_yin_hua,WEAPON,"A high energy pulse cannoon with considerable close range firepower. Its weakness is range and flux cost, but is this really an issue for a burst assault weapon?",,,,,
+TDB_yin_hua,WEAPON,"A high-energy pulse cannon with considerable close-range firepower. Its weaknesses are range and flux cost, but are those really problems for a burst assault weapon?",,,,,
 ,,,,,,,
 TDB_fang_tang,WEAPON,"Like Icing, Sugar Cube is a self-powered weapon-station system. Maintaining extreme accuracy with an internal power supply leaves it with absurdly low output, so it is mainly used against small craft and most missiles. It is nearly useless against heavier fighters and torpedoes.",,,,,
 ,,,,,,,

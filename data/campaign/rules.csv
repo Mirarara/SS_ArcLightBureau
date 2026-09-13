@@ -64,14 +64,14 @@ $faction.id == TDB",,"$theFaction has lowered your credit rating. Docking access
 relLevelHostileTDB,RelationshipLevelDesc,"$faction.rel == HOSTILE
 $faction.id == TDB",,You have been completely blacklisted by $theFaction. Fleets under $theFaction will attack your fleet without mercy.,,
 relLevelVengefulTDB,RelationshipLevelDesc,"$faction.rel == VENGEFUL
-$faction.id == TDB",,"Your relationship with $theFaction is truely cold like ice, Your portrait and fleet have been spread and highlighted on the Bounty list, and it may not be long before a fleet comes after you.",,
+$faction.id == TDB",,"Your relationship with $theFaction is truly ice-cold. Your portrait and fleet have been circulated and highlighted on bounty lists, and it may not be long before a fleet comes after you.",,
 ,,,,,,
 flavorTextMarketTDB,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == TDB
 $market.id == TDB_planet1_market","AddText ""People in dark-blue uniforms are everywhere in the streets, patrolling in small groups alongside drones and unmanned vehicles while answering visitors' questions. Brilliant advertisements and enthusiastic vendors form the everyday rhythm of the streets."" marketFlavorTextColor
 AddText ""After passing a strict screening, you are admitted to a more official market. Its orderly layout and the Bureau flags displayed throughout dominate the scene. A cat-eared officer and her mechanical colleague provide the latest price list and inform you of a special open market at Intersection in the Bureau's home system."" marketFlavorTextColor",,,
 ,,,,,,
-greetingGuGuFleet,OpenCommLink,$entity.TDBGuGu score:1000,,"""Indulge's light is always searing to my eyes, and only within shadows can i hear the song of the star of my distant homeland.  Captain $playerName, do you miss your home?""",cutCommLink:Cut the comm link,
+greetingGuGuFleet,OpenCommLink,$entity.TDBGuGu score:1000,,"""Indulge's light is always searing to my eyes, and only within shadows can I hear the song of the star of my distant homeland. Captain $playerName, do you miss your home?""",cutCommLink:Cut the comm link,
 #前置,,,,,,
 TDB_HanLiu_WH,PickGreeting,$id == TDB_HanLiu score:10,"ShowPersonVisual
 FireAll PopulateOptions","""Dear Fellow, interested in another cooperation?""",,
@@ -79,7 +79,7 @@ TDB_HanLiu_WH1,MHOpenText,$id == TDB_HanLiu score:10,FireBest ContactPreMissionL
 TDB_HanLiu_WH2,ContactPrintAcceptText,$id == TDB_HanLiu score:10,,"""Happy Cooperation""",,
 TDB_HanLiu_WH3,ContactPrintDeclineText,$id == TDB_HanLiu score:10,,"""Eh? ....What a shame.""",,
 TDB_HanLiu_WH4,ContactPreMissionListText,"$mh_count <= 0
-$id == TDB_HanLiu score:10",,"""There had been no new assignment lately, hn~... perhaps if you arent busy, maybe accompany us and talk whats been going on?""",,
+$id == TDB_HanLiu score:10",,"""There haven't been any new assignments lately, hm~... Perhaps, if you aren't busy, you could keep me company and tell me what has been going on?""",,
 ,,,,,,
 TDB_XF_WH,PickGreeting,$id == TDB_XF score:10,"ShowPersonVisual
 FireAll PopulateOptions","""...Mm...ah, $playerName...? Would you like to work with Westwind again...?""",,
@@ -87,7 +87,7 @@ TDB_XF_WH1,MHOpenText,$id == TDB_XF score:10,FireBest ContactPreMissionListText,
 TDB_XF_WH2,ContactPrintAcceptText,$id == TDB_XF score:10,,"""...in perfect condition... surely? the reimbursement has been fobbed off by $personLastName... it definitely wasn't $personLastName who provided the fund for the request...""",,
 TDB_XF_WH3,ContactPrintDeclineText,$id == TDB_XF score:10,,"""ah?... uhn~... i see~""",,
 TDB_XF_WH4,ContactPreMissionListText,"$mh_count <= 0
-$id == TDB_XF score:10",,"""Lately $personLastName have been pretty free, theres currently no work that can be offered for $playerName... however dont just go away so hurrily, how about talking recent trade expenditures, shall we?"" despite their initiatives to try keeping up the conversation, she cut off the communication after a few brief chats.",,
+$id == TDB_XF score:10",,"""Lately, $personLastName has been fairly free. There is currently no work to offer $playerName... but do not hurry away. How about discussing recent trade expenditures?"" Despite her attempt to keep the conversation going, she ends the call after a few brief exchanges.",,
 ,,,,,,
 #蓝图,,,,,,
 TDB_cpcBlurb,TDB_cpc_blurb,,,"""there is a empty forge production line being scheduled soon, are you interested in taking this? we're offering it just for you at factory price""",,
@@ -204,7 +204,7 @@ Without waiting for a response, Westwind turns and leaves, her figure disappeari
 ",,
 ,,,,,,
 #维修,,,,,,
-TDB_RepairBlurb,TDB_Repair_blurb,,,"""... Well, The Bureau's Repair Station are busy as always, and there is a steady need of maintenances for our sizable fleet, but- but however, if $playerName have any need...""",,
+TDB_RepairBlurb,TDB_Repair_blurb,,,"""...Well, the Bureau's repair stations are as busy as ever, and our sizable fleet always needs maintenance... b-but if $playerName needs anything...""",,
 TDB_RepairOfferOption,TDB_Repair_option,,,,"TDB_Repair_start:""I Would like to repair these ships""
 ",
 ,,,,,,
@@ -230,12 +230,12 @@ TDB_HanLiu1Opt,PopulateOptions,$id == TDB_HanLiu,,"""If you have any questions, 
 TDB_HanLiu_talk1,DialogOptionSelected,$option == TDB_HanLiu_talk1,$TDB_HanLiu = true,,"TDB_HanLiu_talkLLI:Inquire about Loulan Industries
 TDB_HanLiu_talkBSF:Inquire About Blue Sea Fisheries",
 TDB_HanLiu_talkLLI,DialogOptionSelected,$option == TDB_HanLiu_talkLLI,FireAll PopulateOptions,"Early on, the Bureau had cooperated with Loulan Industries, we had exchanged the blueprints of the ""Rain Curtain class"" for those of the ""Wave class"", and engineers from both side had successfully modified the exchanged prototypes according to their respective fleet doctrines - it should have been a perfect cooperation.
-Unfortuantely, due to a subsequent change in Loulan's stance, the Bureau had broken off diplomatic relations with them. and by nowdays, outright hostility.
+Unfortunately, a later change in Loulan's position led the Bureau to sever diplomatic relations with them. By now, relations have deteriorated into outright hostility.
 
 $personName sighs and takes a sip of the unknown beverage in the drinking glass, seemingly lamenting the loss of an ally and the rising of a new enemy.",cutCommLink:Cut the comm link,
 TDB_HanLiu_talkBSF,DialogOptionSelected,$option == TDB_HanLiu_talkBSF,FireAll PopulateOptions,"""Blue Sea Fisheries? They have great instant noodles. cough..""
 
-$personName cleared her throat and her eyes involuntarily drifted to the side, as if embarrased for accidentally saying something out of place.
+$personName clears her throat and glances involuntarily to the side, as if embarrassed by having said something out of place.
 
 ""Hmm... They've been allies with us for a long time now, and while they don't provide help on the front lines, they cooperate quite a bit with the Bureau in terms of supplies, scientific research, and the like.""
 
