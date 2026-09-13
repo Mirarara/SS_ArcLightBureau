@@ -15,7 +15,13 @@ Copy the `ArcLightBureau` folder into Starsector's `mods` folder and enable **Ar
 
 ## Source and build
 
-The translated Java source is retained under `jars/src`. The distributable mod uses the validated prebuilt `jars/TraverserDesignBureau3.jar`.
+The translated Java source is retained under `jars/src`. From PowerShell, rebuild the mod with:
+
+```powershell
+.\build.ps1 -StarsectorPath "<path to Starsector>"
+```
+
+The script uses Starsector's bundled JDK, compiles all Java sources for Java 17, and rebuilds and verifies `jars\TraverserDesignBureau3.jar`. It automatically locates LazyLib, MagicLib, GraphicsLib, BoxUtil, and LunaLib under Starsector's `mods` folder. LunaLib is needed only to compile against current GraphicsLib; it is not an additional runtime requirement for Arc Light Bureau. Use the corresponding `-...Jar` parameters or `-JdkPath` for non-standard installations.
 
 ## Credits
 
