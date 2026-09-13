@@ -1,0 +1,44 @@
+{
+    "displayName": "Magical",
+    "fluxCapacitors": 1,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "TDB_yun_cheng",
+    "hullMods": [
+        "converted_hangar",
+        "TDB_A_biao_zhun",
+        "TDB_yun_cheng_guan_bi"
+    ],
+    "modules": [
+        {"WS0008": "TDB_yun_cheng_box1_variant"},
+        {"WS0009": "TDB_yun_cheng_box4_variant"},
+        {"WS0010": "TDB_yun_cheng_box1_variant"},
+        {"WS0011": "TDB_yun_cheng_box4_variant"},
+        {"WS0012": "TDB_yun_cheng_box2_variant"},
+        {"WS0013": "TDB_yun_cheng_box3_variant"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_yun_cheng_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "TDB_han_chao"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "TDB_Focuspd"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "TDB_Focuspd"}
+        }
+    ],
+    "wings": [
+        "TDB_mi_san_guang_wing",
+        "TDB_mi_san_guang_wing"
+    ]
+}

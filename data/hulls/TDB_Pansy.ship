@@ -1,0 +1,143 @@
+{
+  "hullName": "TDB_pansy",
+  "hullId": "TDB_Pansy",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/TDB_Pansy.png",
+  "style": "TDB_TECH",
+  "height": 201,
+  "width": 160,
+  "center": [80, 101.5],
+  "collisionRadius": 142.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 114.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "TDB_ruo_ci_du_cheng",
+    "TDB_san_se_jin",
+    "delicate"
+  ],
+  "builtInWeapons": {
+    "SYS1": "TDB_san_se_jin1",
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": 45,
+      "locations": [-19.5, 28]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [21, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": -45.5,
+      "locations": [-19.5, -28]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -45, 5.5,
+        -45.5, -5.5,
+        -58, -5,
+        -58.5, 5.5
+      ]
+    },
+    {
+      "id": "SYS1",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-71.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-69, 26],
+      "length": 29,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-69, -26],
+      "length": 29,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-72, 19],
+      "length": 29,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-72, -19],
+      "length": 29,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-72, -19],
+      "length": 0,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "TDB_TECH2"
+    },
+    {
+      "location": [-72, 19],
+      "length": 0,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "TDB_TECH2"
+    }
+  ],
+  "bounds": [
+    -99, -2,
+    -73, -7,
+    -74, -30,
+    -42.5, -64.5,
+    -19.5, -48.5,
+    -4.5, -59,
+    17, -33,
+    93.5, -17,
+    37, -0,
+    93.5, 17,
+    17, 33,
+    -4.5, 59,
+    -19.5, 48.5,
+    -42.5, 64.5,
+    -74, 30,
+    -73, 7,
+    -99, 2
+  ]
+}

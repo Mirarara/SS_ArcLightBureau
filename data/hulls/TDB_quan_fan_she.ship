@@ -1,0 +1,139 @@
+{
+  "hullName": "TDB_quan_fan_she",
+  "hullId": "TDB_quan_fan_she",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/TDB_BB.png",
+  "style": "TDB_TECH",
+  "height": 54,
+  "width": 38,
+  "center": [19, 26],
+  "collisionRadius": 45.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 37.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "TDB_ruo_ci_du_cheng",
+    "insulatedengine"
+  ],
+  "builtInWeapons": {
+    "WS0006": "TDB_hang_ji_deng",
+    "WS0007": "TDB_hang_ji_deng",
+    "WS0008": "TDB_hang_ji_deng2",
+    "WS0012": "TDB_hang_ji_deng_da"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13, 5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-8, 11.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-8, -11.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13, -5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-1.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 14.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0, -14.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1.5, -0]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-13.5, 1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-24.5, -2.5],
+      "length": 22,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-24.5, 2.5],
+      "length": 22,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -26, -8,
+    -11, -18,
+    -4, -19,
+    -1, -11.5,
+    7, -11,
+    28, -5,
+    28, 5,
+    7, 11,
+    -1, 11.5,
+    -4, 19,
+    -11, 18,
+    -26, 8
+  ]
+}

@@ -1,0 +1,24 @@
+{
+	"id":"ArcLightBureau",
+	"name":"Arc Light Bureau",
+	"author": "\nDesign & Production: Hanliu [Lead Creator]  \n\nBalance & Loadout Guidance: Scythe  \n\nTechnical Guidance: AnyIDElse    \n\nArtwork & Art Guidance: Shadowlight, Shenqiang, Foxstripe \n\nSpecial Thanks: Kaoruzhu  Greatfhgbj  ZeroXenon  Ykaris  homejerry99  CVB～Taiho.0  Pigeon  Huanying, and all the friends in the QQ group for art and help.\n\n Translation by Myco and Miko",
+	"version":"1.12.3",
+	"description":"Home for the wanderers from another world",
+	"gameVersion":"0.98a-RC8",
+	"dependencies": [
+     {
+       "id": "lw_lazylib",
+       "name": "LazyLib"
+     },
+	 {
+	   "id": "MagicLib",
+       "name": "MagicLib"
+     },
+	 {
+	   "id": "shaderLib",
+       "name": "GraphicsLib"
+	 }
+	],
+	"jars":["jars/TraverserDesignBureau3.jar"],
+	"modPlugin":"data.scripts.TDBModPlugin"
+}

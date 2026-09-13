@@ -1,0 +1,57 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 5,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "TDB_yun_cheng",
+    "hullMods": ["TDB_A_biao_zhun"],
+    "modules": [
+        {"WS0008": "TDB_yun_cheng_box1_variant"},
+        {"WS0009": "TDB_yun_cheng_box4_variant"},
+        {"WS0010": "TDB_yun_cheng_box1_variant"},
+        {"WS0011": "TDB_yun_cheng_box4_variant"},
+        {"WS0012": "TDB_yun_cheng_box2_variant"},
+        {"WS0013": "TDB_yun_cheng_box3_variant"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_yun_cheng_variant",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "TDB_han_chao"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "TDB_shuang_tang"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "TDB_shuang_tang"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "TDB_shuang_tang"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "TDB_shuang_tang"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "TDB_shuang_tang"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "TDB_shuang_tang"}
+        }
+    ],
+    "wings": ["TDB_quan_fan_she_wing"]
+}

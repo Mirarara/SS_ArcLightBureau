@@ -1,0 +1,38 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "TDB_ji_yu_yun_zuo",
+    "hullMods": [
+        "TDB_A_pao_ji",
+        "TDB_hang_kong",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "TDB_ji_yu_yun_zuo_combat",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "TDB_han_chao",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "TDB_Focuspd",
+                "WS0002": "TDB_Focuspd",
+            }
+        },
+    ],
+    "wings": [
+        "TDB_pian_zhen_guang1_wing",
+        "TDB_pian_zhen_guang1_wing",
+        "TDB_pian_zhen_guang1_wing",
+    ],
+    "modules": [],
+}

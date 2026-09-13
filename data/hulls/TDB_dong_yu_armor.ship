@@ -1,0 +1,44 @@
+{
+  "hullName": "TDB_dong_yu_armor",
+  "hullId": "TDB_dong_yu_armor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/TDB_dong_yu/TDB_dong_yu_armor.png",
+  "style": "TDB_TECH",
+  "height": 56,
+  "width": 72,
+  "center": [36, 28],
+  "collisionRadius": 78.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 54.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "TDB_ruo_ci_du_cheng"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": 0,
+      "locations": [-19.5, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -26, -11,
+    -5, -12.5,
+    4, -36.5,
+    28, -30,
+    28, -13.5,
+    14.5, -10,
+    14.5, 10,
+    28, 13.5,
+    28, 30,
+    4, 36.5,
+    -5, 12.5,
+    -26, 11
+  ]
+}

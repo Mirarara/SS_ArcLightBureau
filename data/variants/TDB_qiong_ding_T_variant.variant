@@ -1,0 +1,71 @@
+{
+    "displayName": "Answer",
+    "fluxCapacitors": 30,
+    "fluxVents": 28,
+    "goalVariant": true,
+    "hullId": "TDB_qiong_ding",
+    "hullMods": [
+        "TDB_A_jie_neng",
+        "TDB_you_ji",
+        "frontemitter",
+        "hardenedshieldemitter",
+        "magazines",
+        "stabilizedshieldemitter",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "TDB_qiong_ding_T_variant",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "TDB_jie_shuang",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "TDB_ni_lan",
+                "WS0007": "TDB_ni_lan",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lightneedler",
+                "WS0004": "lightneedler",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "TDB_shuang_jiang",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "TDB_fang_tang",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "TDB_Focuspd",
+                "WS0008": "TDB_Focuspd",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [
+        {"WS0016": "TDB_pao_tai_variant"},
+    ],
+}

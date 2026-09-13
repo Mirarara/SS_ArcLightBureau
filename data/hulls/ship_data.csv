@@ -1,0 +1,74 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number
+#特殊单位,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experimental Specimens,TDB_change,You Cheater,"Sealed (If you see this, it is a bug)",TDB_piao_yi,20,7000,800,5000,4000,200,130,3,68,60,40,15,20,5000,FRONT,,270,0.5,0.8,,,150,250,120,80,3,28,8,110000,4,12,480,0.25,20,20,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,3,,408
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#穿越者设计局,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Curtain Rain,TDB_yu_lian,Destroyer,Arc Light Bureau,TDB_wu_qi,13,3000,300,8000,6667,500,80,,110,90,60,40,100,300,OMNI,,360,0.3,0.8,,,35,50,50,40,2,20,9,60000,5,20,300,0.25,12,12,,"TDB_bp, no_autofit",,0.7,2,3,TDB_xun_hang,309
+Condensation,TDB_lang_chao,Missile Destroyer,Arc Light Bureau,fastmissileracks,10,3200,300,5000,,200,60,,60,60,40,30,35,500,OMNI,,270,0.4,0.8,,,60,160,120,100,2,30,9,40000,5,12,360,0.25,13,13,,"TDB_bp, no_autofit",,0.7,2,3,TDB_xun_hang,309
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Grain Rain,TDB_gu_yu,Heavy Cruiser,Arc Light Bureau,TDB_shui_yin_deng,18,8000,800,6000,14000,200,70,1,50,40,30,20,25,2000,FRONT,,360,0.6,0.8,,,150,450,400,200,2,100,8,140000,3,15,420,0.25,26,26,SHIP_WITH_MODULES,"TDB_bp, no_autofit",,0.6,2,3,TDB_xun_hang,403
+Grain Rain Left Module,TDB_gu_yu_Z,Grain Rain Left Module,Arc Light Bureau,,16,4000,1200,2500,14000,200,65,,0,0,0,0,0,300,NONE,,0,0,0,,,150,450,400,200,2,100,8,140000,3,15,420,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX,",no_autofit,,0.6,2,3,TDB_xun_hang,403
+Grain Rain Right Module,TDB_gu_yu_Y,Grain Rain Right Module,Arc Light Bureau,,16,4000,1200,2500,14000,200,65,,0,0,0,0,0,300,NONE,,0,0,0,,,150,450,400,200,2,100,8,140000,3,15,420,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX,",no_autofit,,0.6,2,3,TDB_xun_hang,403
+Grain Rain Shield Module,TDB_gu_yu_C,Grain Rain Shield Module,Arc Light Bureau,,11,3000,1000,2500,14000,400,0,,400,400,400,400,400,300,OMNI,,360,0.3,1,,,0,0,0,0,0,20,9,60000,5,20,600,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX, UNDER_PARENT, INDEPENDENT_ROTATION",,,0.7,2,3,TDB_xun_hang,309
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cumulonimbus Left Module,TDB_ji_yu_yun_zuo,Cumulonimbus Left Module,Arc Light Bureau,targetingfeed,10,8000,1000,6000,6667,400,120,3,0,0,0,0,0,300,NONE,,0,0.3,0,,,35,50,50,40,2,20,9,60000,5,20,600,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX, CARRIER, UNDER_PARENT",,,0.7,2,3,TDB_xun_hang,309
+Cumulonimbus Right Module,TDB_ji_yu_yun_you,Cumulonimbus Right Module,Arc Light Bureau,targetingfeed,10,8000,1000,6000,6667,400,120,3,0,0,0,0,0,300,NONE,,0,0.3,0,,,35,50,50,40,2,20,9,60000,5,20,600,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX, CARRIER, UNDER_PARENT",,,0.7,2,3,TDB_xun_hang,309
+Cumulonimbus Hanger,TDB_ji_ku,Special Module,Arc Light Bureau,TDB_shui_yin_deng_l,11,5000,1000,6000,6667,400,1,2,0,90,60,40,100,300,NONE,,0,0.3,0,,,35,50,50,40,2,20,9,60000,5,20,600,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",restricted,,0.7,2,3,,309
+Cumulonimbus,TDB_ji_yu_yun,Aviation Fortress,Arc Light Bureau,TDB_targetingfeed,50,30000,1800,24000,15000,1900,400,5,40,8,8,12,8,4500,OMNI,,360,0.4,0.8,,,1000,3000,600,900,15,27,7,650000,3,12,600,0.25,100,100,"HIDE_IN_CODEX, SHIP_WITH_MODULES, CARRIER, COMBAT,",no_autofit,,0.4,1,1,TDB_xun_hang,500
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Winter Rain,TDB_dong_yu,Battlecruiser,Arc Light Bureau,TDB_tuxi,40,20000,1700,10000,25000,1750,285,4,60,50,25,15,15,3000,OMNI,,240,0.25,0.6,,,400,800,400,450,8,56,8,400000,4,20,600,0.25,70,70,"HIDE_IN_CODEX, SHIP_WITH_MODULES",no_autofit,,0.5,2,3,TDB_xun_hang,
+Winter Rain Forward Armor,TDB_dong_yu_armor,Winter Rain Forward Armor,Arc Light Bureau,damper,,4000,1400,4000,3750,400,30,,10,400,300,60,90,200,FRONT,,120,0,0.6,,,0,0,,,,,,,,,300,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.4,2,2,TDB_xun_hang,6
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Stratocumulus,TDB_ceng_ji_yun,Carrier,Arc Light Bureau,TDB_targetingfeed2,17,5000,750,5000,6000,300,100,3,80,60,40,20,25,800,FRONT,,120,0.4,0.8,,,150,300,600,150,3,27,8,200000,3,12,600,0.25,22,22,CARRIER,"TDB_bp, no_autofit",,0.4,2,4,TDB_xun_hang,500
+Wave Cloud,TDB_he_feng,Heavy Freighter,Arc Light Bureau,flarelauncher,7,6000,300,2750,2000,100,55,,40,20,10,10,10,1500,FRONT,,150,0.5,1,,,40,200,800,220,3,40,7,50000,3,20,480,0.25,7,7,CIVILIAN,"TDB_bp, no_autofit",,0.6,2,3,TDB_xun_hang,411
+Constant Wind,TDB_hengfeng,Battleship,Arc Light Bureau,TDB_wu_qi,25,15000,1000,13000,25000,1250,270,2,35,50,40,8,8,3000,OMNI,,180,0.25,0.8,,,400,800,400,450,8,56,7,500000,4,20,600,0.25,48,48,,"TDB_bp, no_autofit",,0.6,2,4,TDB_xun_hang,505
+Windstring,TDB_feng_xian,Frigate,Arc Light Bureau,TDB_qu_dong,10,1500,150,7500,1875,650,65,,160,120,100,60,120,200,OMNI,,180,0.4,0.8,,,15,30,40,20,1,20,10,60000,7,20,180,0.25,16,16,,"TDB_bp, no_autofit",,0.5,2,2,TDB_xun_hang,220
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Noctilucent Hanger,TDB_ji_ku2,Special Module,Arc Light Bureau,TDB_shui_yin_deng,1,5000,1000,6000,6667,400,1,2,0,90,60,40,100,300,NONE,,0,0.3,0,,,35,50,50,40,2,20,9,60000,5,20,300,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",restricted,,0.7,2,3,,309
+Noctilucent Cloud,TDB_ye_guang_yun,Frigate,Arc Light Bureau,TDB_FortressShieldStats,5,1500,160,4000,1500,100,35,,90,120,100,60,120,200,OMNI,,360,0.5,0.8,,,15,30,30,20,1,20,10,25000,8,10,480,0.25,6,6,SHIP_WITH_MODULES,"TDB_bp, no_autofit",,0.5,2,2,TDB_xun_hang,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Floating Turrets,TDB_pao_tai,Drone Battery,Arc Light Bureau,TDB_canister_flak,,3000,500,3000,3750,500,40,1,10,400,300,60,90,200,FRONT,,360,0,0.8,,,0,0,,,,,,,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.4,2,2,,6
+Dome,TDB_qiong_ding,Defenseive Deployment Cruiser,Arc Light Bureau,TDB_turretdeploy,22,14000,1200,13000,14000,800,230,2,50,35,25,12,15,2000,OMNI,,180,0.4,0.9,,,150,300,150,150,5,30,8,200000,3,15,420,0.25,38,38,SHIP_WITH_MODULES,"TDB_bp, no_autofit",,0.5,2,3,TDB_xun_hang,414
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cloud City Left Container - Small,TDB_yun_cheng_box1,Cloud City Small Container,Arc Light Bureau,,7,5000,300,4000,2000,200,0,,25,10,10,10,10,4000,NONE,,150,0.5,1,,,80,150,2000,1000,6,40,6,98000,3,20,600,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX, CIVILIAN",no_autofit,,0.6,2,3,TDB_xun_hang,411
+Cloud City Left Container - Large,TDB_yun_cheng_box2,Cloud City Large Container,Arc Light Bureau,,7,8000,300,4000,2000,200,0,,25,10,10,10,10,4000,NONE,,150,0.5,1,,,80,150,2000,1000,6,40,6,98000,3,20,600,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX, CIVILIAN",no_autofit,,0.6,2,3,TDB_xun_hang,411
+Cloud City Right Container - Small,TDB_yun_cheng_box4,Cloud City Small Container,Arc Light Bureau,,7,5000,300,4000,2000,200,0,,25,10,10,10,10,4000,NONE,,150,0.5,1,,,80,150,2000,1000,6,40,6,98000,3,20,600,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX, CIVILIAN",no_autofit,,0.6,2,3,TDB_xun_hang,411
+Cloud City Right Container - Large,TDB_yun_cheng_box3,Cloud City Large Container,Arc Light Bureau,,7,8000,300,4000,2000,200,0,,25,10,10,10,10,4000,NONE,,150,0.5,1,,,80,150,2000,1000,6,40,6,98000,3,20,600,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX, CIVILIAN",no_autofit,,0.6,2,3,TDB_xun_hang,411
+Cloud City,TDB_yun_cheng,Superfreighter,Arc Light Bureau,TDB_shui_yin_deng_a,7,8000,300,5000,2000,300,60,1,25,10,10,10,10,4000,OMNI,,150,0.5,1,,,80,150,2000,1000,6,40,6,98000,3,20,600,0.25,22,22,"SHIP_WITH_MODULES, CIVILIAN","TDB_bp, no_autofit",,0.6,2,3,TDB_xun_hang,411
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#越空防壁,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cloud Piercer,TDB_chuan_yun_1,EWS Drone,Skydome Bastion,TDB_SY,11,4000,500,3500,6667,200,60,,70,90,60,40,100,400,OMNI,,180,0.3,0.6,,,0,0,50,40,2,20,9,20000,5,20,300,0.25,8,8,HIDE_IN_CODEX,no_autofit,,0.7,2,3,TDB_xun_hang,309
+Wind Pressure,TDB_feng_ya_1,Drone Destroyer,Skydome Bastion,TDB_piao_yi,10,4000,350,6000,6667,450,75,,90,90,60,40,100,300,OMNI,,180,0.3,0.6,,,0,0,50,40,2,20,9,20000,5,20,300,0.25,11,11,HIDE_IN_CODEX,no_autofit,,0.7,2,3,TDB_xun_hang,309
+Drizzle,TDB_xi_yu_1,Drone Light Carrier,Skydome Bastion,TDB_targetingfeed,5,1500,200,2000,1250,150,45,1,130,120,70,90,180,200,OMNI,,180,0.5,0.6,,,0,0,100,40,1,40,9,6500,8,20,240,0.25,6,6,"CARRIER,COMBAT,HIDE_IN_CODEX",no_autofit,,,,,TDB_xun_hang,
+Cold Sky Scholar,TDB_ht,Drone Phase Cruiser,Skydome Bastion,TDB_dao_dan,20,10000,1400,10000,,650,150,,90,80,60,40,60,1500,PHASE,TDB_phasecloak,,,,0.03,0.03,0,0,80,150,3,20,8,300000,4,24,420,0.25,35,35,"HIDE_IN_CODEX, PHASE",no_autofit,,0.6,3,5,TDB_xun_hang,401
+Torrent,TDB_ji_liu_1,Drone Battlecruiser,Skydome Bastion,TDB_yq,20,13000,1250,18000,25000,1200,300,2,60,50,40,10,10,2500,OMNI,,180,0.25,0.6,,,0,0,400,450,8,56,8,180000,4,20,600,0.25,52,52,HIDE_IN_CODEX,no_autofit,,0.6,2,4,TDB_xun_hang,505
+Sunshower,TDB_tai_yang_yu_1,Drone Arsenal Ship,Skydome Bastion,TDB_FortressShieldStats,30,17000,1550,14500,15000,1050,290,3,40,40,30,8,8,4000,OMNI,,360,0.4,0.6,,,0,0,600,900,8,27,7,200000,3,12,600,0.25,55,55,HIDE_IN_CODEX,no_autofit,,0.4,2,4,TDB_xun_hang,500
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#剧情舰船,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iris,TDB_yuan_wei,Phase Shuttle,Hypothermia,phaseteleporter,6,1200,200,2000,1000,300,27,,150,120,100,120,150,125,PHASE,phasecloak,120,0.5,1,0.03,0.03,2,10,50,15,0.5,30,9,4000,5,20,180,0.25,6,6,HIDE_IN_CODEX,,,0.4,2,2,,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Snowsuit,TDB_gugu,Unmanned Replenishment Ship,Hypothermia,TDB_yq_gugu,6,900,150,1400,1000,80,25,,140,150,75,45,85,120,OMNI,,150,0.5,0.8,,,2,30,30,15,1,15,9,4000,5,20,180,0.25,6,6,HIDE_IN_CODEX,,,,,,TDB_xun_hang,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Synthlight,TDB_ren_zhao_guang,Battleship,Hypothermia,TDB_li_zi_pao,25,18000,1500,22000,25000,1000,220,,40,50,40,8,8,3000,OMNI,,180,0.25,0.9,,,400,800,400,450,8,56,8,330000,4,20,600,0.25,40,40,HIDE_IN_CODEX,ungp_onslaught,,0.6,2,4,,505
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nanohangar,TDB_na_mi_ji_ku,Special Module,Hypothermia,TDB_na_mi_ji_qun,11,5000,1000,6000,6667,400,1,2,0,90,60,40,100,300,NONE,,0,0.3,0,,,35,50,50,40,2,20,9,60000,5,20,300,0.25,0,0,"UNBOARDABLE, HIDE_IN_CODEX",restricted,,0.7,2,3,,309
+Greywind,TDB_hui_feng,Nano Interceptor,Hypothermia,TDB_na_mi,17,11000,800,11000,14000,550,120,,65,45,25,20,15,1500,OMNI,,180,0.4,1,,,0,1,150,150,5,30,8,200000,3,15,420,0.25,20,20,"HIDE_IN_CODEX, SHIP_WITH_MODULES",restricted,,0.5,2,3,,414
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sumireko,TDB_Pansy,Destroyer,Hypothermia,TDB_san_se_jin,13,5000,350,9000,,500,90,1,100,80,55,40,55,500,OMNI,,270,0.4,0.8,,,25,40,50,60,3,30,10,100000,5,15,420,0.25,25,30,HIDE_IN_CODEX,,,0.8,4,8,TDB_xun_hang,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#战机联队,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Floodlights,TDB_fan_guang_yuan,Drone Interceptor,Arc Light Bureau,,,200,25,150,,50,0,,335,500,400,90,270,15,OMNI,,160,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,
+Pointlights,TDB_dian_guang_yuan,Support Drone,Arc Light Bureau,flarelauncher_active,,800,400,500,,160,0,,140,250,200,100,200,40,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,
+Polarized Light,TDB_pian_zhen_guang1,Bomber,Arc Light Bureau,,,500,25,1000,,50,0,,260,360,360,360,180,50,OMNI,,200,0,1,,,3,3,,,,,,,,,,,,,,,,,,,,
+Visible Light,TDB_ke_jian_guang,Drone Bomber,Skydome Bastion,,,1000,250,500,,50,0,,170,360,360,360,180,50,NONE,,180,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,
+Diffuse Reflection,TDB_man_fan_she,Drone Support Gunship,Skydome Bastion,,,900,400,800,,1000,25,,145,65,35,60,85,120,NONE,,150,0.5,0.8,,,0,0,30,15,1,15,9,4000,5,20,180,0.25,2,2,,,,,,,,
+Total Reflection,TDB_quan_fan_she,Elite Fighter,Arc Light Bureau,TDB_ban_fei,,800,100,800,2500,100,0,,210,300,220,110,160,100,OMNI,,360,0,1,,,3,3,,,,,,,,,,,,,,,,,,,,
+Scatter Light,TDB_mi_san_guang,Drone Fighter,Skydome Bastion,flarelauncher_fighter,,500,110,400,,80,0,,200,400,350,90,180,30,FRONT,,360,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,
+Birefringence,TDB_shuang_zhe_she,Drone Fighter,Skydome Bastion,,,500,200,400,,50,0,,200,400,350,90,180,30,NONE,,0,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,
+Innovation,TDB_bian_ge,Interceptor Gunship,Arc Light Bureau,TDB_canister_flak,,2000,225,2000,,250,0,,190,180,125,50,50,75,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#特殊生成战机,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nanofighter,TDB_na_mi_zhan_ji,Nanofighter,Hypothermia,,,3000,400,1600,,400,50,,250,400,300,60,90,200,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,,,,,
+Mercury Lamp,TDB_shui_yin_deng,Drone Defence Platform,Arc Light Bureau,,,2000,400,500,,100,1000,,1000,1000,1000,1000,1000,200,NONE,,180,0,1,,,0,0,,,,,,,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,,,,,
+Photophobia,TDB_wei_guang_zheng,Drone Fighter,Skydome Bastion,,,600,50,400,2500,100,0,,220,300,220,110,160,100,OMNI,,360,0,1,,,0,0,,,,,,,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,,,,,
+Pulse Light,TDB_ji_yu_yun_drone,Drone Fighter,Skydome Bastion,,,300,100,150,,50,0,,300,500,0,90,270,15,NONE,,160,0,0,,,0,0,,,,,,,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,,,,,

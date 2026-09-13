@@ -1,0 +1,59 @@
+{
+  "hullName": "TDB_shui_yin_deng",
+  "hullId": "TDB_shui_yin_deng",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/TDB_shui_yin_deng.png",
+  "style": "TDB_TECH",
+  "height": 25,
+  "width": 78,
+  "center": [39, 12.5],
+  "collisionRadius": 51,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 44.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedcore",
+    "TDB_ruo_ci_du_cheng"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-1.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8, 10],
+      "length": 9,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-8, -10],
+      "length": 9,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -11, -11.5,
+    -1, -29.5,
+    5, -30.5,
+    6, -39,
+    11.5, -35.5,
+    11.5, 35.5,
+    6, 39,
+    5, 30.5,
+    -1, 29.5,
+    -11, 11.5
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "TDB_ni_lan",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "data.weapons.TDB_guang_shu",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/TDB_ni_lan_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/TDB_ni_lan_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/TDB_ni_lan_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/weapons/TDB_ni_lan_hardpoint_glow.png",
+  "glowColor": [
+    0,
+    255,
+    255,
+    180
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    8.5,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    0,
+    255,
+    255,
+    200
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 20,
+  "textureType": [
+    "graphics/fx/TDB_guang_shu.png",
+    "graphics/fx/TDB_guang_shu.png"
+  ],
+  "textureScrollSpeed": 292,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundOne":"TDB_ni_lan",
+	#"fireSoundTwo":"TDB_ni_lan",
+}

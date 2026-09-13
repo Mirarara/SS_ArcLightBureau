@@ -1,0 +1,166 @@
+{
+  "hullName": "TDB_chuan_yun_1",
+  "hullId": "TDB_chuan_yun_1",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/TDB_chuan_yun_1.png",
+  "style": "TDB_TECH",
+  "height": 178,
+  "width": 180,
+  "center": [90, 89],
+  "collisionRadius": 164,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 129.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "TDB_ruo_ci_du_cheng",
+    "TDB_zi_dong_jian_chuan",
+    "TDB_lei_da",
+    "TDB_glow"
+  ],
+  "builtInWeapons": {
+    "LE1_Left": "TDB_EngineController",
+    "LE2_Left": "TDB_EngineController",
+    "RE1_Right": "TDB_EngineController",
+    "RE2_Right": "TDB_EngineController"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [19, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 43,
+      "locations": [13.5, 30.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -43,
+      "locations": [13.5, -30.5]
+    },
+    {
+      "id": "LE1_Left",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 150,
+      "locations": [-23, 70.5]
+    },
+    {
+      "id": "LE2_Left",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 150,
+      "locations": [-26.5, 77.5]
+    },
+    {
+      "id": "RE1_Right",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -150,
+      "locations": [-23, -70.5]
+    },
+    {
+      "id": "RE2_Right",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -150,
+      "locations": [-26.5, -77.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-21.5, -0],
+      "length": 102.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-63.5, 17],
+      "length": 29.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-63.5, -17],
+      "length": 29.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-26.5, 77.5],
+      "length": 14.62,
+      "width": 5.34,
+      "angle": 150,
+      "contrailSize": 5.34,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-26.5, -77.5],
+      "length": 14.62,
+      "width": 5.34,
+      "angle": -150,
+      "contrailSize": 5.34,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-23, 70.5],
+      "length": 29.5,
+      "width": 7,
+      "angle": 150,
+      "contrailSize": 7,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-23, -70.5],
+      "length": 29.5,
+      "width": 7,
+      "angle": -150,
+      "contrailSize": 7,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -24, -5,
+    -85.5, -10,
+    -38.5, -40,
+    -26, -86.5,
+    1, -83.5,
+    84.5, -19,
+    40, -24.5,
+    64, -0,
+    40, 24.5,
+    84.5, 19,
+    1, 83.5,
+    -26, 86.5,
+    -38.5, 40,
+    -85.5, 10,
+    -24, 5
+  ]
+}

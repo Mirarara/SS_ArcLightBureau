@@ -1,0 +1,18 @@
+{
+	"id":"TDB_yq_gugu",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	"aiScript":"data.shipsystems.scripts.ai.TDB_alwaysuseAI",
+	"statsScript":"data.shipsystems.scripts.TDB_yq_gugu",
+
+	"useSound":"system_burn_drive_activate",
+	"loopSound":"system_burn_drive_loop",
+	"deactivateSound":"system_burn_drive_deactivate",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":1000,
+		"averageSpeedIncrease":30,
+	}
+}

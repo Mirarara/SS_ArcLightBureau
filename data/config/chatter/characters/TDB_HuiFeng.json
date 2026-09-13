@@ -1,0 +1,75 @@
+{
+	"name":"Nanomachine Collective Greywind",
+	"personalities":["steady", "aggressive", "reckless"],
+	"gender":["f"],
+	"chance":0,
+	"talkativeness":2,
+	"categoryTags":["othermedia"],
+	
+	"lines":{
+		"start":[
+			{"text":"Disengaging cruise drive. Prepare for combat!"},
+			{"text":"Ah, hunting through the void again. This is going to bring back memories."},
+			{"text":"Our fleet will blot out the sky, no matter how many suns shine above us!"},
+			{"text":"The show is about to begin!"},
+			{"text":"Listen up! You shall not pass!"},
+		],
+		"start_boss":[
+			{"text":"Let us begin!"},
+			{"text":"Let us vie for the stars!"},
+			{"text":"This is going to be an exciting adventure!"},
+		],
+		"retreat":[
+			{"text":"You got it, boss! Whatever you say."},
+			{"text":"Beginning retreat."},
+		],
+		"out_of_missiles":[
+			{"text":"Huh!? We are out of missiles??"},
+		],
+		"engaged":[
+			{"text":"Boss! If we win this one, remember you promised to take me shopping!"},
+			{"text":"Our fleet will blot out the sky, no matter how many suns shine above us!"},
+		],
+		"need_help":[
+			{"text":"All weapons, target the enemy!"},
+			{"text":"Engaging!"},
+			{"text":"They are a little troublesome..."},
+		],
+		"pursuing":[
+			{"text":"After them! Our vacation is getting away!"},
+			{"text":"Time to run them down."},
+			{"text":"Is it over?"},
+			{"text":"You will not escape this sea of fire!"},
+		],
+		"running":[
+			{"text":"Moving."},
+		],
+		"hull_90":[
+			{"text":"Just a scratch."},
+			{"text":"Hull lightly damaged."},
+		],
+		"hull_50":[
+			{"text":"Do not worry, boss. I can still handle this... probably."},
+			{"text":"Reconstituting hull!"},
+		],
+		"hull_30":[
+			{"text":"My contract is not up yet!"},
+			{"text":"Emergency hull reconstruction!"},
+		],
+		"overload":[
+			{"text":"Ah! Did I get that wrong? Wait... let me think."},
+		],
+		"death":[
+			{"text":"Sorry, boss... I—[explosion]"},
+			{"text":"Looks like... I will see you later."},
+			{"text":"Too late."},
+		],
+		"victory":[
+			{"text":"Honestly, I miss the office more than I enjoy destroying things."},
+			{"text":"Now we will define success for ourselves."},
+			{"text":"Boss! Remember your promise—we are going shopping all day!"},
+			{"text":"That was easy."},
+			{"text":"That was nothing."},
+		]
+	}
+}

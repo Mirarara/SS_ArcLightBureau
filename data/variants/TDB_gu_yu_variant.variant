@@ -1,0 +1,40 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 27,
+    "goalVariant": true,
+    "hullId": "TDB_gu_yu",
+    "hullMods": [
+        "TDB_A_pao_ji",
+        "TDB_you_ji",
+        "fluxbreakers",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "TDB_gu_yu_variant",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "TDB_shuang_jiang",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "TDB_Focuspd",
+            }
+        },
+    ],
+    "wings": [
+        "TDB_fan_guang_yuan_wing",
+    ],
+    "modules": [
+        {"WS0002": "TDB_gu_yu_Y_variant"},
+        {"WS0003": "TDB_gu_yu_Z_variant"},
+        {"WS0009": "TDB_gu_yu_C_variant"},
+    ],
+}

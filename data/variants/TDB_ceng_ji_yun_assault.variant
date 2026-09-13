@@ -1,0 +1,46 @@
+{
+    "displayName": "Burst",
+    "fluxCapacitors": 0,
+    "fluxVents": 1,
+    "goalVariant": true,
+    "hullId": "TDB_ceng_ji_yun",
+    "hullMods": ["TDB_A_pao_ji"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_ceng_ji_yun_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "pilum",
+                "WS0004": "TDB_changkongpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "TDB_yun_jian",
+                "WS0012": "TDB_yun_jian2",
+                "WS0013": "TDB_yun_jian",
+                "WS0014": "TDB_yun_jian2"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "mininglaser"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "mininglaser"}
+        }
+    ],
+    "wings": [
+        "TDB_quan_fan_she_wing",
+        "TDB_quan_fan_she_wing",
+        "TDB_quan_fan_she_wing"
+    ]
+}

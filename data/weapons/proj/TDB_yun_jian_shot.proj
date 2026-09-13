@@ -1,0 +1,52 @@
+{
+	"id":"TDB_yun_jian_shot",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/missile_changkong.png",
+	"size":[5,14],	
+	"center":[3,12],
+	"collisionRadius":16,
+	"collisionClass":"MISSILE_NO_FF",
+	"noCollisionWhileFading":true,
+	"explosionColor":[100,100,255,0],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":0, # purely visual
+	"explosionSpec":{"duration":1.1f, # not visual
+					 "radius":200,
+					 "coreRadius":200, # full damage within core radius
+					 "collisionClass":PROJECTILE_FIGHTER,
+					 "collisionClassByFighter":PROJECTILE_FIGHTER,
+					 "particleSizeMin":4.0,
+					 "particleSizeRange":4.0,
+					 "particleDuration":3,
+					 "particleCount":10,
+					 "particleColor":[0,185,187,50]},
+#	"engineSpec":{"turnAcc":140,
+#				  "turnRate":35,
+#				  "acc":1000,
+#				  "dec":500},
+	"engineSpec":{"turnAcc":3000,
+				  "turnRate":300,
+				  "acc":2500,
+				  "dec":2500},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-12, 0],
+				    #"style":"MISSILE_HIGH_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[0,185,187,255],
+						"contrailDuration":0f,
+						"contrailWidthMult":0f,
+						"contrailWidthAddedFractionAtEnd":0,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":0, # min segment length, in pixels
+						"contrailMaxSpeedMult":0f,
+						"contrailAngularVelocityMult":0f,
+						"contrailSpawnDistMult":.0, # how far away from engine it starts
+						"contrailColor":[1,160,139,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":6.0,
+				    "length":30.0,
+				    "angle":180.0},
+				    ]
+}

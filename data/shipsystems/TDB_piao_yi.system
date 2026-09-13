@@ -1,0 +1,19 @@
+{
+	"id":"TDB_piao_yi",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE",
+	"statsScript":"data.shipsystems.scripts.TDB_piao_yi",
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+	
+	"loopSound":"system_burn_drive_loop",
+	"deactivateSound":"system_burn_drive_deactivate",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":80,
+		"burstMovementPotential":1000,
+		"averageSpeedIncrease":100,
+	}
+}

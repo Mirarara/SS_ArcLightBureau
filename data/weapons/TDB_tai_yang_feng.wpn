@@ -1,0 +1,37 @@
+{
+  "id": "TDB_tai_yang_feng",
+  "specClass": "projectile",
+  "projectileSpecId": "TDB_tai_yang_feng_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "everyFrameEffect": "data.weapons.TDB_tai_yang_feng",
+  "displayArcRadius": 450,
+  "turretSprite": "graphics/weapons/TDB_tai_yang_feng_turret_base.png",
+  "turretGunSprite": "graphics/weapons/TDB_tai_yang_feng_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/TDB_tai_yang_feng_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/TDB_tai_yang_feng_hardpoint_recoil.png",
+  "visualRecoil": 10,
+  "renderHints": [RENDER_BARREL_BELOW],
+  "turretOffsets": [18,-0.5],
+  "turretAngleOffsets": [0],
+  "hardpointOffsets": [28,0],
+  "hardpointAngleOffsets": [0],
+  "barrelMode": "ALTERNATING",
+  "autocharge":"true",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 10,
+    "particleSizeMin": 10,
+    "particleSizeRange": 20,
+    "particleDuration": 0.4,
+    "particleCount": 20,
+    "particleColor": [
+      77,
+      87,
+      123,
+      215
+    ]
+  },
+  "fireSoundTwo": "TDB_tai_yang_feng"
+}

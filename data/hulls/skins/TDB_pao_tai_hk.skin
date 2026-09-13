@@ -1,0 +1,31 @@
+{
+	"baseHullId":"TDB_pao_tai",
+	"skinHullId":"TDB_pao_tai_hk",
+	"hullName":"Automated Hangar",
+	"descriptionId":"legion",
+	"descriptionPrefix":"Aviation configuration for the automated turret",
+	"tags":[],
+	"tech":"Arc Light Bureau",
+	"fleetPoints":30,
+	"ordnancePoints":25,
+	"baseValueMult":1.75,
+	"spriteName":"graphics/ships/TDB_qiong_ding/TDB_pao_tai2.png",
+	"coversColor":[255,255,255,255],
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["converted_fighterbay"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+	   "WSPT":{
+		  "type": "DECORATIVE",
+		  "mount": "HIDDEN",
+	   },
+	   "WSHK":{
+		  "type": "UNIVERSAL",
+		  "mount": "TURRET",
+	   },
+    },
+}

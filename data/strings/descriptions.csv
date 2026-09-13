@@ -1,0 +1,277 @@
+id,type,text1,text2,text3,notes,Column 07,Column 08
+,,,,,,,
+#星球/地图建筑描述,,,,,,,
+TDB_jdgdfy,CUSTOM,"Part of the Skydome Bastion project, an Automated Network of independent orbital defense platforms, ranging from small to moderate in size. They are capable of fending off enemy fleet to certain degree while fortifying the ground defense, thereby making sure it would be extremely difficult to carry out raiding operations.",,,,,
+,,,,,,,
+TDB_planet1_description,CUSTOM,"The jewel of the Arc Light Bureau, this world hosts its most advanced production lines and research institutions, as well as a high-end market open only to a select few clients. A combined defense force of conventional fleets and highly autonomous 'remote-controlled' flotillas guards this untouchable industrial treasure alongside its imposing star fortress.",,"Other than the Starfortress Guarding Intersection, countless defence platform line the lower orbit, you can clearly see their glowing signal light and mounted turrets, covering Intersection like a great net. 
+
+The city lights in the night's side below lit up the planet like a starry sky. Further away, a specialized large platform is casting rays of pure white light to the dark side of the planet. 
+",,,
+,,,,,,,
+TDB_station,CUSTOM,"A star fortress that had already stood in orbit before the Collapse. It is both an anchor protecting the planet below and the center for coordinating, maintaining, and supplying the entire system fleet. Over the long years, the fortress has undergone continuous, systematic structural refits. Its ancient core framework now blends with layer upon layer of advanced modules, allowing it to endure through the ages while retaining deterrent power and operational capability far ahead of its time.",,"The massive star fortress is both a major base for the Arc Light Bureau's space forces and a vital anchor for the security and normal flow of trade around Intersection. Every military or civilian vessel that approaches is scanned by its enormous radar and communications arrays.
+
+Crewed Bureau ships and unmanned vessels patrol nearby, eagerly guiding civilian traffic into and out of port, keeping the entire fortress bustling without descending into disorder.",,,
+TDB_Survey_ship,CUSTOM,"A Domain-era survey mothership, long abandoned and orbiting Indulge in silence. A warning posted by the Arc Light Bureau marks its battered hull: 'Dangerous Area—Keep Away.'",,"Most equipment inside this long-dormant survey mothership has been removed by the Bureau, leaving only empty docks and vast open spaces. A few warning lights and signs still barely operate on power gathered by passive energy collectors.",,,
+TDB_planet2_description,CUSTOM,"Despite Hawkes IV's extremely hostile environment, its astonishing mineral reserves and scattered ruins have placed it high on the Arc Light Bureau's development priorities. To court potential allies, the Bureau grants qualified organizations limited mining rights within reasonable bounds.",,"Looking down on the planet, automated mining stations continuously dispatch supply pods to mining sites across its surface. Countless engineering drones weave among enormous open pits, and the lights of their work lend a faint trace of human warmth to this otherwise uninhabited land.",,,
+TDB_planet4_description,CUSTOM,"An automated armed mining station deployed by the Arc Light Bureau above Hawkes IV. It coordinates intensive extraction by every mining installation on the surface, sorts the collected minerals, and ships them to the capital for refinement. Its control of a strategically vital orbit also makes it an early-warning outpost for the system. Although daily operations are highly automated, the Bureau maintains a necessary human presence here—partly as token compliance with the Hegemony's AI ban, and partly because the authorities themselves remain uneasy about entrusting an armed station entirely to AI. Visitors with clean records may anchor temporarily, refuel, and receive limited hull repairs. In the Bureau's preferred terminology, this is an 'investment.'",,"Minerals are loaded aboard ships and sent to their destinations, while supply pods are dispatched to the mining sites below. It is an extremely busy scene, yet everything proceeds in perfect order under precise automated-AI control.
+Soon, you receive a routine notice from the station administrator: anyone wishing to conduct private mining operations here must present authorization.",,,
+,,,,,,,
+#势力介绍,,,,,,,
+TDB,FACTION,"The Arc Light Bureau is a high-tech military-industrial group that rose after the Collapse. Its predecessor apparently existed before the Collapse, though reliable details have been lost.
+
+During the First AI War, the Bureau displayed an almost instinctive cunning. Rather than confront its enemies directly, it quickly aligned itself with the Persean League and entered the war indirectly as a technology supplier. This spared it the worst of the fighting, but its place on the losing side brought repeated pressure from the victorious Hegemony. The Bureau escaped by only symbolically 'complying' with the AI ban. Its conventional fleet remained largely intact, while its real AI research moved underground and has continued ever since.
+
+During the Second AI War, the Bureau stayed on the sidelines. When Tri-Tachyon and the Hegemony again went to war, it maintained a conspicuous silence. That silence paid off: as oversight reached its weakest point near the war's end, the Skydome Bastion project gradually emerged into public view. Officially described as research into 'remotely operated unmanned vessels,' the Bureau insists that every craft is controlled by humans at a distance. That the project has long pursued AI research far beyond anything resembling remote control is an open secret.
+
+Thus, even as the AI Wars recede into history, relations between the Bureau, the Hegemony, and the Luddic Church remain primed to ignite. All sides maintain the thinnest pretense of normality to keep confrontation from becoming open war. Today, the Arc Light Bureau is known throughout the Sector for exceptional ships and fighters, offering elegant and lethal armament packages to rigorously screened clients—provided they can pay the price.",,,,,
+,,,,,,,
+#战机联队,,,,,,,
+TDB_quan_fan_she,SHIP,"Across the known Sector, the Total Reflection super-fighter stands almost alone as a legend; finding another craft capable of matching it is nearly impossible. Its weapons can tear apart frigates and even destroyers, while Floodlights drones carried along both sides of the fuselage deploy at the start of combat to keep hostile strike craft outside its lethal radius. Such performance carries an intimidating price, so these fighters are rarely seen in battle. The few that exist are reportedly assigned first to elite squadrons, some of which have commissioned unique paint schemes or modifications for their craft.",,,,,
+TDB_mi_san_guang,SHIP,"An unmanned fighter designed for both atmospheric and space operations. It was developed because the Bureau headquarters' Floodlights interceptors could no longer meet the increasingly demanding air-superiority needs of fleet combat. Multiple missile launchers and high-speed autocannons let it efficiently destroy light targets, but this armament struggles against the heavy armor of medium and larger ships. Its true pride is its superb aerodynamic profile: even within an atmosphere, it can tear through the air at tremendous speed as if gravity had never bound it.",,,,,
+TDB_shuang_zhe_she,SHIP,"Birefringence is an advanced fighter designed for anti-ship missions and the perfect tactical partner for Scatter Light. It uses ion cannons to disable enemy equipment while beam cannons cut through armor and hull. Although the two craft follow very different design philosophies, Birefringence closely matches Scatter Light in atmospheric and space capability, range, and maneuverability to ensure smooth mixed-wing operations. For that reason, it is widely regarded as Scatter Light's ideal partner.",,,,,
+TDB_bian_ge,SHIP,"The Innovation heavy gunship was designed by the Bureau for sustained ground-attack suppression and can independently enter and leave an atmosphere. In fleet combat, its numerous gun batteries load specialized anti-aircraft ammunition, producing dense barrages through continuous volleys to intercept hostile craft. The scale of this fire is absurd; from a distance it resembles an enormous firework blooming in the void. To enemy pilots, however, that 'firework' announces that no path remains ahead—it is a grand funeral staged in their honor.",,,,,
+TDB_man_fan_she,SHIP,"The Diffuse Reflection class is the Arc Light Bureau's radical experiment with escort craft under the Skydome Bastion Project. It sacrifices a shield generator to mount an advanced ship-grade targeting system, gaining the ability to suppress enemies from extreme range. The result is obvious: it can open fire before the enemy has even acquired it. Heavy armor is its only remaining defense—and the basis of its confidence.",,,,,
+TDB_pian_zhen_guang1,SHIP,"The Polarized Light class is the Bureau's faithful answer to the concept of a 'heavy high-speed bomber.' Powerful engines give it enough burst speed to outrun interceptors, while heavy shields and armor ensure that it survives anti-aircraft fire long enough to release its payload. Its specialized energy torpedoes are lethal against both shields and armor. It is the Bureau's dependable and trusted choice among its bomber designs.",,,,,
+TDB_fan_guang_yuan,SHIP,"The Floodlights is the Bureau headquarters' standard mass-produced interceptor drone. Each craft carries only a single Windstopper point-defense cannon and a basic shield generator. Its cost, however, has been driven down to the level of ammunition—and when a fighter is cheap enough to expend like a shell, numbers become its most terrifying weapon.",,,,,
+TDB_ke_jian_guang,SHIP,"Superheavy bomber drone born out of the Skydome Bastion project. It is heavy, slow, massive and entirely AI-controlled. The only purpose of this heavy and defenceless beast in the battlefield is to deliver its experimental 'Nine Tail ' sychronized beam torpedo to its target. 
+",,,,,
+TDB_dian_guang_yuan,SHIP,"Like Diffuse Reflection, Pointlights is an unmanned escort craft from the Skydome Bastion Project. Its Frost missiles provide anti-shield fire support for the mothership, while decoy flares help intercept incoming enemy missiles. Like its sister design, it carries no shield system in order to accommodate its large weapons array.",,,,,
+TDB_shui_yin_deng,SHIP,An unmanned defense platform produced by the Arc Light Bureau. Its sturdy frame and long-range point-defense lasers allow it to shield its mothership from incoming fire.,,,,,
+,,,,,,,
+#舰船描述,,,,,,,
+TDB_yuan_wei,SHIP,"Iris class was once a custom made yacht of the Fidelis family. However, in one timeline change, her hull was dragged into inter-gap and modified by a certain lazy youkai.
+
+""But this thing can take two AM blasters, it can trade really well in certain extreme circumstances."" So says that lazy youkai.
+
+Child of the Fidelis family finally entered into the cursed domain of their bloodlines. It makes one wonder what could happen next through the changing timelines. ",,,,,
+,,,,,,,
+TDB_gugu,SHIP,"Outwardly, it is merely a Kite-class shuttle in Arc Light Bureau colors. Sensors detect a missile-rack conversion similar to the standard Kite, but the area where the observation dome should be returns incomprehensible readings.
+
+In a momentary haze, flecks of azure drift past, accompanied by a distant echo like a cry through an empty valley. The song is ethereal, gentle, and faintly hoarse. As the soft melody continues, you seem to hear another voice answering it. When you try to follow the sound, it scatters on the wind among the stars.
+
+Yet you cannot shake the feeling that she is waiting for you to join her in a duet.",,,,,
+,,,,,,,
+TDB_lang_chao,SHIP,"The Condensation Cloud class is one result of a technical exchange between the Bureau and conservative elements within Loulan Industries. Based on the Wave (M)-class missile destroyer, it removes the small mounts on both sides and replaces them with point-defense missiles developed by the Bureau. Its internal structure and subsystems have also been extensively redesigned to conform to the Bureau's naval doctrine.",,,,,
+,,,,,,,
+TDB_hui_feng,SHIP,"This ship, composed of countless nanomachines, can operate entirely autonomously. For reasons unknown, however, it still retains living space for a single occupant. Whenever you ask Greywind about it, she refuses to say anything.",,,,,
+,,,,,,,
+TDB_Pansy,SHIP,"An unknown and delicate system is integrated into this ship, powered by unknown power soruce.
+
+Project number A-1348B39, experimental vessel of the Arc Light Bureau as proof of concept for spirit field technology. Ship renamed ""Sumireko"" based on the ship log found aboard. 
+
+This ship was discovered in uninhabited deep space, and was partially repaired. Upon returning to civilization, it was restored to full operation. 
+
+The ship's log contains several letter and an unsent draft.
+[Comm Log C8-02D1-205709]
+“The days are peaceful, worry not”
+[Status: Unsent]",,,,,
+,,,,,,,
+TDB_yun_cheng,SHIP,"A dedicated logistic ship designed for explorers, she can carry substantial amount of cargo as well as fuel.
+
+Cloud City class is the most eye catching presence of project Vulpecula. It has a powerful and complete logistic and ground support system, allowing it to meet all logistic needs of a medium to small sized fleet. Servomg as the support of a Cumulonimbus class in the fleet pushes the Cloud City's capability to an extreme. Including carrying out extremely difficult repairs that are no easier than making ships from scratch. If you wishes to explore the stars but lack a good freighter, you can't go wrong with her! ",,,,,
+,,,,,,,
+TDB_ye_guang_yun,SHIP,"The Noctilucent Cloud frigate takes the principle of 'safety first' to its limit. Unmanned defense platforms and a small shield-pressure system make it nearly indestructible in small and medium engagements, while its anti-air vertical-launch missiles can protect distant allies. Unfortunately, the ship's role ensures that it is assigned to the most dangerous front lines. All those carefully designed safeguards ultimately become little more than psychological comfort for its crew. For that reason, most crew members privately regard assignment to a Noctilucent Cloud as drawing the worst possible lot.",,,,,
+,,,,,,,
+TDB_ji_liu_1,SHIP,"The enormous hull of the Torrent class houses a jump system built as a replica of a reality borer. By tearing and distorting local reality, the ship can perform long-distance jumps. On arrival, it triggers a spatial shockwave that damages nearby hostile targets and may rewind a small amount of damage to its own hull. When the special beam cannon in the bow helps destroy a target, it injects energy into the jump system and greatly shortens its cooldown. Wide weapon arcs and good mobility, together with its complement of drones, allow the ship to support nearby allies or redeploy at extraordinary speed.
+
+As the official description puts it, this warship is a dancer in every sense of the word.
+
+This vessel is one product of the Arc Light Bureau's Skydome Bastion Project. Publicly described as an unmanned ship remotely operated through a specialized system, it is said to be ""unsuitable for long-range cruises."" Ships of this design are widely deployed to defend the area around Arc Light Bureau headquarters.",,,,,
+,,,,,,,
+TDB_xi_yu_1,SHIP,"The Drizzle-class unmanned light carrier is the most widely produced unmanned combat platform in the Skydome Bastion Project. Strictly speaking, it resembles a multifunction weapon station with engines welded onto it more than a conventional warship. Being cheap and mass-produced makes it especially fragile for a ship of its class, but its support capability has never disappointed.
+
+This vessel is one product of the Arc Light Bureau's Skydome Bastion Project. Publicly described as an unmanned ship remotely operated through a specialized system, it is said to be ""unsuitable for long-range cruises."" Ships of this design are widely deployed to defend the area around Arc Light Bureau headquarters.",,,,,
+,,,,,,,
+TDB_chuan_yun_1,SHIP,"The Cloud Piercer-class unmanned early-warning ship is a core node in the Skydome Bastion Project. Its large early-warning radar can simultaneously perform phase suppression, fire-control guidance, and electronic warfare. Its greatest strength, however, is the unprecedented breadth of battlefield awareness it provides to the fleet. Its hull protection is extremely weak, making it an easy priority target for concentrated enemy fire.
+
+This vessel is one product of the Arc Light Bureau's Skydome Bastion Project. Publicly described as an unmanned ship remotely operated through a specialized system, it is said to be ""unsuitable for long-range cruises."" Ships of this design are widely deployed to defend the area around Arc Light Bureau headquarters.",,,,,
+,,,,,,,
+TDB_feng_ya_1,SHIP,"With its excellent flux grid and mobility, the Wind Pressure-class unmanned destroyer has become the backbone of the Skydome Bastion fleet. As a mass-produced ship, however, it begins to struggle in high-pressure combat. If the Drizzle is a multipurpose weapon station, then the Wind Pressure is a mobile gun platform in the purest sense. Heavy frontline losses show that, although it is somewhat more survivable than the smaller ships in its series, it remains highly vulnerable to carrier-based strike craft.
+
+This vessel is one product of the Arc Light Bureau's Skydome Bastion Project. Publicly described as an unmanned ship remotely operated through a specialized system, it is said to be ""unsuitable for long-range cruises."" Ships of this design are widely deployed to defend the area around Arc Light Bureau headquarters.",,,,,
+,,,,,,,
+TDB_tai_yang_yu_1,SHIP,"A colossal warship officially said to remain in sea trials—at least, that is the official story. Its vast and comprehensive weapons suite can accommodate conventional turrets and missile launchers of every kind, while the enormous pressure coil in its mid-aft hull continuously stabilizes and pressurizes its large shield. According to official statements, the ship can suppress or even defeat a small fleet single-handedly. More intriguingly, only a handful of photographs have leaked across the Sector, yet its powerful, flowing hull lines have already won over countless military enthusiasts.
+
+This vessel is one product of the Arc Light Bureau's Skydome Bastion Project. Publicly described as an unmanned ship remotely operated through a specialized system, it is said to be ""unsuitable for long-range cruises."" Ships of this design are widely deployed to defend the area around Arc Light Bureau headquarters.",,,,,
+,,,,,,,
+TDB_gu_yu,SHIP,"The Grain Rain class is a heavy cruiser designed to hold a battle line, placing almost all its emphasis on defense and survival. Extensive modular construction, dedicated defensive drones, and a unique dual-layer shield system give it unmatched staying power. Its purpose is to serve as an unsinkable anchor on the battlefield and a solid foundation for the entire fleet.
+
+That resilience comes at a price. Its enormous and fragmented modular structure makes individual sections easier to destroy. After high-intensity battles, several modules are often lost; sometimes only the central core makes it home. Faced with repairs scarcely different in scale from reconstruction, the Bureau's logistics department repeatedly confronts an absurd question: rather than piecing the wreckage together again and again, why not simply build a new ship?",,,,,
+TDB_gu_yu_Z,SHIP,A Module of the Grain Rain.,,,,,
+TDB_gu_yu_Y,SHIP,A Module of the Grain Rain.,,,,,
+TDB_gu_yu_C,SHIP,A Module of the Grain Rain.,,,,,
+,,,,,,,
+TDB_ht,SHIP,"The Cold Sky Scholar class is an experimental P-space phase cruiser that the Bureau often deploys alone on decapitation strikes. Such operations usually require the ship to remain concealed behind enemy lines for long periods while awaiting an opportunity. To minimize the cumulative harm that spatial radiation and mental strain from sustained phase-coil operation inflict on a crew—and to avoid the irreversible psychological effects of prolonged subspace cruising—the Bureau ultimately transferred the design to the Skydome Bastion Project as an unmanned model.
+
+When wave after wave of phase torpedoes begins surfacing from P-space at astonishing speed, it signals that a Cold Sky Scholar is about to emerge and deliver the killing blow. But this ""signal"" is better described as an obituary: by the time you notice the torpedoes' trajectories, you are already helpless prey.
+
+This vessel is one product of the Arc Light Bureau's Skydome Bastion Project. Publicly described as an unmanned ship remotely operated through a specialized system, it is said to be ""unsuitable for long-range cruises."" Ships of this design are widely deployed to defend the area around Arc Light Bureau headquarters.",,,,,
+,,,,,,,
+TDB_qiong_ding,SHIP,"The Dome-class large cruiser redefines the standard for ships of its class. Revolutionary firepower and flux-grid layouts, ample flight decks, and a unique tactical system give it nearly everything one could want.
+
+Large cruisers occupy the space between traditional heavy cruisers and battlecruisers, combining high speed and heavy firepower with a measure of protection while remaining lighter than battleships. The Dome perfectly embodies this concept and is the absolute centerpiece that small and medium fleets dream of fielding. It can easily overwhelm most cruisers and destroyers, and even capital ships far above its tonnage will struggle to gain an advantage over it.
+
+Its rather poor cost-effectiveness has nevertheless attracted criticism: 'If you can field a battleship or battlecruiser, why would you still need this?'",,,,,
+,,,,,,,
+TDB_ren_zhao_guang,SHIP,"This is a battleship sealed for many years, but everything inside have been neatly organized.
+
+You headed straight for the command room, and you found a letter on the captain's seat in the command bridge. You are sure that the writer is still that girl. The letter tells of the tale of this ship.
+
+As her name suggests, she was the embodiment of a broken empire's ambition, but even though that empire have declined and then collapsed, she continue to glow faintly in another manner.
+
+This light did not disappear with the empire, her will have been inherited, and her duty complete.
+
+- ""Now I gift her to you, please use her to write a glorious tale of your own.""",,,,,
+,,,,,,,
+TDB_dong_yu,SHIP,"The Winter Rain battlecruiser has impressive mobility for a sub-capital ship. Its spatial-displacement system—one of the Bureau's proudest developments—provides major damage reduction together with increased speed and mass while active. This lets the ship maneuver flexibly through complex battlefields and become the breakthrough force that tears open an enemy line at the decisive moment. Later improvements focused heavily on this breakthrough role, adding modular armor equipped with a damping system. The new section is easier to maintain and makes the ship even more capable in head-on engagements.",,,,,
+TDB_dong_yu_armor,SHIP,Modular armor for the Winter Rain class.,,,,,
+,,,,,,,
+TDB_yu_lian,SHIP,"A thoroughly conventional standard destroyer, the Curtain Rain class is widely deployed by the Arc Light Bureau as the backbone of its regular fleet. Its limited weapon mounts are partly offset by a hot-flux circulation coil and reliable shields. A long service history has demonstrated no obvious flaws—but nothing especially remarkable either. Still, when a ship's sharpest weapon is that nobody can remember what is wrong with it, perhaps it has already won.",,,,,
+,,,,,,,
+TDB_feng_xian,SHIP,"The cost of the Windstring frigate once made the Bureau's finance department see black: each ship is expensive, and its deployment requirements far exceed those of comparable frigates. In return, it carries a drive that can briefly shift the ship into a special space, along with a flux grid far beyond its class. In combat, it can vanish through a gap in an encirclement and reappear at the enemy's weakest point to deliver a killing blow. A frigate's duty is to open routes and seize objectives, and the Windstring performs both to the extreme.",,,,,
+,,,,,,,
+TDB_he_feng,SHIP,"Freighter designed specifically for explorers, can carry considerable amount of cargo and fair amount of fuel. Wave Cloud's built in survey equipment will certainly make it shine during your salvaging expeditions.
+",,,,,
+,,,,,,,
+TDB_hengfeng,SHIP,"If one ship had to represent the Arc Light Bureau, it would be the Constant Wind battleship. As the Bureau's most numerous and mature capital ship, its design perfectly expresses the core doctrine of the Arc Light navy. Frostmark cruise-missile vertical launch systems and advanced target-acquisition equipment make it a true fire-support platform, able to strike enemy fleets from extreme range, while an integrated hot-flux circulation system reinforces this strength. Accommodating these massive systems, however, leaves its armor unusually fragile for a battleship. No prudent captain would underestimate its long-range firepower—or expose it to concentrated fire.",,,,,
+,,,,,,,
+TDB_ji_yu_yun,SHIP,"The Cumulonimbus class is the Arc Light Bureau's budget-forged ultimate answer: one of its strongest, most expensive, and most advanced creations, deployed only as the flagship of its most powerful battle fleets. Although this aviation fortress usually commands from the rear, its intricate firepower network and robust shields give it the deterrent power to annihilate an entire fleet alone. A complete suite of advanced battlefield command systems and emergency logistical equipment also allows it, at least in theory, to support and direct a large task force.
+
+Reliable intelligence confirms that one Cumulonimbus is already serving in the Arc Light navy, yet few have ever witnessed it leave port. Its long concealment has led outsiders to wonder whether the giant ship is merely a symbol of a 'fleet in being'—and whether its actual combat ability is truly as invincible as the authorities claim.",,,,,
+TDB_ji_yu_yun_you,SHIP,A modular section of the Cumulonimbus class.,,,,,
+TDB_ji_yu_yun_zuo,SHIP,A modular section of the Cumulonimbus class.,,,,,
+,,,,,,,
+TDB_ceng_ji_yun,SHIP,"The Stratocumulus is the Bureau's most commonly used line carrier. Its plentiful anti-air missile arrays and specialized command system let it conduct dedicated carrier strikes while providing substantial fire support to the front line. Its design was benchmarked against the Sector's Heron class, and its cruising speed likewise earns it the title of fast carrier.
+
+Officially, the Stratocumulus was indeed built with assistance from the Bureau's ally, Blue Sea Fisheries. Rumor claims, however, that the design was made symmetrical because of obsessive-compulsive tendencies. Clearly, such a baseless story could not possibly be true.",,,,,
+,,,,,,,
+#武器描述,,,,,,,
+TDB_ling_gan,WEAPON,"A special beam cannon built into the Torrent class and linked to its reality-boring apparatus, allowing it to distort reality to a limited degree.",,,,,
+,,,,,,,
+TDB_jiu_wei,WEAPON,"Experimental Beam Missile designed by the Arc Light Bureau, known for its ability to immediately collapse target shield through an instant burst of synchronized energy beam. The powerful burst of energy remains a threat to light ships even if it does not hit the shield. After she has broken through your point defence net and begin scanning your ship, the best one can do is prey that your ship's flux system can survive this devastating onslaught. 
+",,,,,
+,,,,,,,
+TDB_shuang_tang,WEAPON,"An automated, self powered weapon station commonly used for ground battles, simple modification allowed it to be used on ships. Though the firepower of this weapon is negligible when used against most starships, including civilian ones. While this weapon's accuracy is also poor in sustained fire, its equally negligible cost makes it a prime choice to fill slots. 
+",,,,,
+,,,,,,,
+TDB_yun_chui,WEAPON,"Cloud Hammer Rotary Cannon used rotating barrel to maintain rapid fire, but extended firing will severely impact accuracy, but this does not stop it from being a decent anti-shield weapon. A torrent of its specialized projectiles can even be used to intercept enemy missiles in a pinch. 
+",,,,,
+,,,,,,,
+TDB_quan_fan_she,WEAPON,Main weapon of the Total Reflection fighter.,,,,,
+,,,,,,,
+TDB_foehn,WEAPON,"Specialized torpedo designed to be mounted on the Polarized Light Bomber, can deal heavy damage to the target hit, whether the hit landed on the shield or hull.",,,,,
+,,,,,,,
+TDB_jue_xiang1,WEAPON,"Point-Defence missile designed by the Arc Light Bureau, its excellent tracking and a built-in nanoforge makes this weapon the nightmare of enemy strikecrafts.",,,,,
+,,,,,,,
+TDB_han_chao,WEAPON,"Coldtide Drone Launch Module seems like a product for militarized use, but it is part of Project Vulpecula. The launcher is only used to eject the launch module and reloading it. The launch module will deploy some distance from the mothership and quickly catapult a one-use Photophobia drone. The drone will independently scout and engage enemies after leaving its mothership. When the drone is severely damaged, it will charge the enemy and activate its 'Sky Mirror' self destruct system. This weapon became well-received by survey groups and mercenary company the moment it was released into the market. 
+",,,,,
+,,,,,,,
+TDB_feng_zu,WEAPON,"Ballistic CIWS system designed by the Bureau for captains preferring ballistic weapon. Windstopper CIWS relies on a pair of three-barreled gatling gun to pour a massive amount of shells to intercept incoming target. At the sametime, the ridiculous rate of fire also means its accuracy will drop quickly in extended firing.  
+",,,,,
+,,,,,,,
+TDB_yuen_ying,WEAPON,"The Cloud Shadow Proton Collider Cannon fires a specialized warhead whose internal proton-cluster striker collides with atoms after penetrating a hull, releasing energy and triggering a chain reaction of molecular disintegration. Its ability to break down hull structures at the molecular level makes its destructive power impossible to dismiss.",,,,,
+TDB_yun_ying_L,WEAPON,"A six-barreled, enlarged version of the Cloud Shadow Proton Collider Cannon and one of the Skydome Bastion Project's most extreme creations. Its rotary firing mechanism permits six consecutive shots, while the molecular-disintegration chain reaction caused by its enormous payload can destroy everything within the reaction zone—even the most durable hulls in the Sector.",,,,,
+,,,,,,,
+TDB_tai_yang_feng,WEAPON,"The Solar Wind railgun launches a specialized electromagnetic warhead at extreme muzzle velocity, giving it astonishing range. The warhead continually releases electrical arcs in flight, then triggers a wide-area electromagnetic oscillation on impact that melts down the target ship's electronic systems. The enormous flux cost of every shot and the expensive warhead together sustain its destructive power.",,,,,
+,,,,,,,
+TDB_ni_lan,WEAPON,"Upwind Frequency Beam Cannon is able to deliver burst of firepower through activating pre-charged capacitors. This however means once all capacitors have been used, it will take some time to recharge these capacitors. When the ship's flux level is low, the weapon's coil will overcharge to improve output.",,,,,
+,,,,,,,
+TDB_ji_yu_yun_C,WEAPON,"""If I could draw close to you, what would roam beneath the deep sea?""",—Fragment from an anonymous medieval anthology,,,,
+TDB_ji_yu_yun_missile_L,WEAPON,"The Zero-Point Warhead uses nonlinear tachyon modulation of spatial flux to induce intense resonance, generating escaping virtual particle pairs behind the target's shields and knocking equipment offline.","—Arc Light Bureau archive, Batch Report 132, Hanliu",,,,
+TDB_ji_yu_yun_missile_R,WEAPON,"The Zero-Point Warhead uses nonlinear tachyon modulation of spatial flux to induce intense resonance, generating escaping virtual particle pairs behind the target's shields and knocking equipment offline.","—Arc Light Bureau archive, Batch Report 132, Hanliu",,,,
+TDB_ji_yu_yun_artillery_L,WEAPON,"The High-Energy Superstring Annihilation Matrix uses hypersynchronous phase delay to instantly condense a megawatt-scale spatial shear flow. It then fires a near-light-speed volley of dispersed singularity projectiles, releasing saturated collapse energy through an extremely narrow firing arc.","—Arc Light Bureau archive, Batch Report 133, Hanliu",,,,
+TDB_ji_yu_yun_artillery_R,WEAPON,"The High-Energy Superstring Annihilation Matrix uses hypersynchronous phase delay to instantly condense a megawatt-scale spatial shear flow. It then fires a near-light-speed volley of dispersed singularity projectiles, releasing saturated collapse energy through an extremely narrow firing arc.","—Arc Light Bureau archive, Batch Report 133, Hanliu",,,,
+TDB_ji_yu_yun_drone_L,WEAPON,"The Swarm Launcher reorganizes local curvature through a quantum-coherent topological flow to produce an ultra-dense mapped array. Although each payload shell is limited to a very weak energy barrier, the flood of nanoscale craft can penetrate an enemy phase-defense network almost instantly.","—Arc Light Bureau archive, Batch Report 134, Hanliu",,,,
+TDB_ji_yu_yun_drone_R,WEAPON,"The Swarm Launcher reorganizes local curvature through a quantum-coherent topological flow to produce an ultra-dense mapped array. Although each payload shell is limited to a very weak energy barrier, the flood of nanoscale craft can penetrate an enemy phase-defense network almost instantly.","—Arc Light Bureau archive, Batch Report 134, Hanliu",,,,
+,,,,,,,
+,,,,,,,
+TDB_yun_jian,WEAPON,"Cloud Gap VLS Missile is a very successful PD missile from the Arc Light Bureau, with advanced guidance AI and excellent fragment effects, making at a nightmare for enemy fighters. Each missile can deal considerable area of effect damage against enemy fighters. The accompanying nanoforge can provide constant ammo supply, giving it enough sustainability in larger battles. ",,,,,
+TDB_yun_jian2,WEAPON,"Cloud Gap VLS Missile is a very successful PD missile from the Arc Light Bureau, with advanced guidance AI and excellent fragment effects, making at a nightmare for enemy fighters. Each missile can deal considerable area of effect damage against enemy fighters. The accompanying nanoforge can provide constant ammo supply, giving it enough sustainability in larger battles. ",,,,,
+,,,,,,,
+TDB_T.D,WEAPON,"Intergrated beam cannon built into the Synthlight, it can be activated quickly, and the specialized reactor can pre-charge its capacitor with excess energy, allowing overloading the weapon for a powerful strike at an crucial moment. 
+",,,,,
+,,,,,,,
+TDB_ning_hua,WEAPON,"Deposition Plasma Cannon can shread both enemy armor and shield, while disabling surviving systems with a considerable EMP arc.
+",,,,,
+,,,,,,,
+TDB_cai_yu,WEAPON,"Raincutter is basically a powered up pulse laser. High pressure energy pulse can hit enemy ships with great speed over great range, one of the best choices for commanders preferring lay fire at range. ",,,,,
+,,,,,,,
+TDB_jie_shuang,WEAPON,"A large kinetic swarm-missile system with an integrated heavy nanoforge for continuous ammunition production. Its specialized anti-shield warheads focus entirely on suppressing enemy shields, but leave it wholly incapable of engaging strike craft.",,,,,
+TDB_jie_shuang_m,WEAPON,"A light Frost missile rack. Despite its small size, it contains a miniature nanoforge that gradually replenishes its ammunition so it will not run dry in a prolonged engagement. Compared with the larger version, it compromises on reload speed and the density of each salvo.",,,,,
+,,,,,,,
+TDB_lian_yi,WEAPON,"An ammunition-fed rapid-fire energy cannon developed by the Arc Light Bureau, designed to overwhelm shields with sudden volleys of high-velocity fire. Although intended for anti-shield work, it is also dangerous to light armor.",,,,,
+,,,,,,,
+TDB_duanhen,WEAPON,"Heavy VLS unit built into the ship, the builtin nanoforge allows constant launching of powerful Frostmark Cruise Missiles.",,,,,
+TDB_duanhen2,WEAPON,"Heavy VLS unit built into the ship, the builtin nanoforge allows constant launching of powerful Frostmark Cruise Missiles.",,,,,
+,,,,,,,
+TDB_Focuspd,WEAPON,"The Bureau's PD laser design. Compared to the unique PD weapons used by other factions, she is quite modest in comparison. Though her cost-effectiveness means that she remains a good PD system nevertheless.",,,,,
+,,,,,,,
+TDB_changkongpod,WEAPON,"An energy support missile designed by the Arc Light Bureau, trading high flux requirements for rapid regeneration and considerable range. Built specifically for rear-line support ships, these missiles are generally used to suppress the enemy.",,,,,
+,,,,,,,
+TDB_changkongpod_l,WEAPON,"Upscaled version of Endless Sky LRM launcher, unlike other large missile that focuses on expanded ammo capacity, this system uses a more advanced nanoforge - allowing her to constantly project firepower at the enemy at considerable density. Like the mid-sized version, the  unmatched support and suppression capability comes at a high flux cost. 
+",,,,,
+,,,,,,,
+TDB_shuang_jiang,WEAPON,"The Graupel anti-aircraft cannon carries an advanced fire-control system, allowing it to handle both missiles and strike craft with ease.",,,,,
+,,,,,,,
+TDB_hu_luo_bo1,WEAPON,"Built in VLS array of the Sunshower Drone Arsenal Ship capable of quickly launch suppression missile against the enemy force, an massive advanced nanoforge allows her to provide heavy sustained fire to the battlefield. 
+",,,,,
+,,,,,,,
+TDB_yin_hua,WEAPON,"A high energy pulse cannoon with considerable close range firepower. Its weakness is range and flux cost, but is this really an issue for a burst assault weapon?",,,,,
+,,,,,,,
+TDB_fang_tang,WEAPON,"Like Icing, Sugar Cube is a self-powered weapon-station system. Maintaining extreme accuracy with an internal power supply leaves it with absurdly low output, so it is mainly used against small craft and most missiles. It is nearly useless against heavier fighters and torpedoes.",,,,,
+,,,,,,,
+TDB_han_tian,WEAPON,"The plasma cannon built into the Cold Sky Scholar uses a massive compression array to compress and launch charged particles. On impact, its unstable warhead releases an enormous EMP burst that disables the target ship's electronics.",,,,,
+,,,,,,,
+TDB_hai_tong,WEAPON,A small suppression and disruption missile mount with a reliable nanoforge that continually replenishes ammunition. The limited warhead size makes it difficult to disable medium or larger targets. Official doctrine recommends using it to disable engines and small weapon arrays on light targets.,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+＃技能描述,,,,,,,
+TDB_qu_dong,SHIP_SYSTEM,"Cancel ship collision and enter timeflow mode, and massively increase ship maneuverability with a small increase in top speed
+",,,,,
+,,,,,,,
+TDB_yq_gugu,SHIP_SYSTEM,"Provide friendly unit within 1000 SU with 20% max speed and shield damage reduction, effect increased to 1500 SU when used as flagship of the player.
+",,,,,
+,,,,,,,
+TDB_targetingfeed,SHIP_SYSTEM,"Provide different buff based on type of strike craft equipped. Support and Fighter gain 70% weapon damage, interceptor gain double damage against missile and fighters, and bombers gain 30% damage resistance.
+",,,,,
+,,,,,,,
+TDB_targetingfeed2,SHIP_SYSTEM,"Activate hyper-chrono accelerator, increase timeflow for all fighters.",,,,,
+,,,,,,,
+TDB_san_se_jin,SHIP_SYSTEM,"Massively increase maneuverability and top speed, at the end of the effect, release Danmaku based on flux level.",,,,,
+,,,,,,,
+TDB_ban_fei,SHIP_SYSTEM,Launch the Floodlights Drone attached to the side of the fighter to provide escort.,,,,,
+,,,,,,,
+TDB_na_mi,SHIP_SYSTEM,"Allows the nanomachines to begin self-replicating, immediately repairing Greywind.",,,,,
+,,,,,,,
+TDB_tuxi,SHIP_SYSTEM,"Allow the ship to enter an unstable dimension, using spatial deviation to massively reduce damage taken and increase mass by 1000. It also massively increase the ship's burst speed during the system's duration. However, instability associated with spatial shift massively reduce the ship's maneuverability. 
+",,,,,
+,,,,,,,
+TDB_li_zi_pao,SHIP_SYSTEM,"Activate the beam cannon's pre-charged capacitor to charge the gun, allowing it to fire once with high output.",,,,,
+,,,,,,,
+TDB_turretdeploy,SHIP_SYSTEM,"Deploy a heavy auto turret to assist in forming a defence line. The type of the turret will vary depending on the protocol used. The turret mounts a micro drive-engine to allow it to move slowly while providing tactical support. 
+",,,,,
+TDB_turretdeploy2,SHIP_SYSTEM,Deploy a heavy auto turret to assist in forming a defence line. The type of the turret will vary depending on the protocol used. The turret mounts a micro drive-engine to allow it to move slowly while providing tactical support. ,,,,,
+,,,,,,,
+TDB_shui_yin_deng_a,SHIP_SYSTEM,Activates the light drone strike system. Four heavy Mercury Lamp strike drones launch immediately to cover the carrier and can be rebuilt by its dedicated hangar after destruction.,,,,,
+TDB_shui_yin_deng_l,SHIP_SYSTEM,Activates the heavy drone defense array. Ten heavy Mercury Lamp defense drones launch immediately to guard the carrier and can be rebuilt by its dedicated hangar after destruction.,,,,,
+TDB_shui_yin_deng,SHIP_SYSTEM,"Activates a small drone-defense system, immediately launching five light Mercury Lamp unmanned defense platforms to protect the mothership. A dedicated hangar replaces destroyed drones.",,,,,
+,,,,,,,
+TDB_piao_yi,SHIP_SYSTEM,"Activates an emergency evasive drive, greatly increasing speed and maneuverability for a short time.",,,,,
+,,,,,,,
+TDB_dao_dan,SHIP_SYSTEM,"After a preparation period, deploys eight phase torpedoes dealing 400 energy damage each. The torpedoes automatically surface as they approach hostile ships.",,,,,
+,,,,,,,
+TDB_wu_qi,SHIP_SYSTEM,"Activate Hotflux Circulation Coil, recycles part of the flux produced by weapon fire into boosting the power of energy weapons. However, due to technical limitation, the conversion rate is low, and the system's activation will significantly impair engine operations.
+",,,,,
+,,,,,,,
+TDB_yq,SHIP_SYSTEM,"A warp system made by using a reality borer to breach space, the massive spatial ripple caused at the end of the warp will damage non-friendly target, and each warp have a small chance to slightly repair the ship's hull.
+",,,,,
+,,,,,,,
+TDB_SY,SHIP_SYSTEM,"Runs the ship's radar at full power, providing battlefield vision out to 3,000 units for a limited time. Specialized radar waves disrupt the phase coils of hostile phase ships within 1,500 units, reducing their phase-instability hard-flux threshold by 50%.",,,,,
+,,,,,,,
+TDB_FortressShieldStats,SHIP_SYSTEM,"Overcharge the shield core to improve shield performance, reduce shield damage taken by 50%, generate hardflux while active.",,,,,
+,,,,,,,
+TDB_canister_flak,SHIP_SYSTEM,"Load flak ammo for all turrets, and immediately fire to create a barrage to shread incoming fighters and missiles.",,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,

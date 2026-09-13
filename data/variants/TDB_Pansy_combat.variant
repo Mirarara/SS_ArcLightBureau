@@ -1,0 +1,31 @@
+{
+    "displayName": "Close Attack",
+    "fluxCapacitors": 0,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "TDB_Pansy",
+    "hullMods": [
+        "degraded_drive_field",
+        "TDB_A_tu_ji",
+        "safetyoverrides"
+    ],
+    "permaMods": ["degraded_drive_field"],
+    "sMods": [],
+    "variantId": "TDB_Pansy_combat",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "autopulse"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "TDB_changkongpod",
+                "WS0003": "TDB_changkongpod"
+            }
+        }
+    ],
+    "wings": ["TDB_fan_guang_yuan_wing"]
+}

@@ -1,0 +1,31 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 8,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "TDB_gu_yu",
+    "hullMods": [
+        "TDB_A_jie_neng",
+        "hardenedshieldemitter",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "TDB_gu_yu_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "TDB_fang_tang",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [
+        {"WS0002": "TDB_gu_yu_Y_assault"},
+        {"WS0003": "TDB_gu_yu_Z_assault"},
+        {"WS0009": "TDB_gu_yu_C_assault"},
+    ],
+}

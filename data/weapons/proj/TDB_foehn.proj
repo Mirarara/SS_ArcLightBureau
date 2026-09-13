@@ -1,0 +1,38 @@
+{
+	"id":"TDB_foehn",
+	"specClass":"missile",	
+	"missileType":"ROCKET",
+	"sprite":"graphics/missiles/missile_foehn.png",
+	"onHitEffect":"data.weapons.TDB_wu_qi_bao_zha",
+	"size":[22,66],	
+	"center":[10,18],
+	"collisionRadius":18,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[150,175,200,200],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":230, # purely visual
+	"engineSpec":{"turnAcc":1200,
+				  "turnRate":150,
+				  "acc":250,
+				  "dec":200},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-14, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+				    "styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[63,44,200,200],
+						"contrailDuration":0,
+						"contrailWidthMult":0,
+						"contrailWidthAddedFractionAtEnd":0,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":0, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0, # how far away from engine it starts
+						"contrailColor":[100,165,200,200],
+						"glowSizeMult":1,
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":20.0,
+				    "length":70.0,
+				    "angle":180.0}],			    
+}

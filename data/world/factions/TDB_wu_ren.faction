@@ -1,0 +1,246 @@
+{
+	id:"TDB_wu_ren",
+	"color":[245,150,30,255],
+
+    "baseUIColor":[235,190,95,255],
+    "darkUIColor":[85,40,20,175],
+    "gridUIColor":[160,150,55,75],
+    "secondaryUIColor":[255,255,255,255],
+    "secondarySegments":10,
+	"displayName":"Automated Defence Fleet",
+    "logo": "graphics/factions/TDBT.png",
+    "crest": "graphics/factions/TDB.png",
+	"displayNameWithArticle":"Automated Defence Fleet",
+	"shipNamePrefix":"TDB",
+	"showInIntelTab":false,
+	"shipNameSources":{
+		"HEGEMONY":1,
+		"BRITISH_NAVY":1,
+		"ROMAN":2,
+		"GREEK":1,
+		"SPACE":1,
+		"GENERAL":1,
+	},
+	"names":{
+		"old english":1,
+		"modern":1,
+		"world":1,
+		"future":1,
+		"myth":1,
+	},
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":[],
+		"hulls":[
+		"TDB_chuan_yun_1",
+		"TDB_feng_ya_1",
+		"TDB_xi_yu_1",
+		"TDB_ji_liu_1",
+		"TDB_ht",
+		"TDB_tai_yang_yu_1",
+		
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		"TDB_chuan_yun_1",
+		"TDB_feng_ya_1",
+		"TDB_xi_yu_1",
+		"TDB_ji_liu_1",
+		"TDB_ht",
+		"TDB_tai_yang_yu_1",
+		],
+	},
+	"knownFighters":{
+		"tags":[],
+		"fighters":[
+		"TDB_fan_guang_yuan_wing",
+		"TDB_mi_san_guang_wing",
+		"TDB_man_fan_she_wing",
+		"TDB_ke_jian_guang_wing",
+		"TDB_dian_guang_yuan_wing",
+		"TDB_shuang_zhe_she_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		"TDB_fan_guang_yuan_wing",
+		"TDB_mi_san_guang_wing",
+		"TDB_man_fan_she_wing",
+		"TDB_ke_jian_guang_wing",
+		"TDB_dian_guang_yuan_wing",
+		"TDB_shuang_zhe_she_wing",
+		],
+	},
+	"knownWeapons":{
+		"tags":["TDB_bp"],
+		"weapons":[
+			"TDB_Focuspd",
+			"TDB_fang_tang",
+			"TDB_changkongpod",
+			"TDB_lian_yi",
+			"TDB_shuang_jiang",
+			"TDB_shuang_tang",
+			"TDB_ning_hua",
+			"TDB_cai_yu",
+			"TDB_jie_shuang",
+			"TDB_ni_lan",
+			"TDB_yun_chui",
+			"TDB_feng_zu",
+			"TDB_yun_ying_L",
+			"TDB_yuen_ying",
+			"TDB_yin_hua",
+			"TDB_hai_tong",
+			"squall",
+			"heatseeker",
+		],
+	},
+	"priorityWeapons":{
+		"tags":["TDB_bp"],
+		"weapons":[
+			"TDB_Focuspd",
+			"TDB_fang_tang",
+			"TDB_yun_ying_L",
+			"TDB_changkongpod",
+			"TDB_lian_yi",
+			"TDB_shuang_jiang",
+			"TDB_ning_hua",
+			"TDB_cai_yu",
+			"TDB_jie_shuang",
+			"TDB_jue_xiang",
+			"TDB_ni_lan",
+			"TDB_yun_chui",
+			"TDB_feng_zu",
+			"TDB_yuen_ying",
+			"TDB_shuang_tang",
+			"TDB_yin_hua",
+			"TDB_hai_tong",
+			"squall",
+			"heatseeker",
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "hegemony", "TDB_cj"],
+		"hullMods":[
+			"advancedshieldemitter",
+			"TDB_hang_kong",
+			"TDB_you_ji",
+			"TDB_Automated",
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",
+			"heavyarmor",
+			"insulatedengine",
+			"targetingunit",
+			"nav_relay",
+			"operations_center",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"frontshield",  # makeshift
+			"surveying_equipment",
+			"efficiency_overhaul",
+		],
+	},
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":0,
+		"phaseShips":0,
+		
+		"officerQuality":5,
+		"shipQuality":5,
+		"numShips":1,
+		
+		"shipSize":5,
+		
+		"aggression":5, # doesn't matter since automated ships are super aggressive regardless
+		
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":1,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+		],
+	},
+	#"shipRoles":{
+	#},
+	"illegalCommodities":[
+	],
+	"music":{
+		"encounter_hostile":"music_tritach_encounter_hostile",
+	},	
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_league01.png",
+			"graphics/portraits/portrait_league02.png",
+			"graphics/portraits/portrait_league03.png",
+			"graphics/portraits/portrait_league06.png",
+			"graphics/portraits/portrait_league07.png",
+			"graphics/portraits/portrait_league09.png",
+			"graphics/portraits/portrait_mercenary03.png",
+			"graphics/portraits/portrait12.png",
+			"graphics/portraits/portrait13.png",
+			"graphics/portraits/portrait15.png",
+			"graphics/portraits/portrait17.png",
+			"graphics/portraits/portrait18.png",
+			"graphics/portraits/portrait20.png",
+			"graphics/portraits/portrait23.png",
+			"graphics/portraits/portrait25.png",
+			"graphics/portraits/portrait26.png",
+			"graphics/portraits/portrait30.png",
+			"graphics/portraits/portrait31.png",
+			"graphics/portraits/portrait33.png",
+			"graphics/portraits/portrait35.png",
+			"graphics/portraits/portrait38.png",
+		],
+		"standard_female":[
+			"graphics/portraits/TDB_04.png",
+			"graphics/portraits/TDB_03.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+		},
+		"posts":{
+		},
+	},
+	"custom":{
+		"engageWhenEvenStrength":true,
+		"allowsTransponderOffTrade":true, # to prevent cargoscan dialog from "patrols"
+		"postsNoBounties":true,
+		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+		"noAICoresFromAutomatedDefenses":true,
+		"officersOnAutomatedDefenses":true,
+	},	
+	"fleetTypeNames":{
+		"patrolSmall":"Automated Defence Fleet - Patrol Fleet", 
+		"patrolMedium":"Automated Defence Fleet - Escort Fleet ", 
+		"patrolLarge":"Automated Defence Fleet - Interdiction Fleet", 
+		"battlestation":"Automated Defence Fleet - Skydome Bastion",
+	},
+},

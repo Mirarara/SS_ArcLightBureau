@@ -1,0 +1,25 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "TDB_he_feng",
+    "hullMods": [
+        "expanded_cargo_holds",
+        "pointdefenseai",
+        "TDB_A_biao_zhun",
+        "auxiliary_fuel_tanks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_he_feng_variant",
+    "weaponGroups": [{
+        "autofire": false,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "TDB_Focuspd",
+            "WS0002": "TDB_Focuspd",
+            "WS0003": "TDB_Focuspd"
+        }
+    }]
+}

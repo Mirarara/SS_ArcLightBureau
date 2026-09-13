@@ -1,0 +1,169 @@
+{
+  "hullName": "TDB_qiong_ding",
+  "hullId": "TDB_qiong_ding",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/TDB_qiong_ding/TDB_qiong_ding.png",
+  "style": "TDB_TECH",
+  "height": 314,
+  "width": 188,
+  "center": [94, 159.5],
+  "collisionRadius": 203,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 183.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "TDB_HeavyBallisticsIntegration",
+    "TDB_ruo_ci_du_cheng",
+    "TDB_qiong_ding2"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 156,
+      "angle": 40,
+      "locations": [95, 34]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 156,
+      "angle": -40,
+      "locations": [95, -34]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 0,
+      "locations": [143.5, 30]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 0,
+      "locations": [143, -30]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 25,
+      "locations": [4, 48.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [103, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -25,
+      "locations": [4, -48]
+    },
+    {
+      "id": "WS0016",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-210.5, -5.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": 110.5,
+      "locations": [14.5, 75]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 125,
+      "angle": -110,
+      "locations": [14.5, -75]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -46.5, 12,
+        -46.5, -11,
+        -97, 11.5,
+        -97, -11.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-86.5, 43],
+      "length": 70,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-86.5, -43],
+      "length": 70,
+      "width": 25,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -120.5, -17.5,
+    -87, -29.5,
+    -86.5, -60.5,
+    -102, -74.5,
+    -52, -94,
+    -10.5, -82.5,
+    2, -86,
+    56, -65,
+    64.5, -72,
+    149, -46.5,
+    152, -22,
+    99, -17.5,
+    99, 17.5,
+    152, 22,
+    149, 46.5,
+    64.5, 72,
+    56, 65,
+    2, 86,
+    -10.5, 82.5,
+    -52, 94,
+    -102, 74.5,
+    -86.5, 60.5,
+    -87, 29.5,
+    -120.5, 17.5
+  ]
+}

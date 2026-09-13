@@ -1,0 +1,22 @@
+{
+    "displayName": "å¸¸è§\u0084",
+    "fluxCapacitors": 10,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "TDB_gugu",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "TDB_A_tu_ji"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_gugu_variant",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0002": "heatseeker",
+            "WS0003": "heatseeker"
+        }
+    }]
+}

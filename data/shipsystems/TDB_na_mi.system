@@ -1,0 +1,32 @@
+{
+	"id":"TDB_na_mi",
+	"type":"STAT_MOD",
+	"aiType":"DAMPER_FIELD",
+	
+	"statsScript":"data.shipsystems.scripts.TDB_na_mi",
+	
+	
+	"jitterColor":[133,176,157,80],
+    "jitterCopies":2,
+    "jitterRange":2,
+    "jitterRangeRadiusFraction":0.1,
+	
+	"engineGlowColor":[133,176,157,80],
+	
+	"flameoutOnImpactChance":0.5,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+
+	"useSound":"system_burn_drive_activate",
+	"loopSound":"system_burn_drive_loop",
+	"deactivateSound":"system_burn_drive_deactivate",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":80,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":100,
+	}
+}

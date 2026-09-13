@@ -1,0 +1,12 @@
+{
+  "masterVersionFile": "https://raw.githubusercontent.com/Mirarara/ArcLightBureau/main/ArcLightBureau.version",
+  "modName": "Arc Light Bureau",
+  "modThreadId": 0,
+  "modVersion": {
+    "major": 1,
+    "minor": 12,
+    "patch": 3
+  },
+  "starsectorVersion": "0.98a-RC8",
+  "directDownloadURL": "https://github.com/Mirarara/ArcLightBureau/releases/download/v1.12.3/ArcLightBureau-1.12.3.zip"
+}

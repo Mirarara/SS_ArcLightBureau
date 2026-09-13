@@ -1,0 +1,34 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 3,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "TDB_Pansy",
+    "hullMods": [
+        "degraded_drive_field",
+        "targetingunit",
+        "TDB_A_pao_ji",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": ["degraded_drive_field"],
+    "sMods": [],
+    "variantId": "TDB_Pansy_support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "hveldriver"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "hveldriver"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "tachyonlance"}
+        }
+    ],
+    "wings": ["TDB_mi_san_guang_wing"]
+}

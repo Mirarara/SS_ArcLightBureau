@@ -1,0 +1,25 @@
+{
+	"id":"TDB_ji_yu_yun_C1",
+	"specClass":"beam",
+	"type":"DECORATIVE",
+	"size":"SMALL",
+
+    "turretSprite":"graphics/weapons/TDB_ji_yu_yun_missile/C/TDB_ji_yu_yun_C1.png",
+	"hardpointSprite":"graphics/weapons/TDB_ji_yu_yun_missile/C/TDB_ji_yu_yun_C1.png",
+	"showDamageWhenDecorative":true,
+	"renderBelowAllWeapons":true,	
+	#"renderHints":["RENDER_ADDITIVE"],
+
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[10, 0],
+	"hardpointAngleOffsets":[0],
+
+	"fringeColor":[255,255,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,255,255,255],
+	"width":1.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":1.0,
+	"pixelsPerTexel":1.0,
+}

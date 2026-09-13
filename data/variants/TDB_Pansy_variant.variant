@@ -1,0 +1,31 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 6,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "TDB_Pansy",
+    "hullMods": [
+        "degraded_drive_field",
+        "hardenedshieldemitter",
+        "TDB_A_pao_ji"
+    ],
+    "permaMods": ["degraded_drive_field"],
+    "sMods": [],
+    "variantId": "TDB_Pansy_variant",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "TDB_ning_hua"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "TDB_jie_shuang_m",
+                "WS0003": "TDB_changkongpod"
+            }
+        }
+    ],
+    "wings": ["TDB_fan_guang_yuan_wing"]
+}

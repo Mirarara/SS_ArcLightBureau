@@ -1,0 +1,30 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+#常规舰船技能,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mercury Lamp Drone Defense Array,TDB_shui_yin_deng_l,,,,,,,,24,0.1,0.2,,0.5,1,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Mercury Lamp Drone Defense Platform,TDB_shui_yin_deng,,,,,,,,8,0.02,0.2,,0.5,1,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Mercury Lamp Drone Strike Platform,TDB_shui_yin_deng_a,,,,,,,,4,0.02,0.2,,0.5,1,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+"""Cold Wind"" Phased Missile System",TDB_dao_dan,1,,,,,,,4,0.04,0.25,1,0.25,0,,,,,,,,,,,,,graphics/icons/hullsys/missile_autoforge.png
+Full Power Radar Scan,TDB_SY,,,,,,,,,0.05,0.25,6,0.25,6,,,,,,,,,,,,,graphics/icons/relay.png
+Reality Gap Warp,TDB_yq,,,,,,,,,0.18,0.25,1,0.5,20,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+Automated Combat C&C,TDB_targetingfeed,,,,,,0.2,,,,0.5,20,0.5,10,,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
+Hyperspace Accelerator,TDB_targetingfeed2,,,,,,0.2,,,,2,8,2,20,,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
+Hotflux Circulation Coil,TDB_wu_qi,1,,,,,,,,,0,3,1,13,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
+Turret Deployment,TDB_turretdeploy,,,,,,,,,0.4,1,,0.5,30,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Chaotic Drift,TDB_tuxi,1,,,,,,,,,0,3,1,20,TRUE,,,,TRUE,,TRUE,,TRUE,TRUE,,,graphics/icons/hullsys/maneuvering_jets.png
+Dive Assault,TDB_qu_dong,1,,,,,,,,,0,4,0.25,9,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+Pressurized Shield,TDB_FortressShieldStats,,,0.01,,,,,,,1.5,,1.5,0,TRUE,,,TRUE,,,,,,,,,graphics/icons/hullsys/fortress_shield.png
+Celestial Cruise,TDB_piao_yi,,,,,,,,2,0.08,1.5,0,0,0.5,,,,TRUE,TRUE,,,,,TRUE,,,graphics/icons/hullsys/displacer.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#唯一舰,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nano Reformation,TDB_na_mi,1,,,,,,,,,0,2,1,13,,,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
+Flowery Night's Butterfly,TDB_san_se_jin,1,,,,,,,2,0.05,0,4,0.25,4,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+Pre-Charged Ion Lance,TDB_li_zi_pao,1,,,,,,,,,0,2,1,7,,,,,,,,,,,,,
+Feather Return,TDB_yq_gugu,,,,,,,,,0.18,0.25,5,0.5,13,,,,,,,,,,,,,graphics/icons/hullsys/displacer.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#特殊系统,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Accompanying Drone,TDB_ban_fei,,,,,,,,2,0.4,1.3,,0.5,1,,,,,,,,,,,,,
+Proximity Cruise,TDB_xun_hang,1,,,,,,,,,2,,2,0,TRUE,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,,,graphics/icons/hullsys/burn_drive.png
+Nanocraft Swarm,TDB_na_mi_ji_qun,,,,,,,,9,0.4,0.2,,0.5,1,,,,,,,,,,,,,
+Volley,TDB_canister_flak,,,,,,,,2,0.25,0.1,,0.3,1,,,,,,,,,,,,,
+Phase Dive,TDB_phasecloak,,,,,,,,,,0.5,,0.5,2,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,TRUE,phasecloak,graphics/icons/hullsys/phase_cloak.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,

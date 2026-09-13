@@ -1,0 +1,203 @@
+{
+  "hullName": "TDB_ren_zhao_guang",
+  "hullId": "TDB_ren_zhao_guang",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/TDB_ren_zhao_guang/TDB_ren_zhao_guang_00.png",
+  "style": "TDB_TECH",
+  "height": 397,
+  "width": 298,
+  "center": [149, 198.5],
+  "collisionRadius": 267.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 224,
+  "viewOffset": 0,
+  "builtInMods": [
+    "TDB_ruo_ci_du_cheng",
+	"TDB_rzg",
+    "never_detaches"
+  ],
+  "builtInWeapons": {
+    "WS0008": "TDB_T.D",
+    "WS0009": "TDB_T.D",
+    "WS0010": "TDB_T.D"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 172,
+      "angle": 83.5,
+      "locations": [-14, 54.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 172,
+      "angle": -83.5,
+      "locations": [-14.5, -54]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 89,
+      "angle": 33.5,
+      "locations": [34, 87.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 89,
+      "angle": -33.5,
+      "locations": [33.5, -87]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 234,
+      "angle": 55,
+      "locations": [70, 76.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 234,
+      "angle": -55,
+      "locations": [70, -76.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1.5, 0.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [136, 74.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [136, -74.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [99, 0.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [104.5, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-158, 12.5],
+      "length": 90,
+      "width": 38,
+      "angle": 180,
+      "contrailSize": 38,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-158, -12.5],
+      "length": 90,
+      "width": 38,
+      "angle": -180,
+      "contrailSize": 38,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-150.5, 32],
+      "length": 58,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-150.5, -32],
+      "length": 58,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-139, 69.5],
+      "length": 39,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-139, -69.5],
+      "length": 39,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -154, -39.5,
+    -183.5, -46,
+    -141, -67.5,
+    -135.5, -82.5,
+    -37, -118.5,
+    -22.5, -133,
+    25, -113.5,
+    41.5, -125.5,
+    169.5, -77,
+    142, -50.5,
+    25.5, -52,
+    166.5, -25,
+    180.5, -12,
+    180.5, 12,
+    166.5, 25,
+    25.5, 52,
+    142, 50.5,
+    169.5, 77,
+    41.5, 125.5,
+    25, 113.5,
+    -22.5, 133,
+    -37, 118.5,
+    -135.5, 82.5,
+    -141, 67.5,
+    -183.5, 46,
+    -154, 39.5
+  ]
+}

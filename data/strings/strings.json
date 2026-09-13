@@ -1,0 +1,425 @@
+{
+    "starSystems":{
+      "TDB_planet1_name":"Intersection",
+	  "TDB_planet2_name":"Hawkes IV",
+	  "TDB_planet4_name":"Heterotopia Station",
+	  "TDB_planet3_name":"Terminal"
+    },
+	"shipSystem":{
+      "TDB_linearDriveData0":"increased engine power"
+	},
+    "hullMod":{
+      "TDB_hfsSystem":"performance decreased by %s"
+    },
+  "campaign": {
+    "HF_Name1":"Nanomachine Assembly",
+    "HF_Name2":"Greywind",
+
+    "HF_Text1":"A communication was received at your personal pad, and after a thorough check by your communications staff, it was confirmed that the signal came from within the Fleet.",
+    "HF_Option1":"Requesting Comm-Link Connection",
+    "HF_Text2":"\"After the connection is established, the other party does not respond.\"",
+    "HF_Option2":"Cut comm-link and send message to the Fleet that the perpetrator of this prank will be severely punished.",
+    "HF_Text3":"After accepting the request for communication, you're surprised to find that the communicator is your own First Officer, but there is another First Officer who look exactly like them.",
+    "HF_Text4":"“Uhn? It's not connected yet? Isn't that what Hanliu person said how you'd operate this?”",
+    "HF_Text5":"“Hey! It's working! that person really didn't lie to me this time.”",
+    "HF_Text6":"“Cough, Hello, Captain.”",
+    "HF_Text7":"You turn your head to look at your First Officer, Their face is also filled with surprise.",
+    "HF_Text8":"Your First Officer is flustered, seemingly trying to explain.",
+
+    "HF_Option3":"Interrupt the First Officer and wait to see what ‘Fake First Officer’ is going to do.",
+    "HF_Option4":"Listen to your First Officer's Explanation.",
+    "HF_Option5":"Let the guards subdue the First Officer beside you",
+
+    "HF_ST1_1":"”It's... IT'S AN EMERGENCY!! This won't do, saying random stuff will cause problems...ahhhhh”",
+    "HF_ST1_2": "The ”First Officer“ on the other end of the comm is looking a bit uncomfortable, and you recognized the background of their comm image, it is your flagship.",
+    "HF_ST1_3":"Contact your Ship's Security quietly and quickly take control of the First Officers location",
+    "HF_ST1_4":"Keep Them Talking",
+
+    "HF_ST2_1":"The First Officer beside you is relieved, and without wiping sweat on their forehead. they hastily begins to tell their long-winded explanation, which is basically just how loyal they're toward you and how they proved themselves to be the real one.",
+    "HF_ST2_2":"Gesture to show you've got it and quietly contact your ship's security to quickly take control of the 'First Officer' 's Location",
+    "HF_ST2_3":"Let the guards subdue the First Officer beside you",
+
+    "HF_ST3_1":"Your guards immediately put the First Officer's hands behind their back and pinned them to the ground, while the First Officer is begging to give you an explanation.",
+    "HF_ST3_2":"On the other side, the 'First Officer' seems to realize they have made a big mess",
+    "HF_ST3_3":"With a distortion on the Comm-Link Screen, the 'First Officer' over the comm-link had became a young girl with white hair and blue eyes.",
+    "HF_ST3_4":"Explain where you come from and what you're doing.",
+
+    "HF_TX_1":"The other side noticed the moment you sent the  message.n",
+    "HF_TX_2":"On the other side, the 'First Officer' seems to realize they have made a big mess",
+    "HF_TX_3":"With a distortion on the Comm-Link Screen, the 'First Officer' over the comm-link had became a young girl with white hair and blue eyes.",
+    "HF_TX_4":"Explain where you come from and what you're doing.",
+
+    "HF_TXT_1":"“Ok ok! I'll admit it! I am not your first officer, stop asking already!”",
+    "HF_TXT_2":"”I'll be honest...ugh, long ago, there was...what you can call a civilization of nano robots. Do you know what nano robots are? Good, these nano machines were called the 'Grey Tempest' by their creator",
+    "HF_TXT_3":"”Anyways, the nanomachine and their creator's relations deteroiated over time, and a great war broke out! When the dust settled, only the nano machines survived..“",
+    "HF_TXT_4":"The girl gave you a look, as if to observe your expression",
+    "HF_TXT_5":"”But before the creator were destroyed, they managed to close off the only star gate in their star cluster, trapping the nanomachines within“",
+    "HF_TXT_6":"”After that, the nanomachines realized they have more than enough time. They tried in vain for thousands of years to find a way to leave. They tried to experiment with various shapes and forms. For a while, they even recreated the lost civilization of their creator“   ",
+    "HF_TXT_7":"\"What does this have to do with you?\"",
+
+    "HF_ST4_1":"The girl signed.\n",
+    "HF_ST4_2":"”I was the result of the newest experiment. The entire Grey Tempest, or however you call us, have assembled into myself. My will is that of my civilization.“\n   ",
+    "HF_ST4_3":"”As for my apperance...It is because I think you might be more accepting to creatures that looks like yourself, and Hanliu also mentioned that white hair is well liked by many people...“\n",
+    "HF_ST4_4":"Ofcourse, I came here to join your fleet and be of service to you. I have to admit, after the recent centuries, I am getting bored of the lonely life, perhaps I should try something new......so, can I join you in your travels?”\\n\"",
+    "HF_ST4_5":"You looked at the first officer next to you, terror filled his face...you have to admit, what you experienced in the past few minute is far to bizarre.\n",
+    "HF_ST4_6":"\"Ofcourse, you may join us\"",
+
+    "HF_ST5_1":"”Eh!Really!Great!“\n",
+    "HF_ST5_2":"”I think we would get along well, and this will be a exciting adventure!“\n",
+    "HF_ST5_3":"As for what to call me... keep it simple. Just call me 'Grey' or 'Greywind.'\n",
+    "HF_ST5_4":"”um...But the Bureau still need my help, so I'll have one of my doubles to go on an adventure with you! Don't worry, I share all sense and feelings with my double!“\n",
+    "HF_ST5_5":"\"Welcome, Grey!\"",
+
+    "RZG_Name1":"Director",
+    "RZG_Name2":"Hanliu",
+	"RZG_Name3":"Westwind",
+
+    "RZG_Text1":"A hooded girl sits in a corner of the bar, looking at a computer. Glimpses of pale-blue hair and an enormous tail suggest that she may have undergone genetic modification or some other experiment.",
+    "RZG_Option1":"Try to order a Whiskey and sit across from her.",
+
+    "RZG_TXT_READY":"\"You try to chat with the girl, but the girl begin to speak without looking at you\"I don't think we know each other, isn't it best to keep your distance?\".\"",
+    "RZG_TXT_READY_OPTION":"Leave",
+    "RZG_TXT_READY_1":"Silence hangs between you for a moment. Smiling, the girl produces a data terminal and hands it to you; its dark-blue-and-white casing clearly identifies its faction of origin.\n",
+    "RZG_TXT_READY_2":"Surprised, you immediately begin to suspect that this girl has close ties to the authorities.",
+    "RZG_TXT_READY_3":"Put away the terminal and return her friendly smile.",
+    "RZG_TXT_READY_4":"Put away the terminal and take the opportunity to touch her tail.",
+
+    "RZG_STORY_1":"It is clear that the girl is delighted to see you. Although her expression does not show it, her swaying tail gives her away.\n “It seems you are the legend everyone has been talking about, aren't you?”\n",
+    "RZG_STORY_2":"You look at her curiously, about to ask a question.\n",
+    "RZG_STORY_3":"Noticing your curiosity, the girl suggests, “A bar is a good place to find information and opportunities, but not to discuss matters in detail, wouldn't you agree? Be sure to make good use of the terminal I gave you.” With that, she leaves, her tail swaying. Before departing, she orders you a tea, leaving you somewhat puzzled with the blue-and-white information terminal in your hands.\n",
+    "RZG_STORY_4":"You look at the terminal in your hands.\n",
+    "RZG_STORY_5":"Open the terminal",
+
+    "RZG_STORY2_1":"You activate the terminal. Almost immediately, a message window expands to fill your entire field of view.",
+    "RZG_STORY2_2":"“Hello. Given how perceptive you are, I expect you have already guessed that I work for the authorities. In that case, I will be direct: on their behalf, I would like to formally invite you to an advanced partnership. Since we are extending the invitation, naturally we will demonstrate the sincerity it deserves.”",
+    "RZG_STORY2_3":"The other party's contact information is displayed in enormous, conspicuous lettering.",
+    "RZG_STORY2_4":"Accept the offer and try to contact them",
+
+    "RZG_TXT_1":"\"Today, is a lucky day!\"",
+    "RZG_TXT_2":"A moment later, the comm link is established, and the girl's voice comes through from the other side.",
+    "RZG_TXT_3":"“I am pleased that you made the correct choice so quickly.”\n",
+    "RZG_TXT_4":"“Mm, regarding the arrangements and terms of this special partnership, I will regularly provide a list of cooperative projects, including but not limited to publicly available test weapons and major shipyard orders. Prices clearly marked, payment on delivery. Well? Tempting, isn't it?”\n",
+    "RZG_TXT_5":"The girl seems slightly nervous and unconsciously leans closer to the screen.\n",
+    "RZG_TXT_6":"“I have left something for you at the port as a gesture of our sincerity. Present this terminal there to collect it.”\n",
+    "RZG_TXT_7":"The girl falls silent for a moment, then gives an awkward smile.\n",
+    "RZG_TXT_8":"“A rather direct attempt to win you over, isn't it? But our offer is sincere, so I hope you won't mind.”\n",
+    "RZG_TXT_9":"After discussing a few more details, you end the communication.\n",
+    "RZG_TXT_10":"Go to the port to collect their gesture of sincerity",
+	"RZG_TXT_11":"Gained %s credits.",
+
+    "RZG_YB_1":"The girl is clearly startled by your action and quickly hides her tail behind her back.",
+    "RZG_YB_2":"You quickly realize how rude that was and prepare to apologize, but she gives you no opportunity. After taking a few steps back, she turns and leaves.",
+    "RZG_YB_3":"You stand there dumbfounded, suddenly regretting what you did. Still, you remember how fluffy and warm her tail felt...",
+    "RZG_YB_4":"You look at the terminal in your hands. You can only hope it contains the answers you seek.",
+    "RZG_YB_5":"Lost %s credits.",
+    "RZG_YB_6":"Open the terminal",
+
+    "RZG_SYS_1":"You are in the lab right now, all options are experimental",
+    "RZG_SYS_2":"Confirm and leave(will not respawn)",
+    "RZG_SYS_3":"Leave (will respawn)",
+
+    "MARKET_1":"Sir, we do not accept returns or resale",
+    "MARKET_2":"Sorry, your reputation have not yet reached our standard. [Require:Welcoming]",
+    "MARKET_3":"Sir, we do not accept returns or resale",
+	
+	"SHOP_1":"Select Item",
+    "SHOP_2":"Confirm Selection",
+	"SHOP_3":"Cancel Selection",
+	
+	"TDB_Repair_1":"Select Repair Target",
+	"TDB_Repair_2":"Confirm",
+	"TDB_Repair_3":"Cancel",
+	"TDB_Repair_4":"on",
+	"TDB_Repair_5":"damage",
+	"TDB_Repair_6":"Repaired",
+  },
+  "skills": {
+	"SKILL_TXTHF1":"Greywind",
+	"SKILL_TXTHF2":"Compared to destruction, I like creation more",
+    "SKILL_HF1":"% Shield damage reduction and",
+    "SKILL_HF2":"% weapon and engine damage reduction and",
+    "SKILL_HF3":"% Hull damage reduction"
+  },
+  "hullmods":{
+
+    "AUTOMATED_1":"Can only be installed on Arc Light Bureau hulls",
+    "AUTOMATED_3":"Status normal",
+    "AUTOMATED_4":"Note",
+    "AUTOMATED_5":"Can only be installed on Arc Light Bureau hulls",
+	"AUTOMATED_8":"System Calibration",
+	"AUTOMATED_9":"Radar Enhancement",
+	"AUTOMATED_10":"[%s] doubles the line-of-sight range provided by the ship system",
+	"AUTOMATED_11":"None",
+	"AUTOMATED_12":"[%s] immediately dissipates 15% of the ship's flux when activated",
+	"AUTOMATED_13":"Dash",
+	"AUTOMATED_14":"[%s] doubles the radius of explosions caused by the ship system",
+	"AUTOMATED_15":"Cataclysmic Reaction",
+	"AUTOMATED_16":"When [%s] activates, the shield deploys instantly and all medium missile weapons may continue firing",
+	"AUTOMATED_17":"Overpressure",
+	"AUTOMATED_18":"The weapon-boosting effect of [%s] also applies to ballistic weapons",
+	"AUTOMATED_19":"Ballistic Range Extension",
+
+    "HANGKONG_1":"Can only be installed on Arc Light Bureau hulls",
+    "HANGKONG_2":"Conflict with expanded deck crew",
+    "HANGKONG_3":"Bro, where is your hanger?",
+    "HANGKONG_4":"Note",
+    "HANGKONG_5":"Can only be installed on Arc Light Bureau hulls",
+    "HANGKONG_6":"Can only be installed on ships with flight decks",
+    "HANGKONG_7":"Conflicts with [%s]",
+    "HANGKONG_8":"expanded deck crew",
+
+    "JYY_1":"Emergency Warp Ready",
+    "JYY_2":"Emergency Warp Successful",
+    "JYY_3":"Special",
+    "JYY_4":"Emergency Warp",
+    "JYY_5":"When the ship's HP is below 3000, if the ship's CR are sufficient for a redeployment, the ship will initiate an emergency warp to leave combat, the engine will require a 3 second charge up. During charging, the ship will receive 70% damage reduction.",
+    "JYY_6":"Modular Fortress",
+    "JYY_7":"Fighters from the Module will have their order synchronized with fighters from the core ship",
+
+    "LEIDA_1":"Conflicts with ECM Package",
+    "LEIDA_2":"Status normal",
+    "LEIDA_3":"Note",
+    "LEIDA_4":"Conflicts with [%s]",
+    "LEIDA_5":"ECM Package",
+
+    "NAMI_1":"Greywind's ECM system is too complicated for any modifications",
+    "NAMI_2":"Status Normal",
+    "NAMI_3":"Note",
+    "NAMI_4":"Unique Hullmod of Greywind",
+    "NAMI_5":"Conflicts with [%s]",
+    "NAMI_6":"ECM Package",
+
+    "QIONG_DING_G_1":"Note",
+    "QIONG_DING_G_2":"Unique hull mod of Dome",
+    "QIONG_DING_G_3":"Change the Dome's turret to attack mode",
+
+    "RCDC_1":"Special",
+    "RCDC_2":"Magnetic Redirection Field [Require Hardened Shield][%s]",
+    "RCDC_3":"Use extra energy to form a magnetic field to redirect incoming fire, give shield 10% extra resistance against High Explosive,Fragment,and Kinetic damages",
+    "RCDC_4":"Inactive",
+    "RCDC_5":"Active",
+
+    "RZG_1":"Nixie Tube Energy Controller",
+    "RZG_2a":"Black Fox system activated, damage increased",
+    "RZG_2b":"White Fox system activated, flux dissipation increased",
+    "RZG_3":"Note",
+    "RZG_4":"White Fox Coolant System",
+    "RZG_5":"When ship's flux level is greater than 50%, soft flux dissipation rate increase based as the ship's flux level increase, up to 20%",
+    "RZG_6":"Black Fox Pressure System",
+    "RZG_7":"When ship's flux level is less than 50%, weapon damage increase based as the ship's flux level increase, up to 15%",
+
+    "YJ_1":"Mobility Increased",
+    "YJ_2":"Speed Increased",
+    "YJ_3":"Can only be installed on Arc Light Bureau hulls",
+    "YJ_4":"Conflicts with Unstable Injector",
+    "YJ_5":"Conflicts with Auxiliary Thrusters",
+    "YJ_6":"Status Normal",
+    "YJ_7":"Note",
+    "YJ_8":"Can only be installed on Arc Light Bureau hulls",
+    "YJ_9":"Conflicts with [%s]",
+    "YJ_10":"Auxiliary Thrusters",
+    "YJ_11":"Unstable Injector",
+
+    "ZDJC_1":"Note",
+    "ZDJC_2":"Special automated ship equipped with unique AI made by the Arc Light Bureau",
+    "ZDJC_3":"Conflicts with [%s]",
+    "ZDJC_4":"Safety Override",
+    "ZDJC_5":"Additional Berthing",
+    "ZDJC_6":"Crewed Fighters",
+	
+	"YC_1":"Note",
+	"YC_2":"Devastating Airstrike [%s]",
+	"YC_3":"Airstrike ready. Adds 200 effective strength to planetary raids.",
+	"YC_4":"Provides only basic air support, adding 100 effective strength to planetary raids.",
+	"YC_5":"With at least one Cumulonimbus-class aviation fortress in the fleet, coordinates its fighter wings to launch a devastating ground strike, adding 200 effective strength to planetary raids.",
+	"YC_6":"Ready",
+	"YC_7":"Unavailable",
+	"YC_8":"Fleet Maintainance [%s]",
+	"YC_9":"Increase this fleet's damaged ship's repair rate by 50%",
+	"YC_10":"Only provide limited maintainance,  this fleet's damaged ship's repair rate by 10%",
+	"YC_11":"When there is at least one Cumulonimbus class aviation fortress within the fleet, Cloud city will assist its professional maintainance crew to carry out full maintainance to damaged ships.",
+	"YC_12":"Modular Cargo",
+	"YC_13":"Losing a large cargo container will cause a loss of 200 supplies, losing a small cargo container iwll cause a loss of 100 supplies.",
+	"YC_14":"The special modular container design of the Cloud City class means destruction of a single container will not affect the ship or other containers, but it also means supplies within the contianer cannot be easily relocated.",
+	"YC_15":"Engine Overload",
+	"YC_16":"Every destroyed container increase ship max speed by 5 ",
+	"YC_17":"When a container is lost, the Cloud City class redirect the power used for that container to the main engine, allowing it to escape danger faster.",
+	"YC_18":"Ship Refinery[%s]",
+	"YC_19":"Consumes 4 units of rare ore per day to refine 2 units of transplutonics, or 10 units of ore to refine 5 units of metals. With no raw materials, more than 10 units of heavy machinery, and while outside hyperspace, the survey team extracts 1 unit of rare ore every 2 days.",
+	"YC_20":"Small Ship Refinery, allow the fleet to refine some metal and transplutonics.",
+	"YC_21":"Refining Transplutonics",
+	"YC_22":"Refining Metal",
+	"YC_23":"Not enough material or in hyperspace",
+	"YC_24":"Mining Transplutonics",
+	"YC_25":"Engine overload",
+	"YC_26":"Increased max speed",
+	
+	"TDB_SSJ_1":"Ready",
+	"TDB_SSJ_2":"Charging",
+	"TDB_SSJ_3":"When the ship's HP is reduced below 1000, enters a no collision mode and restore the ship back to full HP at the effect's end, limited to one trigger per battle.",
+    "TDB_SSJ_4":"An experimental design, even if the bureau does not trust this sort of black box design, they are conduction experimental testings",
+	"TDB_SSJ_5":"Special systems",
+	"TDB_SSJ_6":"Ephemeral Butterfly",
+	"TDB_SSJ_7":"Circle of Renewal",
+	"TDB_SSJ_8":"The faster the ship moves, the faster the charging happens. After fully charged, upon activation of the ship's system, the ship's weapons will gain 500% ROF and cost no flux, lasting 4 seconds.",
+	"TDB_SSJ_9":"A rare spirit field system the Bureau was able to figure out, even if only part of the spirit formation was repaired, and the rest had to be replaced by intricate machinery. This means overheating machinery limit its full output to its very short duration.",
+	
+	"TDB_gu_yu_1":"Note",
+	"TDB_gu_yu_2":"Engine Overload",
+	"TDB_gu_yu_3":"Every destroyed module increase ship max speed by 5",
+	"TDB_gu_yu_4":"An experimental energy redirection system, allow re-routing of power between various systems.",
+	"TDB_gu_yu_5":"Conflicts with [%s]",
+	"TDB_gu_yu_6":"Makeshift Shields",
+	"TDB_gu_yu_7":"Converted Hanger",
+	
+	"TDB_A_1":"Operating",
+	"TDB_A_2":"Remaining Time",
+	"TDB_A_3":"Recharging",
+	"TDB_A_4":"Ready",
+	"TDB_A_5":"Normal Effect",
+	"TDB_A_6":"Flux Capacity",
+	"TDB_A_7":"Flux Dissipation",
+	"TDB_A_8":"Max Speed",
+	"TDB_A_9":"Weapon Range",
+	"TDB_A_10":"Manuverability",
+	"TDB_A_11":"Turret Turn Rate",
+	"TDB_A_12":"Weapon Dispersion",
+	"TDB_A_13":"Special System",
+	"TDB_A_14":"Note",
+	"TDB_A_15":"Conflict with [%s]",
+	"TDB_A_16":"None",
+	"TDB_A_17":"Charging",
+	"TDB_A_18":"Fighter Engagement Range",
+	"TDB_A_19":"Armament Switch",
+	"TDB_A_20":"Main Battery: [%s]",
+	"TDB_A_21":"Launch Array: [%s]",
+	"TDB_A_22":"Electromagnetic Shock Cannon",
+	"TDB_A_23":"Cluster Sniper Cannon",
+	"TDB_A_24":"Drone Array",
+	"TDB_A_25":"Gun Array",
+	"TDB_A_26":"Missile Array",
+	
+	"TDB_A_tu_ji_1":"Press Left Alt to activate the Emergency Reorganization System",
+	"TDB_A_tu_ji_2":" [Wind Guide] Emergency Recovery System",
+	"TDB_A_tu_ji_3":"5-second duration and 60-second cooldown. Press Left Alt to activate manually; the AI activates it automatically after a flameout.",
+	"TDB_A_tu_ji_4":"Part of Project Vulpecula, this device is intended to save a ship at a critical moment. Press Left Alt to activate the emergency protocol, instantly restarting all engines and weapons. For the next 5 seconds, shielded ships take 25% less shield damage and gain greatly increased shield deployment and turning speed; unshielded ships instead gain 25% armor damage resistance.",
+	"TDB_A_tu_ji_5":"Safety Protocol Override",
+	
+	"TDB_A_pao_ji_1":"Remaining energy of damper field",
+	"TDB_A_pao_ji_2":"[Wind Shear] strong magnetic damper field",
+	"TDB_A_pao_ji_3":"Absorbs up to 1,500 damage and has no effect against beam weapons. It recharges after 20 seconds without taking damage, or after 15 seconds if the plating is broken.",
+	"TDB_A_pao_ji_4":"A strong magentic deflector field based on the standard magentic deflector, it can fully deflect even the largest calibered projectile in the sector. A pre-charge system is used to satisfy its high energy requirement, making it operational even when the ship itself has overloaded.",
+		
+	"TDB_A_biao_zhun_1":"[Rainbow Bridge] Overload Protection System",
+	"TDB_A_biao_zhun_2":"Ship overload duration reduced by 30%",
+	"TDB_A_biao_zhun_3":"An advanced venting system coordinated with efficient programming allows the ship's overload duration to be reduced by 30%. In the deadly battlefield this could give a ship a chance of survival.",
+	
+	"TDB_A_jie_neng_1":"Number of closed flight decks:",
+	"TDB_A_jie_neng_2":"Deployment Point Reduction:",
+	"TDB_A_jie_neng_3":"Converted Hanger",
+	"TDB_A_jie_neng_4":"Advanced Avionics",
+	"TDB_A_jie_neng_5":"Expanded Deck Crew",
+	"TDB_A_jie_neng_6":"None-Builtin",
+	"TDB_A_jie_neng_7":"Supply cost to repair",
+	"TDB_A_jie_neng_8":"Fuel use",
+	"TDB_A_jie_neng_9":"Ship performance",
+	
+	"TDB_shen_yuan_1":"Abyssal Stabilization",
+	"TDB_shen_yuan_2":"Nebula Slowdown Compensation",
+	"TDB_shen_yuan_3":"Nebula Dispersal Device",
+	"TDB_shen_yuan_4":"Can only be installed on capital ships",
+	
+	
+  },
+    "weapon":{
+    "TYF_1":"Out of ammo",
+  },
+  "missions":{
+    "BWN_1":"Remaining Command Fleet of an Unknown Empire",
+    "BWN_2":"Pirate Armada",
+    "BWN_3":"NIF Artificial light Must Survive",
+
+    "SPR_1":"Luddic Crusaders",
+    "SPR_2":"TDB System Outer Defence Fleet",
+    "SPR_3":"CGR Crusader Must Survive",
+
+    "ZGJ_1":"TBD Main Fleet",
+    "ZGJ_2":"Luddict Church Crusader and Reinforcing Holy Armada ",
+    "ZGJ_3":"TDB Huge rain cloud Must Survive",
+    "ZGJ_4":"Defeat enemy fleet"
+
+  },
+  "scripts":{
+	
+	"TDB_Shield":"Shield takes 50% less damage, its deployment and turn rate increased by 500% ",
+	  
+    "WuRen_1":"Autonomous Fleet Headquarter (",
+
+    "CJY":"Shield Activating",
+
+    "NaMi":"Greey wind is repairing...ow...hurts",
+
+    "SSJ_1":"Increase mobility and max speed",
+    "SSJ_2":"Based on flux level at the end of this system's effect, deploy suppression Danmaku",
+
+    "SY_1":"Double line of sight",
+    "SY_2":"Reduces the phase-instability hard-flux threshold of hostile phase ships within 1,500 units by 50%",
+
+    "Turret_1":"Out of Range",
+    "Turret_2":"Ready",
+	
+	"HEI_RU_1":"No Target",
+	"HEI_RU_2":"Non-Applicable Target",
+	"HEI_RU_3":"Ready",
+
+    "TuXi":"Chaotic Drift Activated",
+	"TuXi_2":"Ship mass increased by 1000",
+	
+    "WuQi":"Weapon Damage Increased by 20%, Weapon flux cost reduced by 20%",
+    "XunHang":"Increased Engine Power",
+    "YQ":"Warping",
+
+    "YQ_gugu_1":"Allies gain +20% max speed, and 20% shield damage reduction",
+    "YQ_gugu_2":"Area of effect is currently 1000 SU",
+    "YQ_gugu_3":"Area of effect is currently 1500 SU",
+	
+	"TDB_xi_tong_1":"Unknown",
+    "TDB_xi_tong_2":"Xitong",
+
+    "starsystem_1":"Arc Light Bureau Jump Point",
+    "starsystem_2":"Abandoned Survey Mothership",
+    "starsystem_3":"Intersection Station",
+    "starsystem_4":"Gugu's Kite",
+    "starsystem_gate": "L Gate",
+    "starsystem_5":"Arc Light Bureau Communications Array",
+    "starsystem_6":"Arc Light Bureau Navigation Buoy",
+    "starsystem_7":"Arc Light Bureau Sensor Array",
+    "starsystem_8":"Watchtower Praetorian",
+    "starsystem_9":"Iris",
+    "starsystem_10":"Falling Snow",
+    "starsystem_11":"Seventh Quadrant",
+    "starsystem_12":"Indomitable",
+    "starsystem_13":"Aftermath",
+    "starsystem_14":"TDB Gugu"
+
+  },
+  "utils": {
+    "QYData_1":"Cloud Slush",
+    "QYData_2":"Errous",
+    "QYData_3":"Unknown",
+    "QYData_4":"Astroyer",
+    "QYData_5":"Eve",
+    "QYData_6":"Starry SKy",
+    "QYData_7":"Flowing Dust"
+  }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+{
+  "id": "TDB_han_tian",
+  "specClass": "projectile",
+  "projectileSpecId": "TDB_XZ_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "everyFrameEffect": "data.weapons.TDB_XZ",
+  "displayArcRadius": 450,
+  "turretSprite": "graphics/ships/TDB_HT/TDB_HT_T.png",
+  "turretGlowSprite": "graphics/ships/TDB_HT/TDB_HT_T_glow.png",
+  "hardpointSprite": "graphics/ships/TDB_HT/TDB_HT_T.png",
+  "hardpointGlowSprite": "graphics/ships/TDB_HT/TDB_HT_T_glow.png",
+  "glowColor": [
+    85,
+    218,
+    255,
+    200
+  ],
+  "visualRecoil": 10,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    2.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    28,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "autocharge":"true",
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 10,
+    "particleSizeMin": 10,
+    "particleSizeRange": 20,
+    "particleDuration": 0.4,
+    "particleCount": 20,
+    "particleColor": [
+      77,
+      87,
+      123,
+      215
+    ]
+  },
+  "fireSoundTwo": "TDB_ning_hua"
+}

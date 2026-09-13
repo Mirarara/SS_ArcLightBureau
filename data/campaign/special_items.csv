@@ -1,0 +1,4 @@
+name,id,tags,tech/manufacturer,rarity,base price,stack size,cargo space,baseRaidDanger,icon,sound id,sound id drop,plugin,plugin params,desc,order
+Arc Light Bureau Blue Prints,TDB_package,package_bp,,,30000,1000,1,,graphics/icons/cargo/TDB.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,TDB_bp,"Allow heavy industry to produce common Arc Light Bureau hulls, fighters, and weapons",220
+,,,,,,,,,,,,,,,
+Abyssal Stabilization Device,TDB_Stable_Core,"mission_item, monster, codex_unlockable",Arc Light Bureau,,50000,1000,1,,graphics/TDB_Stable_Core.png,ui_cargo_special_biotech_pickup,ui_cargo_special_bio_drop,data.items.TDBHullmodItemPlugin,TDB_shen_yuan,A drive-field enhancer known to the Bureau as an 'Abyssal Stabilizer'. It can only be installed on capital ships.,452

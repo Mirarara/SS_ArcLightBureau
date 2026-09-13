@@ -1,0 +1,24 @@
+{
+	"id":"TDB_yq",
+	"type":"DISPLACER",
+	"aiType":"PHASE_DISPLACER",
+	"statsScript":"data.shipsystems.scripts.TDB_yq",
+	
+	
+	"engineGlowColor":[255,60,60,100],
+
+	"range":1000,
+	"randomRange":100,
+	
+	"renderCopyDuringTeleport":true,
+	
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"system_phase_skimmer",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":1000,
+		"averageSpeedIncrease":30,
+	}
+}

@@ -1,0 +1,79 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 48,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "TDB_hengfeng",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "TDB_A_pao_ji",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_hengfeng_variant",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "TDB_ning_hua",
+                "WS0002": "TDB_ning_hua"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "TDB_duanhen2",
+                "WS0018": "TDB_duanhen2",
+                "WS0019": "TDB_duanhen2",
+                "WS0020": "TDB_duanhen",
+                "WS0021": "TDB_duanhen",
+                "WS0022": "TDB_duanhen"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "TDB_shuang_tang",
+                "WS0008": "TDB_shuang_tang",
+                "WS0011": "TDB_shuang_tang",
+                "WS0012": "TDB_shuang_tang"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "TDB_shuang_tang",
+                "WS0010": "TDB_shuang_tang",
+                "WS0013": "TDB_shuang_tang",
+                "WS0014": "TDB_shuang_tang",
+                "WS0015": "TDB_Focuspd",
+                "WS0016": "TDB_Focuspd"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "TDB_cai_yu",
+                "WS0004": "TDB_cai_yu"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "TDB_cai_yu",
+                "WS0006": "TDB_cai_yu"
+            }
+        }
+    ],
+    "wings": [
+        "TDB_mi_san_guang_wing",
+        "TDB_mi_san_guang_wing"
+    ]
+}

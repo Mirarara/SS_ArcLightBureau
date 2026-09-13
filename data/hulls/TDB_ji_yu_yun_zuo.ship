@@ -1,0 +1,153 @@
+{
+  "hullName": "TDB_ji_yu_yun_zuo",
+  "hullId": "TDB_ji_yu_yun_zuo",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/TDB_ji_yu_yun/TDB_ji_yu_yun_zuo.png",
+  "style": "TDB_TECH",
+  "height": 85,
+  "width": 178,
+  "center": [94.5, 39.5],
+  "collisionRadius": 104,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 97.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "TDB_ji_yu_yun",
+    "TDB_ruo_ci_du_cheng"
+  ],
+  "builtInWeapons": {
+    "LE1_Left": "TDB_EngineController",
+    "LE2_Left": "TDB_EngineController",
+    "WS0011": "TDB_han_chao"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 151,
+      "angle": 136.5,
+      "locations": [-3.5, 74]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 173,
+      "angle": 180,
+      "locations": [-19.5, 6.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-1, 29]
+    },
+    {
+      "id": "LE2_Left",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-25, 21.5]
+    },
+    {
+      "id": "LE1_Left",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-23, 28]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        11, 44,
+        -12, 44,
+        -12, 14.5,
+        10.5, 14.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        9.5, -14,
+        -6, -14,
+        -6, -44,
+        9.5, -44.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-36.5, -23.5],
+      "length": 38.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-33.5, -13],
+      "length": 51.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-37.5, -37],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-25, 21.5],
+      "length": 20,
+      "width": 6,
+      "angle": 140,
+      "contrailSize": 22,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-23, 28],
+      "length": 20,
+      "width": 6,
+      "angle": 140,
+      "contrailSize": 22,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    14, -73.5,
+    44.5, -6,
+    42.5, 56.5,
+    18.5, 77,
+    12.5, 93.5,
+    3, 79,
+    -8, 80,
+    -18.5, 31.5,
+    -37.5, -37,
+    -14.5, -62.5
+  ]
+}

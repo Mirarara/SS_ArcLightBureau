@@ -1,0 +1,17 @@
+{
+	"id":"TDB_lian_yi_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.weapons.TDB_onHit2",
+	"onFireEffect":"data.weapons.TDB_onHit2",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":40.0,
+	"width":20.0,
+	"fadeTime":0.25,
+	"fringeColor":[25,100,155,255],
+	"coreColor":[225,225,255,200],
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

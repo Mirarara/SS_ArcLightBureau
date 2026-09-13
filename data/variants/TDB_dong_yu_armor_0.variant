@@ -1,0 +1,21 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "TDB_dong_yu_armor",
+    "hullMods": [
+        "heavyarmor",
+        "reinforcedhull",
+        "hardenedshieldemitter",
+        "TDB_A_tu_ji"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_dong_yu_armor_0",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS0001": "TDB_shuang_tang"}
+    }]
+}

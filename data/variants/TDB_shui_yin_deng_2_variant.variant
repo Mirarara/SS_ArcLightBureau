@@ -1,0 +1,30 @@
+{
+  "variantId": "TDB_shui_yin_deng_variant_2",
+  "hullId": "TDB_shui_yin_deng",
+  "displayName": "Drone Defence Platform",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [
+    "autorepair",
+  ],
+  "hullMods": [
+    "advancedcore",
+    "armoredweapons",
+    "autorepair",
+    "fluxbreakers",
+    "insulatedengine",
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "TDB_shuang_jiang"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

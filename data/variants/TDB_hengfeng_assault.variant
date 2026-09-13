@@ -1,0 +1,72 @@
+{
+    "displayName": "Traditional",
+    "fluxCapacitors": 50,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "TDB_hengfeng",
+    "hullMods": [
+        "TDB_A_pao_ji",
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_hengfeng_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "TDB_ni_lan",
+                "WS0002": "TDB_ni_lan"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "TDB_duanhen2",
+                "WS0018": "TDB_duanhen2",
+                "WS0019": "TDB_duanhen2",
+                "WS0020": "TDB_duanhen",
+                "WS0021": "TDB_duanhen",
+                "WS0022": "TDB_duanhen"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "gravitonbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "gravitonbeam",
+                "WS0005": "gravitonbeam",
+                "WS0006": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "mininglaser",
+                "WS0008": "mininglaser",
+                "WS0009": "mininglaser",
+                "WS0010": "mininglaser",
+                "WS0011": "mininglaser",
+                "WS0012": "mininglaser",
+                "WS0013": "mininglaser",
+                "WS0014": "mininglaser",
+                "WS0015": "mininglaser",
+                "WS0016": "mininglaser"
+            }
+        }
+    ],
+    "wings": [
+        "TDB_man_fan_she_wing",
+        "TDB_man_fan_she_wing"
+    ]
+}

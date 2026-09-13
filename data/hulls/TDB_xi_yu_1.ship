@@ -1,0 +1,98 @@
+{
+  "hullName": "TDB_xi_yu_1",
+  "hullId": "TDB_xi_yu_1",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/TDB_xi_yu_1.png",
+  "style": "TDB_TECH",
+  "height": 88,
+  "width": 70,
+  "center": [35, 44],
+  "collisionRadius": 70.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 57.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "TDB_ruo_ci_du_cheng",
+    "TDB_zi_dong_jian_chuan"
+  ],
+  "builtInWings": [],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-1, -20]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [33.5, -12]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -11.5, 14.5,
+        11, 12,
+        23, 22.5,
+        3.5, 26.5
+      ]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [32, -3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-35.5, 10.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-35.5, -10.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    43, 5.5,
+    43, -20,
+    21, -21.5,
+    12.5, -30.5,
+    -27.5, -32.5,
+    -42.5, -16.5,
+    -33, -17.5,
+    -32.5, 15,
+    -42, 17.5,
+    -26, 34,
+    -10, 26.5,
+    -1, 32,
+    11, 22.5,
+    20, 27.5,
+    30, 19,
+    30, 8.5
+  ]
+}

@@ -1,0 +1,321 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+                                 "TDB_feng_xian_variant":3,
+								 "TDB_xi_yu_1_variant":2,
+								 "TDB_ye_guang_yun_variant":6,
+		
+		"fallback":{"combatSmall":1},
+	},
+	"combatSmall":{
+		
+		"TDB_feng_xian_variant":1,
+		"TDB_ye_guang_yun_variant":1,
+		"TDB_yu_lian_variant":3,
+		"TDB_lang_chao_variant":1,
+		"TDB_xi_yu_1_variant":2,
+		"TDB_feng_ya_1_variant":1,
+		"TDB_gu_yu_variant":1,
+		
+		"fallback":{"combatMedium":0.5},
+	},
+	"combatMedium":{
+		
+		"TDB_feng_xian_variant":2,
+		"TDB_ye_guang_yun_variant":1,
+		"TDB_yu_lian_variant":6,
+		"TDB_lang_chao_variant":3,
+		"TDB_qiong_ding_G_variant":1,
+		"TDB_qiong_ding_T_variant":1,
+		"TDB_gu_yu_variant":2,
+		"TDB_ceng_ji_yun_variant":3,
+		"TDB_xi_yu_1_variant":2,
+		"TDB_feng_ya_1_variant":3,
+		"TDB_ht_variant":1,
+		"TDB_chuan_yun_1_variant":1,
+		"TDB_ji_liu_1_variant":0.5,
+		
+		"fallback":{"combatSmall":1},
+	},
+	"combatLarge":{
+		
+		"TDB_feng_xian_variant":2,
+		"TDB_ye_guang_yun_variant":1,
+		"TDB_yu_lian_variant":6,
+		"TDB_lang_chao_variant":3,
+		"TDB_qiong_ding_G_variant":2,
+		"TDB_qiong_ding_T_variant":2,
+		"TDB_xi_yu_1_variant":2,
+		"TDB_gu_yu_variant":3,
+		"TDB_ht_variant":1,
+		"TDB_ceng_ji_yun_variant":3,
+		"TDB_hengfeng_variant":3,
+		"TDB_tai_yang_yu_1_variant":3,
+		"TDB_feng_ya_1_variant":3,
+		"TDB_chuan_yun_1_variant":2,
+		"TDB_ji_liu_1_variant":1,
+
+		
+		"fallback":{"combatMedium":1},
+	},
+	"combatCapital":{
+
+		"TDB_feng_xian_variant":2,
+		"TDB_ye_guang_yun_variant":1,
+		"TDB_xi_yu_1_variant":2,
+		"TDB_yu_lian_variant":6,
+		"TDB_lang_chao_variant":3,
+		"TDB_qiong_ding_T_variant":1,
+		"TDB_qiong_ding_G_variant":1,
+		"TDB_gu_yu_variant":3,
+		"TDB_ht_variant":2,
+		"TDB_ceng_ji_yun_variant":5,
+		"TDB_hengfeng_variant":4,
+		"TDB_tai_yang_yu_1_variant":3,
+		"TDB_feng_ya_1_variant":5,
+		"TDB_chuan_yun_1_variant":3,
+		"TDB_ji_liu_1_variant":1,
+		
+		"fallback":{"combatLarge":1},
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+		"TDB_he_feng_variant":9,
+		"TDB_yun_cheng_variant":1,
+		"fallback":{"freighterSmall":1},
+	},
+	"combatFreighterMedium":{
+		"TDB_he_feng_variant":6,
+		"TDB_yun_cheng_variant":4,
+		"fallback":{"combatFreighterSmall":1},
+	},
+	"combatFreighterLarge":{
+		"TDB_he_feng_variant":4,
+		"TDB_yun_cheng_variant":6,
+		"fallback":{"combatFreighterMedium":1},
+	},
+	
+	"civilianRandom":{
+		"mercury_Standard":10,
+		"hermes_Standard":10,
+		"kite_original_Stock":1,
+		"mudskipper_Standard":10,
+		"nebula_Standard":4,
+		"starliner_Standard":2,
+		"dram_Light":10,
+		"phaeton_Standard":3,
+		"buffalo_hegemony_Standard":2,
+		"buffalo_luddic_church_Standard":1,
+		"buffalo_pirates_Standard":2,
+		"buffalo_tritachyon_Standard":1,
+		"tarsus_Standard":3,
+		"buffalo_Standard":5,
+		"gemini_Standard":1,
+		"colossus_Standard":1,
+		"ox_Standard":0.6,
+		"crig_Standard":3,
+	},
+
+	# carriers
+	"carrierSmall":{
+		"shepherd_Frontier":2,
+		
+		"condor_Strike":4,
+		"condor_Attack":3,
+		"condor_Support":3,
+		"drover_Strike":10,
+		"gemini_Standard":5,
+		
+		"scintilla_Strike":5,
+		"scintilla_Support":5,
+		
+		"fallback":{"carrierMedium":0.5},
+		"fallback2":{"carrierLarge":0.25},
+	},
+	"carrierMedium":{
+		"heron_Strike":5,
+		"heron_Attack":5,
+		"mora_Assault":3,
+		"mora_Support":3,
+		"mora_Strike":4,
+		"fallback":{"carrierSmall":1},
+		"fallback2":{"carrierLarge":0.5},
+	},
+	"carrierLarge":{
+		"astral_Strike":4,
+		"astral_Attack":4,
+		"astral_Elite":2,
+		
+		"legion_Assault":2.5,
+		"legion_Escort":2.5,
+		"legion_FS":2.5,
+		"legion_Strike":2.5,
+		
+		"fallback":{"carrierMedium":1},
+		"fallback2":{"carrierSmall":1},
+	},
+
+	# phase ships
+	"phaseSmall":{
+		"afflictor_d_pirates_Strike":10,
+		"afflictor_Strike":10,
+		"shade_d_pirates_Assault":10,
+		"shade_Assault":10,
+		"gremlin_Strike":10,
+		"fallback":{"phaseMedium":0.5},
+		"fallback2":{"phaseLarge":0.25},
+	},
+	"phaseMedium":{
+		"harbinger_Strike":10,
+		"fallback":{"phaseSmall":1},
+		"fallback2":{"phaseLarge":0.5},
+	},
+	"phaseLarge":{
+		"doom_Strike":5,
+		"doom_Support":5,
+		"fallback":{"phaseMedium":1},
+		"fallback2":{"phaseSmall":1},
+	},
+	"phaseCapital":{
+	},
+
+	# freighters and such
+	"freighterSmall":{
+
+		"TDB_he_feng_variant":10,
+
+		"fallback":{"freighterMedium":0.5},
+		"fallback2":{"freighterLarge":0.25},
+	},
+	"freighterMedium":{
+
+		"TDB_he_feng_variant":6,
+		"TDB_yun_cheng_variant":4,
+		
+		"fallback":{"freighterSmall":1},
+		"fallback2":{"freighterLarge":0.5},
+	},
+	"freighterLarge":{
+
+		"TDB_he_feng_variant":5,
+		"TDB_yun_cheng_variant":5,
+
+		"fallback":{"freighterMedium":1},
+		"fallback2":{"freighterSmall":1},
+	},
+	
+	"tankerSmall":{
+
+		"TDB_he_feng_variant":9,
+		"TDB_yun_cheng_variant":1,
+		
+		"fallback":{"tankerMedium":0.5},
+		"fallback2":{"tankerLarge":0.25},
+	},
+	"tankerMedium":{
+
+		"TDB_he_feng_variant":7,
+		"TDB_yun_cheng_variant":3,
+		
+		"fallback":{"tankerSmall":1},
+		"fallback2":{"tankerLarge":0.5},
+	},
+	"tankerLarge":{
+
+		"TDB_he_feng_variant":5,
+		"TDB_yun_cheng_variant":5,
+		
+		"fallback":{"tankerMedium":1},
+		"fallback2":{"tankerSmall":1},
+	},
+	
+	"personnelSmall":{
+		"mercury_Standard":10,
+		"kite_Standard":10,
+		"mudskipper_Standard":1,
+		"fallback":{"personnelMedium":0.5},
+		"fallback2":{"personnelLarge":0.25},
+	},
+	"personnelMedium":{
+		"valkyrie_Elite":10,
+		"nebula_Standard":1,
+		"fallback":{"personnelSmall":1},
+		"fallback2":{"personnelLarge":0.5},
+	},
+	"personnelLarge":{
+		"fallback":{"personnelMedium":1},
+		"fallback2":{"personnelSmall":1},
+	},
+	
+	"linerSmall":{
+		"kite_original_Stock":1,
+		"mudskipper_Standard":10,
+		"fallback":{"linerMedium":0.5},
+		"fallback2":{"linerLarge":0.25},
+	},
+	"linerMedium":{
+		"nebula_Standard":10,
+		"fallback":{"linerSmall":1},
+		"fallback2":{"linerLarge":0.5},
+	},
+	"linerLarge":{
+		"starliner_Standard":10,
+		"fallback":{"linerMedium":1},
+		"fallback2":{"linerSmall":1},
+	},
+	
+	# utility ships
+	"tug":{
+		"ox_Standard":10,
+		"fallback":{"utility":1},
+	},
+	"crig":{
+		"crig_Standard":10,
+		"fallback":{"utility":1},
+	},
+	"utility":{
+		"crig_Standard":10,
+		"ox_Standard":2,
+	},
+	
+	"orbitalStationLowTech":{
+		"station1_Standard":10,
+	},
+	
+	"battlestationLowTech":{
+		"station2_Standard":10,
+	},
+	
+	
+
+
+	# Old/unused below this line
+	"fastAttack":{
+		"hound_d_Standard":10,
+		"wolf_d_Attack":10,	
+		"lasher_Standard":10,
+		"hound_Standard":10,
+		"tempest_Attack":10,
+		"hyperion_Attack":1,
+		"wolf_Assault":10,
+		"fallback":{"combatSmall":1},
+	},
+
+	"escortSmall":{
+		"TDB_feng_xian_variant":10,
+		"TDB_yu_lian_variant":10,
+		"TDB_ceng_ji_yun_variant":5,
+
+		"fallback":{"combatSmall":1},
+	},
+	"escortMedium":{
+		"TDB_feng_xian_variant":10,
+		"TDB_yu_lian_variant":10,
+		"TDB_ceng_ji_yun_variant":5,
+		"fallback":{"combatMedium":1},
+	},
+	
+}

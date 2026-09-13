@@ -1,0 +1,246 @@
+id,trigger,conditions,script,text,options,notes
+,,,,,,
+greetingTDBFriendly,OpenCommLink,"$faction.id == TDB
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Identity verified. The Arc Light Bureau sends its regards.""
+OR
+""IFF signature confirmed. Commander $personName sends their regards—good to see you, my friend.""",,
+greetingTDBHostileWeaker,OpenCommLink,"$faction.id == TDB
+$faction.hostileToPlayer
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""Are we not enemies?"" $personName asks, sounding puzzled. ""You opened communications with an enemy—what were you expecting?""
+OR
+""Protocol says I should terminate this call,"" $personName says in the tone of an internal memo, ""but curiosity does not violate company policy. You have sixty seconds.""
+OR
+""Given our present relationship, this communication will be recorded in full.""",cutCommLink:Cut the comm link,
+greetingTDBHostileWeakerDefiant,OpenCommLink,"$faction.id == TDB
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"""If you wish to avoid trouble, I suggest you proceed carefully.""
+OR
+""Identity verified. The Arc Light Bureau has reservations about your credit rating, but that does not prevent us from fulfilling basic communication obligations.""",cutCommLink:Cut the comm link,
+greetingTDBHostileStronger,OpenCommLink,"$faction.id == TDB
+$faction.hostileToPlayer
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""The record will show that I warned you."" $personName pauses. ""Do not say I gave you no chance. Prepare to engage.""
+OR
+""There is no point wasting each other's time. Prepare to engage.""",cutCommLink:Cut the comm link,
+greetingTDBTOffNormal,OpenCommLink,"$faction.id == TDB
+!$isHostile
+!$player.transponderOn
+$entity.relativeStrength >= 0",,"""Please turn your transponder on immediately, it is not permitted for ship to travel with transponder off within this Starsystem.""","turnOnTransponder:Turn your transponder on
+cutCommLink:Cut the comm link",
+greetingTDBTOffWeaker,OpenCommLink,"$faction.id == TDB
+!$isHostile
+!$player.transponderOn
+$entity.relativeStrength < 0",,"""My Apologies, But navigating without transponder is not permitted within this starsystem, if you need help, maybe we can help.""","turnOnTransponder:Turn your transponder on
+cutCommLink:Cut the comm link ",
+greetingTDBNeutral,OpenCommLink,"$faction.id == TDB
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Identity confirmed. State your purpose.""
+OR
+""Identity confirmed. Traveler, please verify the purpose of your visit.""",,
+,,,,,,
+,,,,,,
+,,,,,,
+aiCores_turnInOptionSelTDB,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == plsp",FireAll PopulateCoresTurnInOptions,"""Oh my, if you're willing to turn this kind of things over to us, we will be glad to take it~ and of course we'll offer you a satisfying price.""",,
+aiCores_turnInResponseTDB,AICoresTurnedIn,$faction.id == TDB,FireAll PopulateOptions,"""Thank you for such contribution, these cores are great help~""",,
+,,,,,,
+,,,,,,
+,,,,,,
+relLevelNeutralTDB,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == TDB",,"You have not yet established a formal client relationship with $theFaction. They will offer you limited assistance and services, but nothing more.",,
+relLevelFavorableTDB,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == TDB",, $theFaction has recognized your character. This means you may purchase certain goods from $theFaction's high-end markets...,,
+relLevelWelcomingTDB,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == TDB",,"Your name is now familiar to most officers. $theFaction has granted you access to its special markets, and its fleets across the Sector are glad to assist you where they can.",,
+relLevelFriendlyTDB,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == TDB",,"As friend of $theFaction, they hold you dearly in high regard and most officers will greet you or return a smile when they see you.",,
+relLevelCooperativeTDB,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == TDB",," $theFaction values their alliance with you, the Patrol Fleet within their jurisdiction will go out of their way to help you whenever you need it, and a variety of exclusive certificates guarantee your access toward variety of facility thats unseen to commoners, and it is rumoured that the Director of the Bureau would personally meet with people with this level of certification.",,
+relLevelSuspiciousTDB,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == TDB",,"Your behaviour has caught attention of $theFaction, while they still permit your Open Market Access, the messy paperwork and frequent searches are all extremely annoying to you.",,
+relLevelInhospitableTDB,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == TDB",,"$theFaction has lowered your credit rating. Docking access is restricted, market transactions require additional review, and patrols are authorized to inspect your travel records.",,
+relLevelHostileTDB,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == TDB",,You have been completely blacklisted by $theFaction. Fleets under $theFaction will attack your fleet without mercy.,,
+relLevelVengefulTDB,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == TDB",,"Your relationship with $theFaction is truely cold like ice, Your portrait and fleet have been spread and highlighted on the Bounty list, and it may not be long before a fleet comes after you.",,
+,,,,,,
+flavorTextMarketTDB,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == TDB
+$market.id == TDB_planet1_market","AddText ""People in dark-blue uniforms are everywhere in the streets, patrolling in small groups alongside drones and unmanned vehicles while answering visitors' questions. Brilliant advertisements and enthusiastic vendors form the everyday rhythm of the streets."" marketFlavorTextColor
+AddText ""After passing a strict screening, you are admitted to a more official market. Its orderly layout and the Bureau flags displayed throughout dominate the scene. A cat-eared officer and her mechanical colleague provide the latest price list and inform you of a special open market at Intersection in the Bureau's home system."" marketFlavorTextColor",,,
+,,,,,,
+greetingGuGuFleet,OpenCommLink,$entity.TDBGuGu score:1000,,"""Indulge's light is always searing to my eyes, and only within shadows can i hear the song of the star of my distant homeland.  Captain $playerName, do you miss your home?""",cutCommLink:Cut the comm link,
+#前置,,,,,,
+TDB_HanLiu_WH,PickGreeting,$id == TDB_HanLiu score:10,"ShowPersonVisual
+FireAll PopulateOptions","""Dear Fellow, interested in another cooperation?""",,
+TDB_HanLiu_WH1,MHOpenText,$id == TDB_HanLiu score:10,FireBest ContactPreMissionListText,$personLastName carried out some operation on their personal pad.,,
+TDB_HanLiu_WH2,ContactPrintAcceptText,$id == TDB_HanLiu score:10,,"""Happy Cooperation""",,
+TDB_HanLiu_WH3,ContactPrintDeclineText,$id == TDB_HanLiu score:10,,"""Eh? ....What a shame.""",,
+TDB_HanLiu_WH4,ContactPreMissionListText,"$mh_count <= 0
+$id == TDB_HanLiu score:10",,"""There had been no new assignment lately, hn~... perhaps if you arent busy, maybe accompany us and talk whats been going on?""",,
+,,,,,,
+TDB_XF_WH,PickGreeting,$id == TDB_XF score:10,"ShowPersonVisual
+FireAll PopulateOptions","""...Mm...ah, $playerName...? Would you like to work with Westwind again...?""",,
+TDB_XF_WH1,MHOpenText,$id == TDB_XF score:10,FireBest ContactPreMissionListText,"$personLastName Appear to be fiddling their own Personal PDA in elegant but cute duck sitting position, you can clearly see how well worn out her PDA that been used for long time.",,
+TDB_XF_WH2,ContactPrintAcceptText,$id == TDB_XF score:10,,"""...in perfect condition... surely? the reimbursement has been fobbed off by $personLastName... it definitely wasn't $personLastName who provided the fund for the request...""",,
+TDB_XF_WH3,ContactPrintDeclineText,$id == TDB_XF score:10,,"""ah?... uhn~... i see~""",,
+TDB_XF_WH4,ContactPreMissionListText,"$mh_count <= 0
+$id == TDB_XF score:10",,"""Lately $personLastName have been pretty free, theres currently no work that can be offered for $playerName... however dont just go away so hurrily, how about talking recent trade expenditures, shall we?"" despite their initiatives to try keeping up the conversation, she cut off the communication after a few brief chats.",,
+,,,,,,
+#蓝图,,,,,,
+TDB_cpcBlurb,TDB_cpc_blurb,,,"""there is a empty forge production line being scheduled soon, are you interested in taking this? we're offering it just for you at factory price""",,
+TDB_cpcOfferOption,TDB_cpc_option,,,,"TDB_cpc_start:""Inquire about Blueprints""",
+,,,,,,
+TDB_cpcOfferTextContact,DialogOptionSelected,$option == TDB_cpc_start,"$missionId = TDB_cpc
+SetTextHighlights $cpc_maxCapacity $cpc_costPercent $cpc_days
+DoCanAffordCheck 0 TDB_cpc_pickrBP false
+SetShortcut contact_decline ""ESCAPE""","""No problem, here are the available blueprints""","TDB_cpc_pickBP:""Please prepare this for me""
+contact_decline:Decline",
+TDB_cpcPickBP,DialogOptionSelected,$option == TDB_cpc_pickBP,Call $cpc_ref pickContactBP,,,
+TDB_cpcBPPicked,CPCBlueprintsPicked,$missionId == TDB_cpc score:1000,"$option = contact_accept 0
+FireBest DialogOptionSelected
+Call $cpc_ref repSuccess",,,
+,,,,,,
+#商店,,,,,,
+TDB_wpBlurb,TDB_wp_blurb,,,"""There are special goods, and also supplies at a special discount, if you have the needs...""",,
+TDB_wpOfferOption,TDB_wp_option,,,,"TDB_wp_start:""I want to take a look before deciding""
+",
+,,,,,,
+TDB_wpOfferText,DialogOptionSelected,$option == TDB_wp_start,$missionId = TDB_wp,"""No problem, make your own selection""","TDB_wp_view:Select your Purchase
+contact_decline:Decline",
+TDB_wpOfferView,DialogOptionSelected,$option == TDB_wp_view,Call $TDB_wp_ref showWeapons,,,
+,,,,,,
+#重要任务,,,,,,
+TDB_ImportantBlurb,TDB_Important_blurb,,,"Westwind stood up, stepped closer to the camera, and filled the screen with her round cheeks.",,
+TDB_ImportantOfferOption,TDB_Important_option,,,,"TDB_Important_talk1:""Is something urgent?""
+",
+,,,,,,
+TDB_Important_talk1,DialogOptionSelected,$option == TDB_Important_talk1,,"""A battle-damaged battlecruiser that had been sitting around for ages was recently sent to the shipbreaking yard... It would have been a shame to scrap such an old veteran, so... Westwind refurbished it without telling anyone...""
+
+Westwind takes a few steps back, revealing her petite figure and winter outfit in full.
+","TDB_Important_talk2:""Quite a story. So what happened next?""
+TDB_Important_talk3:""Does nobody check your expense accounts?""",
+TDB_Important_talk2,DialogOptionSelected,$option == TDB_Important_talk2,,"Westwind blinks and continues her train of thought.
+
+""...Right! There is no place for the ship in the current order of battle... so Westwind will give it to $playerName...?""
+
+She taps her thick-soled sandals against the floor with a solid thud.
+
+""Of course... it is not free...? How about doing something for Westwind first, as a kind of exchange...?""
+","TDB_Important_start:""Go on. I want to hear the details before I decide.""",
+TDB_Important_talk3,DialogOptionSelected,$option == TDB_Important_talk3,,"Westwind freezes for two seconds, apparently choosing her words.
+
+""Do not worry... no public funds were misappropriated, okay? It was all private money used for private purposes...""
+
+""Anyway, anyway... about the ship $playerName might want... How about doing one small job for Westwind? Think of the ship as a keepsake prepared for $playerName to remember our partnership by...""","TDB_Important_start:""Go on. I want to hear the details before I decide.""",
+,,,,,,
+TDB_ImportantDetail,DialogOptionSelected,$option == TDB_Important_start,"$missionId = TDB_Important
+","""...Caution is a fine virtue... Westwind can tell $playerName what the job involves... $playerName can decide after hearing everything...?""
+
+Westwind closes her eyes and shakes her head, making her long hair and antlers sway. When she opens them again, her gaze seems clearer.
+
+""...The job is to salvage a confidential archive from Kanta's Den... A fleet sent there for a technical exchange with Tri-Tachyon was ambushed by pirates a few days ago... The pirate fleet was much larger than expected. Mm... but with such an extensive debris field, their salvage technology should not be able to locate the archive anytime soon...? They should still be salvaging at the site; wait too long and they will recover it...""
+
+""...Recover the confidential archive... and bring it back to Westwind...?""
+","contact_accept:""Pleasure doing business.""
+contact_decline:""But I refuse.""",
+,,,,,,
+TDB_ImportantPrintHostilesText,OpenInteractionDialog,"$TDB_objectFlag score:1000
+HostileFleetNearbyAndAware",ShowDefaultVisual,Hostile contacts are nearby. Recovery operations cannot proceed.,defaultLeave:Leave,
+TDB_ImportantObjectInteraction,OpenInteractionDialog,"$TDB_objectFlag score:1000
+Call $global.TDB_Important_ref updateData","ShowDefaultVisual
+$global.TDB_canReturn = true
+Call $global.TDB_Important_ref updateData
+Call $global.TDB_Important_ref updateStage",Your {$shipOrFleet} approaches the target and quickly locates it with the aid of its instruments.,,
+,,,,,,
+TDB_ImportantMissionReturn,PickGreeting,"$TDB_returnHere score:1000
+Call $global.TDB_Important_ref updateData",ShowPersonVisual,"Following Westwind's time and directions, you wait outside a milk-tea shop on the station's commercial concourse. Your bodyguards keep the dense crowd at bay.
+
+Before long, Westwind emerges from the flow of people; picking out her small figure takes some effort.
+
+She slows as she reaches you, tilts her head up, and regards you with calm eyes.
+
+""$playerName... how did it go...?""
+","TDB_Important_talk4:Hand over the mission item. ""It is hard to imagine that you would choose somewhere like this to meet.""",
+TDB_Important_talk4,DialogOptionSelected,$option == TDB_Important_talk4,,"Westwind steps forward and accepts the storage device with both hands.
+
+""Mm... now Westwind can relax...""
+
+She turns toward the shop clerk.
+
+""Two large milk teas... natural sugar...""
+
+She notices your peculiar stare.
+
+""Hm...? Nobody says meetings have to happen in a bar or an office... Let’s end our little collaboration on a happy note... $playerName... do you like it sweet or unsweetened?""","TDB_Important_talk5:Say that you do not like milk tea
+TDB_Important_talk6:Accept the milk tea and thank her",
+TDB_Important_talk5,DialogOptionSelected,$option == TDB_Important_talk5,,"""The ship has been delivered to the docks, and the spaceport dispatcher has been asked to transfer it to $playerName... Factory New—100% mint condition...""
+
+""...The ship carries some of the Arc Light Bureau's latest experimental equipment... Westwind does not completely understand how it works either... but it should be safe within the prescribed limits...? Westwind flew it for a while herself... and it did not explode...""
+
+She raises the milk tea with both hands and takes a few sips of tapioca pearls.
+
+""...If you send back data regularly, Westwind can help $playerName keep refining the equipment...""
+",TDB_Importantfinish:Thank her and leave.,
+TDB_Important_talk6,DialogOptionSelected,$option == TDB_Important_talk6,,"""The ship has been delivered to the docks, and the spaceport dispatcher has been asked to transfer it to $playerName... Factory New—100% mint condition...""
+
+""...The ship carries some of the Arc Light Bureau's latest experimental equipment... Westwind does not completely understand how it works either... but it should be safe within the prescribed limits...? Westwind flew it for a while herself... and it did not explode...""
+
+She raises the milk tea with both hands and takes a few sips of tapioca pearls.
+
+""...If you send back data regularly, Westwind can help $playerName keep refining the equipment...""
+",TDB_Importantfinish:Thank her and leave.,
+,,,,,,
+TDB_ImportantFinish,DialogOptionSelected,$option == TDB_Importantfinish,"$global.TDB_finished = true
+$global.TDB_Mission_End = false
+Call $global.TDB_Important_ref updateStage
+FireAll PopulateOptions","Before you leave, Westwind calls after you.
+
+""...$playerName, safe travels...""
+
+Without waiting for a response, Westwind turns and leaves, her figure disappearing into the ordinary flow of people like a drop of water.
+",,
+,,,,,,
+#维修,,,,,,
+TDB_RepairBlurb,TDB_Repair_blurb,,,"""... Well, The Bureau's Repair Station are busy as always, and there is a steady need of maintenances for our sizable fleet, but- but however, if $playerName have any need...""",,
+TDB_RepairOfferOption,TDB_Repair_option,,,,"TDB_Repair_start:""I Would like to repair these ships""
+",
+,,,,,,
+TDB_RepairOfferText,DialogOptionSelected,$option == TDB_Repair_start,$missionId = TDB_Repair,"""..Uhn.. for the last bit of the trip, may i trouble $playerName driving over there themselves?""","TDB_Repair_view:Repair
+contact_decline:Decline",
+TDB_RepairOfferView,DialogOptionSelected,$option == TDB_Repair_view,Call $TDB_Repair_ref showRepair,,,
+#灰风,,,,,,
+TDB_hfBlurb,TDB_hf_blurb,,,Greywind is peeking around a corner,,
+TDB_hfOfferOption,TDB_hf_option,,,,"TDB_hf_start:""Changing Greywind Roles""
+",
+,,,,,,
+TDB_hfOfferText,DialogOptionSelected,$option == TDB_hf_start,$missionId = TDB_hf,"""No problem. Please make your selection.""
+Omega Core—Switch between officer and administrator
+Gamma Core—Missile Specialization
+Alpha Core—Energy Mastery
+Beta Core—Ballistic Expertise
+Default—Phase Field Tuning
+Only one option can be active at a time.","TDB_hf_view:Confirm
+contact_decline:Decline",
+TDB_hfOfferView,DialogOptionSelected,$option == TDB_hf_view,Call $TDB_hf_ref hf,,,
+#对话彩蛋,,,,,,
+TDB_HanLiu1Opt,PopulateOptions,$id == TDB_HanLiu,,"""If you have any questions, you can ask me directly.""",TDB_HanLiu_talk1:Ask some Questions,
+TDB_HanLiu_talk1,DialogOptionSelected,$option == TDB_HanLiu_talk1,$TDB_HanLiu = true,,"TDB_HanLiu_talkLLI:Inquire about Loulan Industries
+TDB_HanLiu_talkBSF:Inquire About Blue Sea Fisheries",
+TDB_HanLiu_talkLLI,DialogOptionSelected,$option == TDB_HanLiu_talkLLI,FireAll PopulateOptions,"Early on, the Bureau had cooperated with Loulan Industries, we had exchanged the blueprints of the ""Rain Curtain class"" for those of the ""Wave class"", and engineers from both side had successfully modified the exchanged prototypes according to their respective fleet doctrines - it should have been a perfect cooperation.
+Unfortuantely, due to a subsequent change in Loulan's stance, the Bureau had broken off diplomatic relations with them. and by nowdays, outright hostility.
+
+$personName sighs and takes a sip of the unknown beverage in the drinking glass, seemingly lamenting the loss of an ally and the rising of a new enemy.",cutCommLink:Cut the comm link,
+TDB_HanLiu_talkBSF,DialogOptionSelected,$option == TDB_HanLiu_talkBSF,FireAll PopulateOptions,"""Blue Sea Fisheries? They have great instant noodles. cough..""
+
+$personName cleared her throat and her eyes involuntarily drifted to the side, as if embarrased for accidentally saying something out of place.
+
+""Hmm... They've been allies with us for a long time now, and while they don't provide help on the front lines, they cooperate quite a bit with the Bureau in terms of supplies, scientific research, and the like.""
+
+""Speaking of which, I must mention the ""Stratocumulus"" Class Ships produced by the Design Bureau despite its unassuming look, the internal systems and layout have been completely redesigned by the Bureau, even the designers on the Blue Sea side are full of praise.""
+
+$personName seems a little excited at the topic of the conversation, staring at you intently.
+
+""If there is any interest, We can sell you at factory price. Of course, it will have to be when the production line have production room to spare for it.""",cutCommLink:Cut the comm link,

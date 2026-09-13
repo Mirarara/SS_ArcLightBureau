@@ -1,0 +1,29 @@
+{
+    "displayName": "Traditional",
+    "fluxCapacitors": 2,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "TDB_feng_xian",
+    "hullMods": [
+        "safetyoverrides",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_feng_xian_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "amblaster",
+                "WS0002": "amblaster"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "gigacannon"}
+        }
+    ]
+}

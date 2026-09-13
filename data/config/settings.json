@@ -1,0 +1,124 @@
+{
+	
+    "designTypeColors":
+	{
+		"Sealed (If you see this, it is a bug)":[163,0,0,255],
+		
+		"Arc Light Bureau":[69,90,140,255],
+		"Skydome Bastion":[108,148,220,255],
+		"Hypothermia":[251,121,200,255],
+    },
+	"graphics":
+	{
+	   "intel":
+	   {
+	       "TDB_HanLiu":"graphics/portraits/TDB_HL.png",
+		   "TDB_XiTong":"graphics/portraits/portrait_generic.png",
+		   "TDB_HanLiu2":"graphics/portraits/TDB_HL2.png",
+		   "TDB_HuiFeng":"graphics/portraits/TDB_HF.png",
+		   "TDB_GuGu":"graphics/portraits/TDB_GG.png",
+		   "TDB_YiFu":"graphics/portraits/TDB_YF.png",
+		   "TDB_XF":"graphics/portraits/TDB_XF.png",
+		   "TDB_WDLY":"graphics/portraits/TDB_WDLY.png",
+		   "TDB_01":"graphics/portraits/TDB_04.png",
+		   "TDB_02":"graphics/portraits/TDB_04.png",
+		   "TDB_03":"graphics/portraits/TDB_03.png",
+	   },
+	   "fx":{
+		    "TDB_Circle":"graphics/fx/TDB_Fog_Circle.png",
+			"TDB_Shield":"graphics/fx/TDB_Shield.png",
+		   
+		    "TDB_trail_7":"graphics/fx/TDB_trail_7.png",
+		    "TDB_trail_6":"graphics/fx/TDB_guang_shu.png",
+		    "TDB_trail_5":"graphics/fx/TDB_trail_5.png",
+			"TDB_trail_4":"graphics/fx/TDB_trail_4.png",
+            "TDB_trail_3":"graphics/fx/TDB_trail_3.png",		
+            "TDB_trail_2":"graphics/fx/TDB_trail_2.png",		
+			"TDB_trail_0":"graphics/fx/TDB_trail_0.png",
+			"TDB_texttuotuo_fx":"graphics/fx/TDB_texttuotuo_fx.png",
+			"TDB_shao":"graphics/fx/TDB_shao_miao.png",
+			"TDB_shao2":"graphics/fx/TDB_shao_miao2.png",
+			"TDB_na_mi":"graphics/fx/TDB_na_mi.png",
+			"TDB_na_mi_map":"graphics/fx/TDB_na_mi.png",
+			"TDB_shuang_hen":"graphics/fx/TDB_shuang_hen.png",
+			"TDB_lian_yi_fx":"graphics/fx/TDB_lian_yi_fx.png",
+			"TDB_han_chaoZ_fx":"graphics/fx/TDB_han_chaoZ.png",
+			"TDB_han_chaoY_fx":"graphics/fx/TDB_han_chaoY.png",
+			"TDB_Pansy":"graphics/ships/TDB_Pansy_g.png",
+			"TDB_Pansy2":"graphics/ships/TDB_Pansy_g2.png",
+			"TDB_tai_yang_yu":"graphics/ships/TDB_tai_yang_yu/TDB_tai_yang_yu_g2.png",
+			"TDB_ji_liu":"graphics/ships/TDB_ji_liu/TDB_ji_liu_glow.png",
+			"TDB_chuan_yun":"graphics/fx/TDB_chuan_yun.png",
+			"TDB_shields":"graphics/fx/TDB_shields.png",
+			"TDB_dong_yu":"graphics/ships/TDB_dong_yu/TDB_dong_yu_glow.png",
+			
+			"TDB_mi_san_guang":"graphics/ships/TDB_mi_san_guang2.png",
+			"TDB_fan_guang_yuan":"graphics/ships/TDB_fan_guang_yuan2.png",
+			"TDB_bian_ge":"graphics/ships/TDB_Biange/TDB_bian_ge2.png",
+			"TDB_quan_fan_she":"graphics/ships/TDB_BB2.png",
+			"TDB_man_fan_she":"graphics/ships/TDB_man_fan_she2.png",
+			"TDB_ke_jian_guang":"graphics/ships/TDB_ke_jian_guang2.png",
+			"TDB_shuang_zhe_she":"graphics/ships/TDB_shuang_zhe_she2.png",
+			"TDB_pian_zhen_guang1":"graphics/ships/TDB_pian_zhen_guang2.png",
+			"TDB_dian_guang_yuan":"graphics/ships/TDB_dian_guang_yuan2.png",
+			
+			"TDB_longbow":"graphics/ships/TDB_yuan_ban/longbow_intg_TDB.png",
+			"TDB_broadsword":"graphics/ships/TDB_yuan_ban/broadsword_TDB.png",
+			"TDB_Warthog":"graphics/ships/TDB_yuan_ban/fighter_assault_TDB.png",
+			"TDB_Khopesh":"graphics/ships/TDB_yuan_ban/khopesh_TDB.png",
+			"TDB_Dagger":"graphics/ships/TDB_yuan_ban/dagger_trp_TDB.png",
+			"TDB_gladius":"graphics/ships/TDB_yuan_ban/fighter_heavy_TDB.png",
+		},
+       "blueprint_packages":{
+			"TDB_package":"graphics/icons/cargo/TDB_package.png",
+			"TDB_caaw_package":"graphics/icons/cargo/TDB_caaw_package.png",
+		},	
+		"fighterSkinsPlayerAndNPC":{
+			"xyphos_TDB_TECH":"graphics/ships/TDB_yuan_ban/xyphos_TDB.png",
+			"sarissa_TDB_TECH":"graphics/ships/TDB_yuan_ban/sarissa_TDB.png",
+			"longbow_TDB_TECH":"graphics/ships/TDB_yuan_ban/longbow_intg_TDB.png",
+			"broadsword_TDB_TECH":"graphics/ships/TDB_yuan_ban/broadsword_TDB.png",
+			"hoplon_TDB_TECH":"graphics/ships/TDB_yuan_ban/khopesh_TDB.png",
+			"warthog_TDB_TECH":"graphics/ships/TDB_yuan_ban/fighter_assault_TDB.png",
+			"dagger_TDB_TECH":"graphics/ships/TDB_yuan_ban/dagger_trp_TDB.png",
+			"gladius_TDB_TECH":"graphics/ships/TDB_yuan_ban/fighter_heavy_TDB.png",
+		},
+		"fighterSkinsPlayerOnly":{
+			"xyphos_TDB_TECH":"graphics/ships/TDB_yuan_ban/xyphos_TDB.png",
+			"sarissa_TDB_TECH":"graphics/ships/TDB_yuan_ban/sarissa_TDB.png",
+			"longbow_TDB_TECH":"graphics/ships/TDB_yuan_ban/longbow_intg_TDB.png",
+			"broadsword_TDB_TECH":"graphics/ships/TDB_yuan_ban/broadsword_TDB.png",
+			"hoplon_TDB_TECH":"graphics/ships/TDB_yuan_ban/khopesh_TDB.png",
+			"warthog_TDB_TECH":"graphics/ships/TDB_yuan_ban/fighter_assault_TDB.png",
+			"dagger_TDB_TECH":"graphics/ships/TDB_yuan_ban/dagger_trp_TDB.png",
+			"gladius_TDB_TECH":"graphics/ships/TDB_yuan_ban/fighter_heavy_TDB.png",
+		},
+		# Unless listed in fighterSkinsExcludeFromSharing, fighter skins may show up on
+		# ships of other tech types that do not have a fighter skin defined specifically for them.
+		# In that case, the closest average-color matching scheme is used.
+		"fighterSkinsExcludeFromSharing":{
+			"xyphos_TDB_TECH":"graphics/ships/TDB_yuan_ban/xyphos_TDB.png",
+			"sarissa_TDB_TECH":"graphics/ships/TDB_yuan_ban/sarissa_TDB.png",
+			"longbow_TDB_TECH":"graphics/ships/TDB_yuan_ban/longbow_intg_TDB.png",
+			"broadsword_TDB_TECH":"graphics/ships/TDB_yuan_ban/broadsword_TDB.png",
+			"hoplon_TDB_TECH":"graphics/ships/TDB_yuan_ban/khopesh_TDB.png",
+			"warthog_TDB_TECH":"graphics/ships/TDB_yuan_ban/fighter_assault_TDB.png",
+			"dagger_TDB_TECH":"graphics/ships/TDB_yuan_ban/dagger_trp_TDB.png",
+			"gladius_TDB_TECH":"graphics/ships/TDB_yuan_ban/fighter_heavy_TDB.png",
+		},
+		
+		# does not support animations
+		"weaponSkinsPlayerAndNPC":{
+		},
+		"weaponSkinsPlayerOnly":{
+			
+		},
+		"weaponSkinsExcludeFromSharing":{
+		},
+		
+	},
+	
+	"plugins": {
+		"TDB_CombatEveryFram":"data.scripts.TDBCombatEveryFram"
+	}
+}

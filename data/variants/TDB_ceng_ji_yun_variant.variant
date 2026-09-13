@@ -1,0 +1,49 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "TDB_ceng_ji_yun",
+    "hullMods": [
+        "TDB_hang_kong",
+        "TDB_A_pao_ji"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_ceng_ji_yun_variant",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "TDB_changkongpod",
+                "WS0004": "TDB_changkongpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "TDB_yun_jian",
+                "WS0012": "TDB_yun_jian2",
+                "WS0013": "TDB_yun_jian",
+                "WS0014": "TDB_yun_jian2"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "TDB_shuang_tang"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "TDB_shuang_tang"}
+        }
+    ],
+    "wings": [
+        "TDB_bian_ge_wing",
+        "TDB_bian_ge_wing",
+        "TDB_mi_san_guang_wing"
+    ]
+}

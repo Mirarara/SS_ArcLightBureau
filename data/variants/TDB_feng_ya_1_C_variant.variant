@@ -1,0 +1,29 @@
+{
+    "displayName": "Traditional",
+    "fluxCapacitors": 9,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "TDB_feng_ya_1",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "TDB_A_biao_zhun"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_feng_ya_1_C_variant",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "tachyonlance"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightneedler",
+                "WS0003": "lightneedler"
+            }
+        }
+    ]
+}

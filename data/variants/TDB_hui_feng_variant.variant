@@ -1,0 +1,33 @@
+{
+    "displayName": "Greywind",
+    "fluxCapacitors": 30,
+    "fluxVents": 11,
+    "goalVariant": true,
+    "hullId": "TDB_hui_feng",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "TDB_A_pao_ji"
+    ],
+    "modules": [{"WS0004": "TDB_na_mi_ji_ku_variant"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_hui_feng_variant",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "gauss"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "heavymauler"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "heavymauler"}
+        }
+    ]
+}

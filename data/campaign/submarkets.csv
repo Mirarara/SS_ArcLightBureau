@@ -1,0 +1,2 @@
+id,name,faction,desc,script,icon,order
+TDB_Market,Automated Ship Market,TDB,"The Automated Division of the Traveller Design Bureau opens up the sale of their automated ships to reputable mercenary, which can be very useful in helping them complete very dangerous tasks without fear of loss.",data.campaign.submarkets.TDB_Market,,0

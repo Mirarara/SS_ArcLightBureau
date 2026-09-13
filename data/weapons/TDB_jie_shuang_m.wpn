@@ -1,0 +1,50 @@
+{
+  "id": "TDB_jie_shuang_m",
+  "specClass": "projectile",
+  "projectileSpecId": "TDB_jie_shuang",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/jie_shuang_m_turret.png",
+  "hardpointSprite": "graphics/weapons/jie_shuang_m_hardpoint.png",
+  "turretOffsets": [
+    10,
+    9,
+    10,
+    -9
+  ],
+  "turretAngleOffsets": [
+    1,
+    -1
+  ],
+  "hardpointOffsets": [
+    16,
+    -9,
+    16,
+    9
+  ],
+  "hardpointAngleOffsets": [
+    -2,
+    2
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 16,
+    "cloudParticleCount": 3,
+    "cloudDuration": 0.9,
+    "cloudRadius": 8,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 1.1,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      101,
+      125,
+      255,
+      100
+    ]
+  },
+  "fireSoundTwo": "swarmer_fire"
+}

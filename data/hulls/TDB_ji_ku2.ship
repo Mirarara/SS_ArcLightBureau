@@ -1,0 +1,27 @@
+{
+  "hullName": "TDB_ji_ku2",
+  "hullId": "TDB_ji_ku2",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/TDB_na_mi_ji_ku.png",
+  "style": "TDB_HF",
+  "height": 1,
+  "width": 1,
+  "center": [0.5, 0.5],
+  "collisionRadius": 101,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 83.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vastbulk",
+    "never_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    0.5, -0.5,
+    -0.5, -0.5,
+    -0.5, 0.5,
+    -0.5, 0.5,
+    0.5, 0.5
+  ]
+}
