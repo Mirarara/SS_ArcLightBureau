@@ -18,9 +18,9 @@ The translated Java source is retained under `jars/src`. The distributable mod u
 
 ## Credits
 
-- Design and production: Hanliu
+- Design and production: 寒流
 - Balance and loadout guidance: Scythe
 - Technical guidance: AnyIDElse
-- Artwork and art guidance: Shadowlight, Shenqiang, and Foxstripe
-- Special thanks: Kaoruzhu, Greatfhgbj, ZeroXenon, Ykaris, homejerry99, CVB-Taiho.0, Pigeon, Huanying, and the QQ group contributors
+- Artwork and art guidance: 影之光, 神枪, and 狐狸条
+- Special thanks: 烤乳猪, Greatfhgbj, cjy4312, Ykaris, homejerry99, CVB～Taiho.0, 鸽子, 幻音, and the QQ group contributors
 - English translation: Myco, Miko, and Mirarara
