@@ -136,9 +136,9 @@
   "skills": {
 	"SKILL_TXTHF1":"Greywind",
 	"SKILL_TXTHF2":"Compared to destruction, I like creation more",
-    "SKILL_HF1":"% Shield damage reduction and",
-    "SKILL_HF2":"% weapon and engine damage reduction and",
-    "SKILL_HF3":"% Hull damage reduction"
+    "SKILL_HF1":"% shield damage reduction; ",
+    "SKILL_HF2":"% weapon and engine damage reduction; ",
+    "SKILL_HF3":"% hull damage reduction"
   },
   "hullmods":{
 
