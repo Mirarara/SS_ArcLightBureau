@@ -11,6 +11,7 @@ Arc Light Bureau is the new name of Traverser Design Bureau mod.
 
 ## Installation
 
+Download latest version from release.
 Copy the `ArcLightBureau` folder into Starsector's `mods` folder and enable **Arc Light Bureau** in the launcher.
 
 ## Source and build
