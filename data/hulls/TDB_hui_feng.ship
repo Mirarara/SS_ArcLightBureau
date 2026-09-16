@@ -1,0 +1,126 @@
+{
+  "hullName": "TDB_hui_feng",
+  "hullId": "TDB_hui_feng",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/TDB_hui_feng.png",
+  "style": "TDB_HF",
+  "height": 243,
+  "width": 228,
+  "center": [114, 120.5],
+  "collisionRadius": 124.5,
+  "shieldCenter": [1, 0],
+  "shieldRadius": 110.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "TDB_ruo_ci_du_cheng",
+    "TDB_na_mi"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 206,
+      "angle": 68,
+      "locations": [-16, 45.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 206,
+      "angle": -68,
+      "locations": [-16.5, -45.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 1,
+      "locations": [18, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-33.5, 0.5],
+      "length": 58.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "TDB_HF"
+    },
+    {
+      "location": [-52.5, 46.5],
+      "length": 25,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "TDB_HF"
+    },
+    {
+      "location": [-52.5, -46.5],
+      "length": 25,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "TDB_HF"
+    }
+  ],
+  "bounds": [
+    -46, -7,
+    -69.5, -9,
+    -66, -13,
+    -89.5, -16.5,
+    -60, -24.5,
+    -54, -31.5,
+    -61, -38,
+    -52, -51.5,
+    -70.5, -51.5,
+    -71, -53.5,
+    -46.5, -71.5,
+    -29, -74.5,
+    -27.5, -81,
+    -34.5, -89,
+    -21, -86,
+    28, -58.5,
+    26.5, -53,
+    41.5, -50,
+    94.5, -16,
+    51.5, -17,
+    63, -6,
+    63, 6,
+    51.5, 17,
+    94.5, 16,
+    41.5, 50,
+    26.5, 53,
+    28, 58.5,
+    -21, 86,
+    -34.5, 89,
+    -27.5, 81,
+    -29, 74.5,
+    -46.5, 71.5,
+    -71, 53.5,
+    -70.5, 51.5,
+    -52, 51.5,
+    -61, 38,
+    -54, 31.5,
+    -60, 24.5,
+    -89.5, 16.5,
+    -66, 13,
+    -69.5, 9,
+    -46, 7
+  ]
+}

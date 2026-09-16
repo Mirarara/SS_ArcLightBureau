@@ -1,0 +1,25 @@
+{
+  "hullName": "TDB_yun_cheng_box1",
+  "hullId": "TDB_yun_cheng_box1",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/TDB_yun_cheng/TDB_yun_cheng_box1.png",
+  "style": "TDB_TECH",
+  "height": 41,
+  "width": 54,
+  "center": [27, 20.5],
+  "collisionRadius": 62.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 51,
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "engineSlots": [],
+  "builtInMods": [
+    "TDB_mods",
+  ],
+  "bounds": [
+    -19, -25,
+    19, -25,
+    19, 25,
+    -19, 25
+  ]
+}

@@ -1,0 +1,4 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,Column 15
+TDB_GroundDefenses,无人轨道防御系统,150,90,,6,,,"grounddefenses, unraidable, tactical_bombardment, structure",,graphics/icons/industry/TDB_gui_dao_fang_yu.png,data.scripts.campaign.TDB_GroundDefenses,由许多独立的中小型轨道防御平台组成的拦截网络，能一定程度上拦截敌军的舰船并可让敌方对地行动变得异常困难。,2700,
+TDB_SJJ,弧光设计总局,150,90,,6,,,"grounddefenses, unraidable, tactical_bombardment, structure",,graphics/icons/industry/TDB_she_ji_ju.png,data.scripts.campaign.TDB_SJJ,弧光设计局的核心机构，高耸如云的建筑群里承载着数不清的科学家与工程师，他们主导着设计局的研究与发展。,2700,
+TDB_wu_ren,无人舰队指挥中心,90,60,,6,,,"military, unraidable, tactical_bombardment, structure",,graphics/icons/industry/TDB_wu_ren_jian_dui.png,data.scripts.campaign.TDB_wu_ren,"无人舰队的总部,负责研制越空防壁系列产物与指挥数量庞大的无人防御舰队，时刻维系着设计局的安全。",2650,

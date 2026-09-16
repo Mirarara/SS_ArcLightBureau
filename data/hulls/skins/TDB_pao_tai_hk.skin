@@ -1,0 +1,31 @@
+{
+	"baseHullId":"TDB_pao_tai",
+	"skinHullId":"TDB_pao_tai_hk",
+	"hullName":"自动机库",
+	"descriptionId":"legion",
+	"descriptionPrefix":"航空版本的自动炮台",
+	"tags":[],
+	"tech":"穿越者设计局",
+	"fleetPoints":30,
+	"ordnancePoints":25,
+	"baseValueMult":1.75,
+	"spriteName":"graphics/ships/TDB_qiong_ding/TDB_pao_tai2.png",
+	"coversColor":[255,255,255,255],
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["converted_fighterbay"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+	   "WSPT":{
+		  "type": "DECORATIVE",
+		  "mount": "HIDDEN",
+	   },
+	   "WSHK":{
+		  "type": "UNIVERSAL",
+		  "mount": "TURRET",
+	   },
+    },
+}

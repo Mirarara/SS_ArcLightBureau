@@ -1,0 +1,50 @@
+{
+  "id": "TDB_hai_tong",
+  "specClass": "projectile",
+  "projectileSpecId": "TDB_hai_tong_shot",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/TDB_hai_tong_turret_base.png",
+  "hardpointSprite": "graphics/weapons/TDB_hai_tong_hardpoint_base.png",
+  "turretOffsets": [
+    9,
+    -4,
+    9,
+    3.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    12,
+    -4,
+    12,
+    4
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 16,
+    "cloudParticleCount": 3,
+    "cloudDuration": 0.9,
+    "cloudRadius": 8,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 1.1,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      170,
+      160,
+      150,
+      130
+    ]
+  },
+  "fireSoundTwo": "swarmer_fire"
+}

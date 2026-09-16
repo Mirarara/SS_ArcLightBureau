@@ -1,0 +1,118 @@
+{
+  "hullName": "TDB_man_fan_she",
+  "hullId": "TDB_man_fan_she",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/TDB_man_fan_she.png",
+  "style": "TDB_TECH",
+  "height": 80,
+  "width": 50,
+  "center": [25, 38],
+  "collisionRadius": 45.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 41.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedcore",
+    "TDB_ruo_ci_du_cheng",
+    "insulatedengine"
+  ],
+  "builtInWeapons": {
+    "WS0009": "TDB_hang_ji_deng2",
+    "WS0010": "TDB_hang_ji_deng",
+    "WS0011": "TDB_hang_ji_deng"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 58,
+      "angle": 0,
+      "locations": [20.5, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-4.5, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [12.5, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-19.5, 19]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-19.5, -19]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": 0,
+      "locations": [4, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-31.5, 3],
+      "length": 12,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-31.5, -3],
+      "length": 12,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -33.5, -7,
+    -22, -21,
+    -17, -21,
+    -14, -18,
+    -6.5, -16.5,
+    0, -12.5,
+    9.5, -13,
+    13.5, -9.5,
+    31.5, -7,
+    31.5, 7,
+    13.5, 9.5,
+    9.5, 13,
+    0, 12.5,
+    -6.5, 16.5,
+    -14, 18,
+    -17, 21,
+    -22, 21,
+    -33.5, 7
+  ]
+}

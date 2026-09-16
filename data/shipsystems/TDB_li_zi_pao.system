@@ -1,0 +1,11 @@
+{
+	"id":"TDB_li_zi_pao",
+	"type":"WEAPON",
+	"aiType":"FLARE",
+	
+	"weaponDataId":"TDB_li_zi_chang_qiang",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	#"weaponGlowColor":[55,200,255,255],
+ 	#"weaponTypes":[SYSTEM],
+}

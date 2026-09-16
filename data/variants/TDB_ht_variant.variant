@@ -1,0 +1,51 @@
+{
+    "displayName": "常规",
+    "fluxCapacitors": 30,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "TDB_ht",
+    "hullMods": [
+        "heavyarmor",
+        "adaptive_coils",
+        "armoredweapons"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_ht_variant",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "TDB_yun_ying_L",
+                "WS0010": "TDB_han_tian"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "heavyneedler",
+                "WS0003": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "TDB_shuang_tang",
+                "WS0005": "TDB_shuang_tang",
+                "WS0006": "TDB_shuang_tang",
+                "WS0007": "TDB_shuang_tang"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "TDB_shuang_tang",
+                "WS0009": "TDB_shuang_tang"
+            }
+        }
+    ]
+}

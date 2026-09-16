@@ -1,0 +1,15 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+TDB_mi_san_guang_wing,TDB_mi_san_guang_variant,"fighter4, fighter, high, auto_fighter",0,,6,10,V,4000,500,,3,FIGHTER,无人战斗机,12,6000,,,,,,,,,,,,,1
+TDB_shuang_zhe_she_wing,TDB_shuang_zhe_she_variant,"fighter4, fighter, high, auto_fighter",0,,6,15,V,4000,500,,2,FIGHTER,无人战斗机,12,6000,,,,,,,,,,,,,1
+TDB_fan_guang_yuan_wing,TDB_fan_guang_yuan_variant,"interceptor3, interceptor, high, TDB_bp, auto_fighter, merc",3,,4,4,CLAW,4000,200,750,5,INTERCEPTOR,无人拦截机,3,5000,,,,,,,,,,,,,22
+TDB_pian_zhen_guang1_wing,TDB_pian_zhen_guang_variant,"bomber4, bomber, high, TDB_bp, hist1t, merc",3,0.25,8,25,V,4000,2000,600,1,BOMBER,轰炸机,25,14000,,,,,,,,,,,,,13
+TDB_ke_jian_guang_wing,TDB_ke_jian_guang_variant,"bomber4, bomber, high, hist1t, merc, auto_fighter",3,0.25,8,20,V,4000,2000,600,1,BOMBER,无人轰炸机,20,14000,,,,,,,,,,,,,13
+TDB_man_fan_she_wing,TDB_man_fan_she_variant,"support2, fighter, high, auto_fighter",2,,8,18,BOX,0,500,,1,SUPPORT,无人支援机,20,10000,,,,,,,,,,,,,
+TDB_bian_ge_wing,TDB_bian_ge_variant,"support2, fighter, high, TDB_bp",2,,8,16,BOX,5000,500,,1,INTERCEPTOR,拦截机,15,10000,,,,,,,,,,,,,
+TDB_quan_fan_she_wing,TDB_quan_fan_she_variant,"fighter18, fighter, high, TDB_bp",3,0.8,12,25,CLAW,5000,500,,1,FIGHTER,战斗机,25,14000,,,,,,,,,,,,,230
+TDB_dian_guang_yuan_wing,TDB_dian_guang_yuan_variant,"support2, fighter, high, auto_fighter",1,,7,10,CLAW,0,500,,1,SUPPORT,无人支援机,20,8000,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TDB_shui_yin_deng,TDB_shui_yin_deng_variant,"no_drop, no_sell, auto_fighter",1,,8,0,CLAW,4000,500,-400,1,FIGHTER,浮游炮,15,9000,,,,,,,,,,,,,4
+TDB_na_mi_zhan_ji,TDB_na_mi_zhan_ji_variant,"no_drop, no_sell, auto_fighter",1,,8,0,CLAW,4000,500,-400,1,FIGHTER,浮游炮,15,9000,,,,,,,,,,,,,4
+TDB_wei_guang_zheng_wing,TDB_wei_guang_zheng_variant,"no_drop, no_sell, independent_of_carrier, attack_at_an_angle, auto_fighter",3,0.8,12,0,CLAW,5000,500,,1,FIGHTER,无人战斗机,25,14000,,,,,,,,,,,,,230
+TDB_ji_yu_yun_drone_wing,TDB_ji_yu_yun_drone_variant,"no_drop, no_sell, independent_of_carrier,attack_at_an_angle, auto_fighter",3,,4,4,CLAW,4000,200,,1,FIGHTER,无人战斗机,3,5000,,,,,,,,,,,,,22

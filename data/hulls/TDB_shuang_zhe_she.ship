@@ -1,0 +1,63 @@
+{
+  "hullName": "TDB_shuang_zhe_she",
+  "hullId": "TDB_shuang_zhe_she",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/TDB_shuang_zhe_she.png",
+  "style": "TDB_TECH",
+  "height": 38,
+  "width": 28,
+  "center": [14, 17],
+  "collisionRadius": 26.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 22.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "TDB_ruo_ci_du_cheng"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-3, 9.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-3, -9.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10.5, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -9.5, -14,
+    20, -3,
+    20, 3,
+    -9.5, 14,
+    -16.5, -0
+  ]
+}

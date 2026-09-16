@@ -1,0 +1,82 @@
+{
+
+	
+	"TDB_TECH":{
+						
+		"engineColor":[36,61,128,255],
+		"contrailParticleSizeMult":2,
+		"contrailParticleDuration":1,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[136,172,255,60],
+		"contrailCampaignColor":[77,202,255,75],
+		"glowSprite":"graphics/fx/TDB_engineglow1.png",
+		"glowOutline":"graphics/fx/TDB_engineglow1.png",
+		"type":"GLOW" # GLOW or SMOKE
+	},
+	"TDB_TECH2":{
+		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"contrailDuration":1.5,
+		"contrailWidthMult":4,
+		"contrailWidthAddedFractionAtEnd":-1f,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":5, # min segment length, in pixels
+		"contrailMaxSpeedMult":1f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[0,6,136,255],
+		"type":"GLOW", # GLOW or SMOKE; additive or regular blend mode
+						
+		"glowSprite":"graphics/fx/engineglow32b.png",
+		"glowOutline":"graphics/fx/engineflame32b.png",
+		"omegaMode":true,
+		"glowSizeMult":1,
+		"glowAlternateColor":[0,6,136,255],
+		"engineColor":[0,6,136,255],
+		
+		#"contrailParticleSizeMult":4,
+		#"contrailParticleDuration":1,
+		#"contrailParticleFinalSizeMult":2.5,
+		#"contrailMaxSpeedMult":0.5f,
+		#"contrailAngularVelocityMult":0f,
+		#"contrailColor":[100,165,255,25],
+		#"contrailCampaignColor":[100,165,255,75],
+		#"type":"GLOW" # GLOW or SMOKE
+	},
+	"TDB_HF":{
+		#"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		#"engineColor":[100,165,255,255],
+		#"contrailDuration":2,
+		#"contrailWidthMult":3,
+		#"contrailWidthAddedFractionAtEnd":3,  # can be negative. makes trail spread out/narrow at the end
+		#"contrailMinSeg":10, # min segment length, in pixels
+		#"contrailMaxSpeedMult":0.5f,
+		#"contrailAngularVelocityMult":1f,
+		#"contrailColor":[100,165,255,50],
+		#"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+						
+		"engineColor":[144,204,178,255],
+		"contrailParticleSizeMult":1,
+		"contrailParticleDuration":0.5,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[144,204,178,255],
+		"contrailCampaignColor":[144,204,178,255],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+	"tdb1":{  #ID of engine's style, you have to specify the same into .ship files on engine slots
+      #style used in colors are RGBa red green blue alpha
+        "engineColor":[145,255,255,255],  #engines in combat
+        "engineCampaignColor":[145,255,255,255], #engines on campaign layer, very similar to combat version
+        #these are these in-combat engine trails, such as smoke and such
+        "contrailParticleSizeMult":2,
+        "contrailParticleDuration":3, 
+        "contrailParticleFinalSizeMult":2.5,
+        "contrailMaxSpeedMult":0.5,
+        "contrailAngularVelocityMult":0.5,
+        "contrailColor":[50,50,50,0], #the long trail in combat, usually slightly different?
+        "contrailCampaignColor":[145,255,255,75], #these long trails on campaign layer
+        "type":"GLOW" # GLOW or SMOKE; it's either engine with glows or that spits out smoke
+    },
+}
+

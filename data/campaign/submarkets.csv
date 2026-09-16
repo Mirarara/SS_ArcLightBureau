@@ -1,0 +1,2 @@
+id,name,faction,desc,script,icon,order
+TDB_Market,无人舰船市场,TDB,弧光设计局越空防壁计划负责部为信誉良好的雇佣兵舰长开放的无人舰船售卖处，这些无人舰船可以很好的帮助他们完成一些十分危险的事情并不用担心损失。,data.campaign.submarkets.TDB_Market,,0

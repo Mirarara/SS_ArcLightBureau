@@ -1,0 +1,120 @@
+{
+  "hullName": "TDB_feng_xian",
+  "hullId": "TDB_feng_xian",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/TDB_feng_xian.png",
+  "style": "TDB_TECH",
+  "height": 135,
+  "width": 94,
+  "center": [47, 66.5],
+  "collisionRadius": 88,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 75.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "TDB_ruo_ci_du_cheng",
+    "TDB_WeaponInvisibility"
+  ],
+  "builtInWeapons": {
+    "WS0005": "TDB_feng_xian",
+    "WS0006": "TDB_feng_xian2"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [11, 15.5],
+      "renderOrderMod": -100
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11, -15.5],
+      "renderOrderMod": -100
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-12.5, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [28.5, -0],
+      "renderOrderMod": -99
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [38.5, 0],
+      "renderOrderMod": 50
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-40, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-40, 14.5],
+      "length": 33,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-40, -14.5],
+      "length": 33,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -62, -16.5,
+    -56.5, -25.5,
+    -28, -35,
+    -18.5, -35,
+    -25.5, -23.5,
+    -11.5, -12,
+    2, -15.5,
+    17.5, -9,
+    37.5, -1,
+    17.5, 7,
+    2, 13.5,
+    -11.5, 10,
+    -25.5, 21.5,
+    -18.5, 33,
+    -28, 33,
+    -56.5, 23.5,
+    -62, 14.5
+  ]
+}

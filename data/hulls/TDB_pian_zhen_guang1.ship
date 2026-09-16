@@ -1,0 +1,117 @@
+{
+  "hullName": "TDB_pian_zhen_guang1",
+  "hullId": "TDB_pian_zhen_guang1",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/TDB_pian_zhen_guang.png",
+  "style": "TDB_TECH",
+  "height": 50,
+  "width": 60,
+  "center": [30, 23.5],
+  "collisionRadius": 33.5,
+  "shieldCenter": [0, 0.5],
+  "shieldRadius": 31.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0003": "TDB_hang_ji_deng",
+    "WS0004": "TDB_hang_ji_deng",
+    "WS0005": "TDB_hang_ji_deng"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-8.5, -21.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-8.5, 21.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13, 9.5],
+      "length": 35,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-13, -9.5],
+      "length": 35,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-10.5, 21.5],
+      "length": 0,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "TDB_TECH2"
+    },
+    {
+      "location": [-10.5, -21.5],
+      "length": 0,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "TDB_TECH2"
+    },
+    {
+      "location": [-10.5, 21.5],
+      "length": 12,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-10.5, -21.5],
+      "length": 12,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -12, -15.5,
+    -14, -25.5,
+    -1.5, -29,
+    15, -18,
+    15, 18,
+    -1.5, 29,
+    -14, 25.5,
+    -12, 15.5
+  ]
+}

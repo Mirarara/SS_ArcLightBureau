@@ -1,0 +1,22 @@
+{
+  "variantId": "TDB_na_mi_zhan_ji_variant",
+  "hullId": "TDB_na_mi_zhan_ji",
+  "displayName": "纳米战机",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

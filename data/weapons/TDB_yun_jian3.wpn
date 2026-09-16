@@ -1,0 +1,49 @@
+{
+  "id": "TDB_yun_jian3",
+  "specClass": "projectile",
+  "projectileSpecId": "TDB_yun_jian_shot",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "everyFrameEffect": "data.weapons.TDB_VerticalMissileAnimation",
+  "displayArcRadius": 1000,
+  "turretSprite": "graphics/weapons/TDB_yun_jian2/TDB_yun_jian200.png",
+  "hardpointSprite": "graphics/weapons/TDB_yun_jian2/TDB_yun_jian200.png",
+  "turretOffsets": [
+    0,
+    0.5
+  ],
+  "turretAngleOffsets": [
+    -90
+  ],
+  "hardpointOffsets": [
+    10,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "interruptibleBurst":false,
+  "autocharge":"true",
+  "animationType": "SMOKE",
+  "numFrames": 6,
+  "frameRate": 6,
+  "smokeSpec": {
+    "particleSizeMin": 15,
+    "particleSizeRange": 10,
+    "cloudParticleCount": 8,
+    "cloudDuration": 1.5,
+    "cloudRadius": 8,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 2,
+    "blowbackLength": 15,
+    "blowbackSpread": 10,
+    "particleColor": [
+      55,
+      70,
+      100,
+      105
+    ]
+  },
+  "fireSoundTwo": "sabot_srm_fire"
+}

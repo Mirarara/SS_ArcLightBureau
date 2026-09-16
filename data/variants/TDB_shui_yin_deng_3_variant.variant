@@ -1,0 +1,29 @@
+{
+  "variantId": "TDB_shui_yin_deng_variant_3",
+  "hullId": "TDB_shui_yin_deng",
+  "displayName": "无人攻击平台",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [
+    "autorepair",
+  ],
+  "hullMods": [
+    "armoredweapons",
+    "autorepair",
+    "fluxbreakers",
+    "insulatedengine",
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "TDB_cai_yu"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

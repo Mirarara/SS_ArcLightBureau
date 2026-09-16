@@ -1,0 +1,56 @@
+{
+    "displayName": "最终防线",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "goalVariant": false,
+    "hullId": "TDB_ji_yu_yun_you",
+    "hullMods": [
+        "frontshield",
+        "missleracks",
+    ],
+    "permaMods": [
+        "TDB_hang_kong",
+        "ecm",
+        "heavyarmor",
+        "nav_relay",
+        "reinforcedhull",
+    ],
+    "sMods": [
+        "TDB_hang_kong",
+        "ecm",
+        "heavyarmor",
+        "nav_relay",
+        "reinforcedhull",
+    ],
+    "suppressedMods": [],
+    "variantId": "TDB_ji_yu_yun_you_variant",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "TDB_han_chao",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightneedler",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "TDB_shuang_tang",
+            }
+        },
+    ],
+    "wings": [
+        "TDB_man_fan_she_wing",
+        "TDB_man_fan_she_wing",
+        "TDB_man_fan_she_wing",
+    ],
+    "modules": [],
+}

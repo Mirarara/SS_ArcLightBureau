@@ -1,0 +1,4 @@
+name,id,tags,tech/manufacturer,rarity,base price,stack size,cargo space,baseRaidDanger,icon,sound id,sound id drop,plugin,plugin params,desc,order
+弧光设计局蓝图,TDB_package,package_bp,,,30000,1000,1,,graphics/icons/cargo/TDB.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,TDB_bp,使重工业设施能够制造{弧光设计局}的常规船体，武器以及战机LPC。,220
+,,,,,,,,,,,,,,,
+深渊稳定设备,TDB_Stable_Core,"mission_item, monster, codex_unlockable",弧光设计局,,50000,1000,1,,graphics/TDB_Stable_Core.png,ui_cargo_special_biotech_pickup,ui_cargo_special_bio_drop,data.items.TDBHullmodItemPlugin,TDB_shen_yuan,一台被设计局称为“深渊稳定仪”的驱动立场增强设备，只能安装在主力舰船上。,452

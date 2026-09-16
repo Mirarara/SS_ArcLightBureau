@@ -1,0 +1,17 @@
+{
+	"id":"TDB_cai_yu_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"onFireEffect":"data.weapons.TDB_cai_yu",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":100.0,
+	"hitGlowRadius":100,
+	"width":40.0,
+	"fadeTime":0.25,
+	"fringeColor":[13,61,173,255],
+	"coreColor":[78,99,148,255],
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-64.0,
+	"pixelsPerTexel":1.0,
+}

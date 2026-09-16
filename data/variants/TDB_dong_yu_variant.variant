@@ -1,0 +1,65 @@
+{
+    "displayName": "常规",
+    "fluxCapacitors": 41,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "TDB_dong_yu",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter",
+        "frontemitter",
+        "TDB_A_pao_ji",
+        "stabilizedshieldemitter"
+    ],
+    "modules": [{"WS0013": "TDB_dong_yu_armor_0"}],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_dong_yu_variant",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "TDB_ning_hua",
+                "WS0002": "TDB_ning_hua"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "TDB_shuang_tang",
+                "WS0012": "TDB_shuang_tang"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "TDB_cai_yu",
+                "WS0005": "TDB_cai_yu",
+                "WS0006": "TDB_cai_yu"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "TDB_shuang_tang",
+                "WS0008": "TDB_shuang_tang",
+                "WS0009": "TDB_shuang_tang",
+                "WS0010": "TDB_shuang_tang"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "TDB_Focuspd"}
+        }
+    ],
+    "wings": [
+        "TDB_fan_guang_yuan_wing",
+        "TDB_fan_guang_yuan_wing",
+        "TDB_fan_guang_yuan_wing"
+    ]
+}

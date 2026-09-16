@@ -1,0 +1,80 @@
+{
+    "displayName": "常规",
+    "fluxCapacitors": 12,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "TDB_tai_yang_yu_1",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "fluxbreakers",
+        "fluxdistributor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_tai_yang_yu_1_variant",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "TDB_changkongpod",
+                "WS0002": "TDB_changkongpod",
+                "WS0003": "TDB_changkongpod",
+                "WS0004": "TDB_changkongpod",
+                "WS0005": "TDB_changkongpod_l",
+                "WS0006": "TDB_changkongpod_l",
+                "WS0015": "TDB_changkongpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0028": "TDB_hu_luo_bo1",
+                "WS0029": "TDB_hu_luo_bo1"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "TDB_shuang_tang",
+                "WS0012": "TDB_shuang_tang",
+                "WS0013": "TDB_shuang_tang",
+                "WS0014": "TDB_shuang_tang",
+                "WS0018": "TDB_shuang_tang",
+                "WS0019": "TDB_shuang_tang",
+                "WS0020": "TDB_shuang_tang",
+                "WS0021": "TDB_shuang_tang",
+                "WS0022": "TDB_shuang_tang",
+                "WS0023": "TDB_shuang_tang"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0024": "TDB_Focuspd",
+                "WS0025": "TDB_Focuspd",
+                "WS0026": "TDB_shuang_tang",
+                "WS0027": "TDB_shuang_tang"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "TDB_Focuspd",
+                "WS0008": "TDB_fang_tang",
+                "WS0009": "TDB_fang_tang",
+                "WS0010": "TDB_fang_tang"
+            }
+        }
+    ],
+    "wings": [
+        "TDB_mi_san_guang_wing",
+        "TDB_mi_san_guang_wing",
+        "TDB_mi_san_guang_wing"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "displayName": "攻击",
+    "fluxCapacitors": 6,
+    "fluxVents": 1,
+    "goalVariant": true,
+    "hullId": "TDB_feng_xian",
+    "hullMods": [
+        "safetyoverrides",
+        "TDB_A_tu_ji",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_feng_xian_combat",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "amblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "hammer",
+                "WS0002": "hammer"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "tachyonlance"}
+        }
+    ]
+}

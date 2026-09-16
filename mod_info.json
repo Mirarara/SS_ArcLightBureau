@@ -1,0 +1,24 @@
+{
+	"id":"ArcLightBureau",
+	"name":"弧光设计局 [Arc Light Bureau]",
+	"author": "\n设计&制作:寒流[主创]  \n\n数据平衡与装配指导：Scythe  \n\n技术指导：AnyIDElse    \n\n贴图提供与指导：影之光 神枪 狐狸条  \n\n特别鸣谢：烤乳猪  Greatfhgbj  cjy4312  Ykaris  homejerry99  CVB～Taiho.0  鸽子  幻音以及群内一大群的水友提供的贴图与帮助",
+	"version":"1.12.3",
+	"description":"来自异世旅者们的家园",
+	"gameVersion":"0.98a-RC8",
+	"dependencies": [
+     {
+       "id": "lw_lazylib",
+       "name": "LazyLib"
+     },
+	 {
+	   "id": "MagicLib",
+       "name": "MagicLib"
+     },
+	 {
+	   "id": "shaderLib",
+       "name": "GraphicsLib"
+     },
+	],
+	"jars":["jars/TraverserDesignBureau3.jar"],
+	"modPlugin":"data.scripts.TDBModPlugin",
+}

@@ -1,0 +1,82 @@
+{
+  "hullName": "TDB_feng_ya_1",
+  "hullId": "TDB_feng_ya_1",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/TDB_feng_ya_1.png",
+  "style": "TDB_TECH",
+  "height": 145,
+  "width": 118,
+  "center": [59, 72.5],
+  "collisionRadius": 107.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 91,
+  "viewOffset": 0,
+  "builtInMods": [
+    "TDB_ruo_ci_du_cheng",
+    "TDB_zi_dong_jian_chuan"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-5.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 266,
+      "angle": 128.5,
+      "locations": [-33.5, 31]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 266,
+      "angle": -128.5,
+      "locations": [-33.5, -31]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-37, -0],
+      "length": 67,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -35, -13.5,
+    -53.5, -9,
+    -34, -21,
+    -41, -25.5,
+    -70.5, -15.5,
+    -47, -45.5,
+    -25.5, -54,
+    -13, -50,
+    -1.5, -58,
+    5, -41.5,
+    71.5, -4,
+    48, -0,
+    71.5, 4,
+    5, 41.5,
+    -1.5, 58,
+    -13, 50,
+    -25.5, 54,
+    -47, 45.5,
+    -70.5, 15.5,
+    -41, 25.5,
+    -34, 21,
+    -53.5, 9,
+    -35, 13.5
+  ]
+}

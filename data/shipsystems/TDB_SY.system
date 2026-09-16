@@ -1,0 +1,14 @@
+{
+	"id":"TDB_SY",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	"aiScript":"data.shipsystems.scripts.ai.TDB_alwaysuseAI",
+	
+	"statsScript":"data.shipsystems.scripts.TDB_SY",
+	
+	"aiHints":{
+		"activeSpeedIncrease":80,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":100,
+	}
+}

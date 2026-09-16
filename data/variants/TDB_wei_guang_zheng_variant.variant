@@ -1,0 +1,23 @@
+{
+  "variantId": "TDB_wei_guang_zheng_variant",
+  "hullId": "TDB_wei_guang_zheng",
+  "displayName": "常规",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "TDB_quan_fan_she"
+      }
+    },
+  ],
+  "modules": [],
+  "wings": []
+}

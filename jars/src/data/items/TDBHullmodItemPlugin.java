@@ -1,0 +1,100 @@
+package data.items;
+
+import java.awt.Color;
+
+import com.fs.starfarer.api.Global;
+import com.fs.starfarer.api.campaign.CampaignUIAPI.DismissDialogDelegate;
+import com.fs.starfarer.api.campaign.CargoTransferHandlerAPI;
+import com.fs.starfarer.api.campaign.impl.items.BaseSpecialItemPlugin;
+import com.fs.starfarer.api.impl.campaign.RuleBasedInteractionDialogPluginImpl;
+import com.fs.starfarer.api.ui.TooltipMakerAPI;
+import com.fs.starfarer.api.util.Misc;
+import data.utils.tdb.TDB_ColorData;
+
+public class TDBHullmodItemPlugin extends BaseSpecialItemPlugin {
+
+	public static String SHROUDED_HULLMOD_ID = "$TDB_shen_yuan";
+
+	@Override
+	public void createTooltip(TooltipMakerAPI tooltip, boolean expanded, CargoTransferHandlerAPI transferHandler, Object stackSource) {
+		float pad = 3f;
+		float opad = 10f;
+		float small = 5f;
+		Color h = Misc.getHighlightColor();
+		Color g = Misc.getGrayColor();
+		Color b = Misc.getButtonTextColor();
+		b = Misc.getPositiveHighlightColor();
+
+		if (!Global.CODEX_TOOLTIP_MODE) {
+			tooltip.addTitle(getName());
+		} else {
+			tooltip.addSpacer(-opad);
+		}
+
+		String design = getDesignType();
+		if (design != null) {
+			Misc.addDesignTypePara(tooltip, design, 10f);
+		}
+
+		if (!spec.getDesc().isEmpty()) {
+			if (Global.CODEX_TOOLTIP_MODE) {
+				tooltip.setParaSmallInsignia();
+			}
+			tooltip.addPara(spec.getDesc(), Misc.getTextColor(), opad);
+		}
+
+		addCostLabel(tooltip, opad, transferHandler, stackSource);
+
+		if (!Global.CODEX_TOOLTIP_MODE) {
+			if (!playerKnowsHullmod()) {
+				tooltip.addPara("右键单击以分析" + getName(), b, opad);
+			}else {
+				tooltip.addPara("您已分析过该设备" , TDB_ColorData.TDBblue3, opad);
+			}
+		}
+	}
+
+	protected boolean playerKnowsHullmod() {
+		return Global.getSector().getCharacterData().knowsHullMod(getHullmodId());
+	}
+
+	protected String getHullmodId() {
+		return spec.getParams();
+	}
+
+
+	protected String getRightClickRuleTrigger() {
+		return "ShroudedHullmodItemRC";
+	}
+
+	@Override
+	public boolean hasRightClickAction() {
+		return !playerKnowsHullmod();
+	}
+
+	@Override
+	public boolean shouldRemoveOnRightClickAction() {
+		return false;
+	}
+
+
+	@Override
+	public void performRightClickAction(RightClickActionHelper helper) {
+		Global.getSoundPlayer().playUISound(getSpec().getSoundId(), 1f, 1f);
+
+		Global.getSector().getPlayerMemoryWithoutUpdate().set(SHROUDED_HULLMOD_ID, getHullmodId(), 0f);
+
+		Global.getSector().getPlayerFaction().addKnownHullMod(getHullmodId());
+	}
+
+
+}
+
+
+
+
+
+
+
+
+

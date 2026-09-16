@@ -1,0 +1,85 @@
+{
+  "hullName": "TDB_pao_tai",
+  "hullId": "TDB_pao_tai",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/TDB_qiong_ding/TDB_pao_tai.png",
+  "style": "TDB_TECH",
+  "height": 71,
+  "width": 89,
+  "center": [44, 38],
+  "collisionRadius": 86.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 63,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "always_detaches",
+    "TDB_qiong_ding_T",
+    "converted_fighterbay",
+    "TDB_ruo_ci_du_cheng"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WSPT",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-0.5, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -9, 10,
+        -9, -7,
+        0.5, -7,
+        0, 10
+      ]
+    },
+    {
+      "id": "WSHK",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [13, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-33.5, 6],
+      "length": 14,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-33.5, -6],
+      "length": 14,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -36, -9,
+    -21, -35,
+    -4.5, -43.5,
+    17, -37,
+    30, -7.5,
+    30, 7.5,
+    17, 37,
+    -4.5, 43.5,
+    -21, 35,
+    -36, 9
+  ]
+}

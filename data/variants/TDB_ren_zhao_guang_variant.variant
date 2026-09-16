@@ -1,0 +1,56 @@
+{
+    "displayName": "常规",
+    "fluxCapacitors": 40,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "TDB_ren_zhao_guang",
+    "hullMods": [
+        "TDB_A_pao_ji",
+        "hardenedshieldemitter",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_ren_zhao_guang_variant",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "TDB_ning_hua",
+                "WS0004": "TDB_ning_hua"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "TDB_T.D"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "TDB_T.D",
+                "WS0009": "TDB_T.D"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "TDB_shuang_jiang"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "TDB_shuang_jiang"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "TDB_shuang_tang",
+                "WS0006": "TDB_shuang_tang"
+            }
+        }
+    ]
+}

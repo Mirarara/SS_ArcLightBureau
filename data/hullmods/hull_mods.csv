@@ -1,0 +1,41 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+模块化要塞,TDB_ji_yu_yun,0,,弧光设计局,special,"特殊, 弧光设计局设计",,,TRUE,,0,0,0,0,data.hullmods.TDB_ji_yu_yun,"作为一艘定位明确的指挥型旗舰，积雨云拥有无与伦比的指挥系统，能轻易的协调模块与自身所搭载的海量舰载机。
+
+庞大的引擎系统中集成了特殊的空间撕裂设备，在舰船进入紧急状态时可以快速撕裂空间进行折跃以保证这昂贵的巨兽得以存活。",积雨云级的内置插件,,graphics/hullmods/TDB_jin_ji_yue_qian.png
+弱磁化镀层,TDB_ruo_ci_du_cheng,0,,弧光设计局,special,"特殊, 弧光设计局设计",5000,,TRUE,,0,0,0,0,data.hullmods.TDB_ruo_ci_du_cheng,"弧光设计局引以为傲的特殊镀层，利用弱磁化的效果偏转削弱来自太阳风暴{%s}与 EMP 击穿{%s}对舰船的影响。
+
+该镀层广泛应用于弧光设计局所研制的舰体上。",提升舰体对太阳风暴与EMP的抗性。,,graphics/hullmods/TDB_ruo_ci.png
+纳米集群,TDB_na_mi,0,,失温症,special,"特殊, 弧光设计局设计",2500,,TRUE,,0,8,15,20,data.hullmods.TDB_na_mi,"灰风是由一群纳米机器人组成的，因此她的千变万化可以做到很多事情。
+
+在登陆战斗时灰风可以加入战场增加{%s}突袭殖民地的有效强度，同时灰风极强的 AI 可以为舰队提供{%s}电子战强度。",灰风,,graphics/hullmods/TDB_na_mi.png
+预警雷达,TDB_lei_da,0,,弧光设计局,special,"特殊, 弧光设计局设计",2500,,TRUE,,0,8,15,20,data.hullmods.TDB_lei_da,内置于穿云级的巨大探测雷达，能为舰船提供{%s}的视野和{%s}的电子战效果。,提升视野与电子战能力,,graphics/hullmods/TDB_lei_da.png
+迎风面自律系统,TDB_zi_dong_jian_chuan,0,,越空防壁,special,"特殊, 弧光设计局设计",2500,,TRUE,,0,8,15,20,data.hullmods.TDB_zi_dong_jian_chuan,这是一艘全自动舰船，搭载了弧光设计局设计的特殊 AI 核心。,全自动舰船,,graphics/hullmods/TDB_he_xin.png
+自动化校准协议,TDB_Automated,0,,弧光设计局,"defensive, merc, TDB_cj","后勤, 弧光设计局设计",2500,,,,2,5,10,15,data.hullmods.TDB_Automated,通过搭载弧光制式舰船辅助 AI 系统，并接入舰船原有的智能操控系统中，使更加高效的自动辅助AI自动执行大多高危高疲劳的工作岗位，同时，为了保证历史不会重演以及智能ai系统在战场上遭遇突发状况时候应变能力不足的问题，依旧保留了关键部分人工操作的空间。该插件大大减少{%s}该舰所需操作人员数量以及{%s}载员量，最大限度上的减小了人员的伤亡。同时提高了舰船引擎/武器故障检修速度{%s}。,降低舰船的人员需求，减少最大载员量，加快舰船各系统维修速度,除必要岗位外完全自动化，最大载员与必要载员降低{%s}，将舰船引擎/武器故障检修速度提升至{%s}。,graphics/hullmods/TDB_ai.png
+综合推进系统,TDB_you_ji,0,,弧光设计局,"engines, merc, TDB_cj","引擎, 弧光设计局设计",2500,,,,6,10,18,28,data.hullmods.TDB_you_ji,根据舰船规模为舰船提供基础值为{%s/%s/%s/%s}并随幅能增高而降低的最高战斗航速，且当舰船幅能水平高于{%s}时为舰船提供随幅能水平整加而上升的机动性加成最高为{%s},增加航速与机动性,降低舰船{%s}的装甲,graphics/hullmods/TDB_you_ji.png
+先进航空设备,TDB_hang_kong,0,,弧光设计局,"special, merc, TDB_cj","战机, 弧光设计局设计",4000,,,,15,20,25,35,data.hullmods.TDB_hang_kong,提高舰载机{%s}的作战半径和{%s}的能量/实弹武器伤害，同时降低{%s}战机损失时整备下降速率，提高{%s}整备恢复速率。,提高战机替补速率，增加战机作战范围和武器伤害,,graphics/hullmods/TDB_hang_kong.png
+航空集成,TDB_HeavyBallisticsIntegration,0,,弧光设计局,special,"战机, 弧光设计局设计",4000,,TRUE,,0,0,0,0,data.hullmods.TDB_HeavyBallisticsIntegration,降低 %s 点所有战机联队所需的装配点。,降低舰载机联队的装配点,,graphics/hullmods/TDB_hang_kong_ji_cheng.png
+天穹炮台计时插件,TDB_qiong_ding,0,,弧光设计局,special,"特殊, 弧光设计局设计",4000,,TRUE,TRUE,0,0,0,0,data.hullmods.TDB_qiong_ding,让召唤的炮台到时间消失的插件,让召唤的炮台到时间消失的插件,,graphics/hullmods/TDB_tian_qiong.png
+天穹炮台消失插件,TDB_qiong_ding2,0,,弧光设计局,special,"特殊, 弧光设计局设计",4000,,TRUE,TRUE,0,0,0,0,data.hullmods.TDB_qiong_ding2,让本体模板炮台消失的插件,让本体模板炮台消失的插件,,graphics/hullmods/TDB_tian_qiong.png
+天穹系统,TDB_qiong_ding_T,0,,弧光设计局,"special, no_build_in","特殊, 弧光设计局设计",4000,,TRUE,TRUE,0,0,0,0,data.hullmods.TDB_qiong_dong_G,穹顶级部署的炮台。,穹顶级部署的炮台。,,graphics/hullmods/TDB_tian_qiong.png
+[天穹]航空协议,TDB_qiong_ding_G,0,,弧光设计局,"special, no_build_in","特殊, 弧光设计局设计",4000,TRUE,,,0,0,0,0,data.hullmods.TDB_qiong_dong_T,"将穹顶级部署的炮台调整为航空模式。
+更改完模式后请进行刷新。",将穹顶级部署的炮台调整为航空模式。,,graphics/hullmods/TDB_tian_qiong.png
+辉光管控能系统,TDB_rzg,0,,失温症,special,"特殊, 弧光设计局设计",2500,,TRUE,,0,0,0,0,data.hullmods.TDB_rzg,"人造光的内置系统。
+
+此系统曾在(白巫女)行动中被重创，在这之前该系统被命名为""辉光管超载系统""，其主要的功能是在战斗时将一切可用能量汇聚于武器系统。
+
+舰船在归入穿越者协会旗下后接受了彻底的私人翻修与改造。
+",根据幅能状态提供不同增益,,graphics/hullmods/TDB_rzg.png
+三色堇,TDB_san_se_jin,0,,失温症,special,"特殊, 弧光设计局设计",2500,,TRUE,,0,8,15,20,data.hullmods.TDB_san_se_jin,三色堇的特殊系统，基于一种在Gensokyo星系发现的大型灵能设备修复改造而来，即使当局对其有少量研究但依旧处于一种黑盒的状态，部分原阵法被精密的机械所替代。,三色堇,,graphics/hullmods/resistant_flux_conduits.png
+天空之镜自毁系统,TDB_zi_bao,0,,弧光设计局,special,"特殊, 弧光设计局设计",4000,,TRUE,,0,0,0,0,data.hullmods.TDB_zi_bao,自爆,飞机血量低于阈值时启动自爆,,graphics/hullmods/TDB_hang_kong_ji_cheng.png
+浮空城集成后勤系统,TDB_yun_cheng,0,,弧光设计局,"special, no_build_in","后勤, 弧光设计局设计",4000,,TRUE,,0,0,0,0,data.hullmods.TDB_yun_cheng,云城级引以为傲的部分，能通过和积雨云级相互搭配来完成难度极高的后勤作业。同时，其专属的模块化货舱设计，也让其拥有了一定程度的抗风险能力。,云城,,graphics/hullmods/TDB_hang_kong_ji_cheng.png
+浮空城集成后勤系统,TDB_yun_cheng_guan_bi,0,,弧光设计局,"special, no_build_in","后勤, 弧光设计局设计",4000,,TRUE,,0,0,0,0,data.hullmods.TDB_yun_cheng_guan_bi,云城级引以为傲的部分，能通过和积雨云级相互搭配来完成难度极高的后勤作业。同时，其专属的模块化货舱设计，也让其拥有了一定程度的抗风险能力。,云城,,graphics/hullmods/TDB_tian_qiong.png
+谷雨模块化舰体,TDB_gu_yu,0,,弧光设计局,special,"后勤, 弧光设计局设计",4000,,TRUE,,0,0,0,0,data.hullmods.TDB_gu_yu,一种能源重定向系统，专为模块化的舰船设计，而你现在在谷雨身上看见的这一款是最初的实验版本，它为后续云城身上更加成熟的版本打下了基础。,谷雨,,graphics/hullmods/TDB_hang_kong_ji_cheng.png
+模块同步,TDB_mods,0,,弧光设计局,special,"后勤, 弧光设计局设计",4000,,TRUE,TRUE,0,0,0,0,data.hullmods.TDB_mods,用于同步模块和本体的一些状态,用于同步模块和本体的一些状态,,graphics/hullmods/TDB_tian_qiong.png
+突击模式,TDB_A_tu_ji,0,,弧光设计局,"special, no_build_in","特殊, 弧光设计局设计",2500,TRUE,,,0,0,0,0,data.hullmods.TDB_A_tu_ji,将舰船更改为更加适合激进作战风格的突击模式。,将舰船更改为突击模式,,graphics/hullmods/TDB_A_tu_ji.png
+炮击模式,TDB_A_pao_ji,0,,弧光设计局,"special, no_build_in","特殊, 弧光设计局设计",2500,TRUE,,,0,0,0,0,data.hullmods.TDB_A_pao_ji,将舰船更改为更加适合远距离炮击支援的炮击模式。,将舰船更改为炮击模式,,graphics/hullmods/TDB_A_pao_ji.png
+标准模式,TDB_A_biao_zhun,0,,弧光设计局,"special, no_build_in","特殊, 弧光设计局设计",2500,,TRUE,TRUE,0,0,0,0,data.hullmods.TDB_A_biao_zhun,将舰船更改为出厂默认的标准模式。,将舰船更改为标准模式,,graphics/hullmods/TDB_A_biao_zhun.png
+分流模式,TDB_A_jie_neng,0,,弧光设计局,"special, no_build_in","特殊, 弧光设计局设计",2500,TRUE,,,0,0,0,0,data.hullmods.TDB_A_jie_neng,将舰船{%s}飞行甲板移除并降低部署点，每甲板降低{%s}部署点，并提高舰船{%s}的属性。,将舰船非内置飞行甲板移除并降低部署点，每甲板降低2部署点，并提高舰船属性,,graphics/hullmods/TDB_A_jie_neng.png
+深渊稳定仪,TDB_shen_yuan,0,,弧光设计局,"special, codex_unlockable, no_build_in","特殊, 弧光设计局设计",2500,,,,0,0,0,0,data.hullmods.TDB_shen_yuan,一种特殊的巡航用驱动立场稳定装置，在周围大范围内没有恒星等天体干扰时可以使得舰队以极快的速度巡航，因此通常用于在深渊探索，据说此设备的效果也同样可以优化星云带来的影响，但如此巨大的设备，只能装载在主力级别舰船上。,允许舰船在深渊与星云的影响区域内以正常航速航行,,graphics/hullmods/TDB_shen_yuan.png
+,,,,,,,,,,,,,,,,,,,
+武器隐形插件,TDB_WeaponInvisibility,0,,弧光设计局,special,"特殊, 弧光设计局设计",4000,,TRUE,TRUE,0,0,0,0,data.hullmods.TDB_WeaponInvisibility,用于使指定武器隐形,用于使指定武器隐形,,graphics/hullmods/TDB_tian_qiong.png
+发光组件,TDB_glow,0,,弧光设计局,special,"特殊, 弧光设计局设计",4000,,TRUE,TRUE,0,0,0,0,data.hullmods.TDB_glow,用于给舰船添加发光部件,用于部分舰船的发光特效,,graphics/hullmods/TDB_tian_qiong.png

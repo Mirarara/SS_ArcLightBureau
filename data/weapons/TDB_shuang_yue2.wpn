@@ -1,0 +1,43 @@
+{
+  "id": "TDB_shuang_yue2",
+  "specClass": "projectile",
+  "projectileSpecId": "TDB_shuang_yue2",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "turretSprite": "",
+  "hardpointSprite": "",
+  "turretOffsets": [
+    21,
+    0
+  ],
+  "turretAngleOffsets": [
+    -2
+  ],
+  "hardpointOffsets": [
+    27,
+    -1
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 12,
+    "particleSizeRange": 12,
+    "cloudParticleCount": 6,
+    "cloudDuration": 1.5,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 2,
+    "blowbackLength": 22,
+    "blowbackSpread": 15,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ]
+  },
+  "fireSoundTwo": "hammer_fire"
+}

@@ -1,0 +1,30 @@
+{
+    "displayName": "常规",
+    "fluxCapacitors": 15,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "TDB_yu_lian",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "TDB_A_pao_ji"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_yu_lian_variant",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "TDB_cai_yu",
+                "WS0005": "TDB_cai_yu"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "TDB_feng_zu"}
+        }
+    ]
+}

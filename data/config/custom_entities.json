@@ -1,0 +1,72 @@
+
+{
+  "TDB_jdgdfy": 
+  {
+    "defaultName": "近地轨道防御系统", # used if name=null in addCustomEntity()
+    "defaultRadius": 80, # used if radius<0 in addCustomEntity()
+    "customDescriptionId": "TDB_jdgdfy",
+    "interactionImage": "graphics/icons/industry/TDB_gui_dao_fang_yu.png",
+    "icon": "graphics/stations/TDB_jin_di_gui_dao_fang_yu.png",
+    "iconWidth": 60,
+    "iconHeight": 60,
+    "sprite": "graphics/stations/TDB_jin_di_gui_dao_fang_yu.png",
+	"texture":"graphics/icons/industry/TDB_gui_dao_fang_yu.png",
+    "spriteWidth": 440,
+    "spriteHeight": 440,
+    "renderShadow": true,
+    "useLightColor": true,
+    "showInCampaign": true,
+    "showIconOnMap": true,
+    "showNameOnMap": true,
+    "scaleNameWithZoom": true,
+    "scaleIconWithZoom": true,
+	"renderCircleIndicator": false,
+    "renderCircleIndicatorSelectionFlash": false,
+    "tags": ["station"],
+    "layers": [STATIONS] # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+  },
+	
+	"station_TDB_type":{
+		"defaultName":"穿越者协会空间站星际要塞", # used if name=null in addCustomEntity()
+		"defaultRadius":100, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital.jpg",
+		"icon":"graphics/icons/station3.png",
+		"iconWidth":28,
+		"iconHeight":28,
+		"sprite":"graphics/stations/station_hightech3.png",
+		"spriteWidth":120,
+		"spriteHeight":125,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"TDBSurvey_ship":{
+		"defaultName":"废弃的勘探母舰", # used if name=null in addCustomEntity()
+		"defaultRadius":70, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/abandoned_station3.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":20,
+		"iconHeight":20,
+		"sprite":"graphics/stations/survey_ship.png",
+		"spriteWidth":90,
+		"spriteHeight":90,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+}

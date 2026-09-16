@@ -1,0 +1,19 @@
+{
+	"id":"TDB_ji_yu_yun_C_ShotGun_sub_shot",
+	"specClass":"projectile",
+	
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":60.0,
+	"width":40.0,
+	"fadeTime":0.25,
+	"fringeColor":[100,150,255,160],
+	"coreColor":[150,150,255,100],
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":64.0,
+	"passThroughMissiles":true,	
+	"passThroughFighters":true,	
+	"pixelsPerTexel":１.0
+	
+}

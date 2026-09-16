@@ -1,0 +1,54 @@
+{
+  "id": "TDB_lian_yi",
+  "specClass": "projectile",
+  "projectileSpecId": "TDB_lian_yi_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "displayArcRadius": 450,
+  "turretSprite": "graphics/weapons/lian_yi_turret_base.png",
+  "turretGunSprite": "graphics/weapons/lian_yi_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/lian_yi_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/lian_yi_hardpoint_recoil.png",
+  "visualRecoil": 10,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    39,
+    -6.5,
+    39,
+    5.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    51.5,
+    -6,
+    51.5,
+    6
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "autocharge":"true",
+  "muzzleFlashSpec": {
+    "length": 53,
+    "spread": 20,
+    "particleSizeMin": 18,
+    "particleSizeRange": 24,
+    "particleDuration": 0.12,
+    "particleCount": 32,
+    "particleColor": [
+      77,
+      87,
+      123,
+      215
+    ]
+  },
+  "fireSoundTwo": "TDB_lian_yi"
+}

@@ -1,0 +1,80 @@
+{
+  "hullName": "TDB_mi_san_guang",
+  "hullId": "TDB_mi_san_guang",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/TDB_mi_san_guang.png",
+  "style": "TDB_TECH",
+  "height": 38,
+  "width": 23,
+  "center": [11.5, 15.5],
+  "collisionRadius": 30,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 25,
+  "viewOffset": 0,
+  "builtInMods": [
+    "TDB_ruo_ci_du_cheng"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-0.5, 7.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-0.5, -7.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [15, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12, -0],
+      "length": 19,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -15, -4,
+    -7.5, -9.5,
+    -5.5, -7.5,
+    -2, -11,
+    5.5, -11.5,
+    3.5, -7.5,
+    21.5, -0,
+    3.5, 7.5,
+    5.5, 11.5,
+    -2, 11,
+    -5.5, 7.5,
+    -7.5, 9.5,
+    -15, 4
+  ]
+}

@@ -1,0 +1,29 @@
+{
+	"id":"TDB_hang_ji_deng",  # this id must match what's in the spreadsheet
+	"specClass":"beam",
+	"type":"DECORATIVE",
+	"size":"SMALL",
+
+    "turretSprite":"graphics/weapons/TDB_hang_ji_deng/TDB_hang_ji_deng00.png",
+	"hardpointSprite":"graphics/weapons/TDB_hang_ji_deng/TDB_hang_ji_deng00.png",
+	"showDamageWhenDecorative":true,
+	"renderBelowAllWeapons":true,	
+	#"renderHints":["RENDER_ADDITIVE"],
+
+	"numFrames":7,
+	"frameRate":2,
+	"alwaysAnimate":"true",
+
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[10, 0],
+	"hardpointAngleOffsets":[0],
+
+	"fringeColor":[255,255,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,255,255,255],
+	"width":1.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":1.0,
+	"pixelsPerTexel":1.0,
+}

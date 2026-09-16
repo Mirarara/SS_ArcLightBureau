@@ -1,0 +1,42 @@
+{
+  "id": "TDB_yun_chui",
+  "specClass": "projectile",
+  "projectileSpecId": "TDB_yun_chui_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/TDB_yun_chui/TDB_yun_chui_turret_base_00.png",
+  "hardpointSprite": "graphics/weapons/TDB_yun_chui/TDB_yun_chui_hardpoint_base_00.png",
+  "turretOffsets": [
+    21.5,
+    0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    29,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 4,
+  "frameRate": 20,
+  "muzzleFlashSpec": {
+    "length": 35,
+    "spread": 5,
+    "particleSizeMin": 6,
+    "particleSizeRange": 14,
+    "particleDuration": 0.15,
+    "particleCount": 11,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "TDB_yun_chui"
+}

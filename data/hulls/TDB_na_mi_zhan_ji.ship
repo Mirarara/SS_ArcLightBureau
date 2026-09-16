@@ -1,0 +1,43 @@
+{
+  "hullName": "TDB_na_mi_zhan_ji",
+  "hullId": "TDB_na_mi_zhan_ji",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/TDB_na_mi_zhan_ji.png",
+  "style": "TDB_HF",
+  "height": 43,
+  "width": 37,
+  "center": [19, 20],
+  "collisionRadius": 27,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 20,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9.5, -0],
+      "length": 16,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "TDB_HF"
+    }
+  ],
+  "bounds": [
+    -14, -3.5,
+    -1, -11,
+    19, -2,
+    19, 2,
+    -1, 11,
+    -14, 3.5
+  ]
+}

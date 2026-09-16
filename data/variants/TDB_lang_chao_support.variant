@@ -1,0 +1,39 @@
+{
+    "displayName": "压制",
+    "fluxCapacitors": 8,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "TDB_lang_chao",
+    "hullMods": [
+        "TDB_A_tu_ji",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_lang_chao_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "hydra"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "gorgonpod",
+                "WS0004": "gorgonpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "TDB_yun_jian",
+                "WS0007": "TDB_yun_jian2",
+                "WS0008": "TDB_yun_jian",
+                "WS0009": "TDB_yun_jian2"
+            }
+        }
+    ]
+}

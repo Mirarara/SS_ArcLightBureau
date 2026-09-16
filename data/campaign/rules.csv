@@ -1,0 +1,245 @@
+id,trigger,conditions,script,text,options,notes
+,,,,,,
+greetingTDBFriendly,OpenCommLink,"$faction.id == TDB
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""身份核验通过。弧光设计局向您致意。""
+OR
+""敌我识别完成。指挥官 $personName 向您问好——很高兴见到你，我的朋友。""",,
+greetingTDBHostileWeaker,OpenCommLink,"$faction.id == TDB
+$faction.hostileToPlayer
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""我们不是敌人吗？"" $personName 问道，语气中带着困惑。""向敌人发起通讯——你在期待什么？""
+OR
+""按流程，我现在应该挂断。"" $personName 的语气像在读一份内部备忘录，""但好奇心并不违反公司章程。给你六十秒。""
+OR
+""鉴于当前关系状态，此通讯将被全程记录。""",cutCommLink:切断通讯链接,
+greetingTDBHostileWeakerDefiant,OpenCommLink,"$faction.id == TDB
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"""如果不想惹上麻烦的话，我建议你最好谨慎一些。""
+OR
+""身份核验通过。弧光设计局对您的信用评级持保留态度，但这不影响我们履行基本的通讯义务。""",cutCommLink:切断通讯链接,
+greetingTDBHostileStronger,OpenCommLink,"$faction.id == TDB
+$faction.hostileToPlayer
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""通讯记录会显示我给了你警告。"" $personName 停顿了一拍，""所以，别说我没给过机会。准备交火。""
+OR
+""不必浪费彼此的时间。准备交火。""",cutCommLink:切断通讯链接,
+greetingTDBTOffNormal,OpenCommLink,"$faction.id == TDB
+!$isHostile
+!$player.transponderOn
+$entity.relativeStrength >= 0",,"""请立刻打开应答器！根据弧光设计局的条款，此星区内不允许关闭应答器航行.""","turnOnTransponder:开启通讯器
+cutCommLink:切断通讯链接",
+greetingTDBTOffWeaker,OpenCommLink,"$faction.id == TDB
+!$isHostile
+!$player.transponderOn
+$entity.relativeStrength < 0",,"""抱歉,此星区内不允许关闭应答器航行,如果有困难也许我们能帮到您。""","turnOnTransponder:开启通讯器
+cutCommLink:切断通讯链接 ",
+greetingTDBNeutral,OpenCommLink,"$faction.id == TDB
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""识别完成。请说明来意。""
+OR
+""身份已确认。这位旅者，请核实你此行的目的。""",,
+,,,,,,
+,,,,,,
+,,,,,,
+aiCores_turnInOptionSelTDB,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == plsp",FireAll PopulateCoresTurnInOptions,"""如果您真的准备上交这种东西,我们会很高兴收下他的,当然,我们会准备一个让您满意的价格.""",,
+aiCores_turnInResponseTDB,AICoresTurnedIn,$faction.id == TDB,FireAll PopulateOptions,"""十分感谢您做出的贡献,这些核心可帮了我们大忙了!""",,
+,,,,,,
+,,,,,,
+,,,,,,
+relLevelNeutralTDB,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == TDB",,你与 $theFaction 之间尚未建立正式的客户关系。他们会为你提供有限度的帮助与服务，仅此而已。,,
+relLevelFavorableTDB,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == TDB",, $theFaction 已经认可了你的品行，这代表着你能获取一些来自 $theFaction 高端市场的货物...,,
+relLevelWelcomingTDB,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == TDB",,你的名号已经为大多数军官所熟知，$theFaction 也已经向你开放了特殊市场的权限，在星区内的舰队也十分乐意为你提供力所能及的帮助。,,
+relLevelFriendlyTDB,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == TDB",,作为朋友 $theFaction 十分看重你，大部分军官在与你相见时都会向你问好，或是回以一个微笑。,,
+relLevelCooperativeTDB,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == TDB",, $theFaction 十分看重与你的盟友关系，只要你有需要，星区内的巡逻舰队会不留余力的为你提供帮助，各种专属的证明也保证你可以进入各种常人无法触及的场所，据说拥有这种证明的人分局局长会亲自会见他。,,
+relLevelSuspiciousTDB,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == TDB",,你的行为已经引起了 $theFaction 的注意，虽然公开市场依旧允许你的进入，但繁杂的手续以及频繁的搜查还是让你烦不胜烦。,,
+relLevelInhospitableTDB,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == TDB",,$theFaction 已下调你的信用评级。港口停靠权限受限，市场交易需额外审查，巡逻队被授权核查你的航行轨迹。,,
+relLevelHostileTDB,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == TDB",,你已经彻底被 $theFaction 列入了黑名单。 $theFaction 旗下的舰队会毫不留情的对你的舰队发起攻击。,,
+relLevelVengefulTDB,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == TDB",,你与 $theFaction 的关系已经彻底进入冰点。你的头像与舰队在赏金列表上已经被圈画了重点，也许不久之后就会有舰队来找你的麻烦了。,,
+,,,,,,
+flavorTextMarketTDB,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == TDB
+$market.id == TDB_planet1_market","AddText ""街道上身穿墨蓝色制服的“人”随处可见，他们三五成群的伴随着无人机或是无人车不停的巡逻着并解答着周围来人的疑问。各式绚丽的广告与热情的叫卖声组成了街头日常的旋律。"" marketFlavorTextColor
+AddText ""通过严格的审查后，你被允许进入了更加官方的市场，整齐的布局与遍布各处的协会旗帜是这里的主色调。一名长着猫耳朵的军官与她的机械体同事为你提供了此处市场最新的物价表，并告知你在协会主星系的 Intersection 有特殊的开放市场存在。"" marketFlavorTextColor",,,
+,,,,,,
+greetingGuGuFleet,OpenCommLink,$entity.TDBGuGu score:1000,,"""Indulge的光芒总是太过灼目，身处阴影中时我才能听到来自故乡恒星的歌声。$playerName 舰长，你会想念自己的故乡吗？""",cutCommLink:切断通讯,
+#前置,,,,,,
+TDB_HanLiu_WH,PickGreeting,$id == TDB_HanLiu score:10,"ShowPersonVisual
+FireAll PopulateOptions","""盟友，有兴趣接受新的合作么？""",,
+TDB_HanLiu_WH1,MHOpenText,$id == TDB_HanLiu score:10,FireBest ContactPreMissionListText,$personLastName 在个人平板上进行了一番操作,,
+TDB_HanLiu_WH2,ContactPrintAcceptText,$id == TDB_HanLiu score:10,,"""合作愉快""",,
+TDB_HanLiu_WH3,ContactPrintDeclineText,$id == TDB_HanLiu score:10,,"""哎？。。。真可惜。""",,
+TDB_HanLiu_WH4,ContactPreMissionListText,"$mh_count <= 0
+$id == TDB_HanLiu score:10",,"""暂时没有新的任务，嗯。。。不忙的话也许可以陪咱聊聊最近发生的事？""",,
+,,,,,,
+TDB_XF_WH,PickGreeting,$id == TDB_XF score:10,"ShowPersonVisual
+FireAll PopulateOptions","""…嗯…啊，是$playerName…？想和西风进行又一次的合作么…？""",,
+TDB_XF_WH1,MHOpenText,$id == TDB_XF score:10,FireBest ContactPreMissionListText,当 $personLastName 在以鸭子坐的姿势摆弄着她的专属PDA时，你能清晰的看出上面因岁月和过度使用留下的种种痕迹。,,
+TDB_XF_WH2,ContactPrintAcceptText,$id == TDB_XF score:10,,"""…完好如初…当然？报销的事情已经被 $personLastName 糊弄过去了…绝对不是 $personLastName 主动出资的帮忙的哦…""",,
+TDB_XF_WH3,ContactPrintDeclineText,$id == TDB_XF score:10,,"""…哦啊？嗯，嗯…了解了。""",,
+TDB_XF_WH4,ContactPreMissionListText,"$mh_count <= 0
+$id == TDB_XF score:10",,"""…最近 $personLastName 这边很闲呢，没有工作给$playerName…但别急着挂断…来聊聊最近的贸易开支吧？""尽管对方主动抛出了话题，但她还是在匆匆聊了几句后就切断了通讯。",,
+,,,,,,
+#蓝图,,,,,,
+TDB_cpcBlurb,TDB_cpc_blurb,,,"""有空出的锻炉生产空间...如果你有需要的话，咱可以以厂价出售给你""",,
+TDB_cpcOfferOption,TDB_cpc_option,,,,"TDB_cpc_start:""谈论蓝图相关事宜""",
+,,,,,,
+TDB_cpcOfferTextContact,DialogOptionSelected,$option == TDB_cpc_start,"$missionId = TDB_cpc
+SetTextHighlights $cpc_maxCapacity $cpc_costPercent $cpc_days
+DoCanAffordCheck 0 TDB_cpc_pickrBP false
+SetShortcut contact_decline ""ESCAPE""","""没问题，这里是可用蓝图""","TDB_cpc_pickBP:""帮咱准备一下吧""
+contact_decline:拒绝",
+TDB_cpcPickBP,DialogOptionSelected,$option == TDB_cpc_pickBP,Call $cpc_ref pickContactBP,,,
+TDB_cpcBPPicked,CPCBlueprintsPicked,$missionId == TDB_cpc score:1000,"$option = contact_accept 0
+FireBest DialogOptionSelected
+Call $cpc_ref repSuccess",,,
+,,,,,,
+#商店,,,,,,
+TDB_wpBlurb,TDB_wp_blurb,,,"""有一些特殊的货物以及特价物资，如果有需要的话。。。""",,
+TDB_wpOfferOption,TDB_wp_option,,,,"TDB_wp_start:""我想先看看再做决定""
+",
+,,,,,,
+TDB_wpOfferText,DialogOptionSelected,$option == TDB_wp_start,$missionId = TDB_wp,"""没有问题，请自行挑选""","TDB_wp_view:选购
+contact_decline:拒绝",
+TDB_wpOfferView,DialogOptionSelected,$option == TDB_wp_view,Call $TDB_wp_ref showWeapons,,,
+,,,,,,
+#重要任务,,,,,,
+TDB_ImportantBlurb,TDB_Important_blurb,,,西风站了起来，往前走了几步凑近到镜头前，整个屏幕上便只剩下了她圆润的脸颊。,,
+TDB_ImportantOfferOption,TDB_Important_option,,,,"TDB_Important_talk1:""是有什么要紧的事情么?""
+",
+,,,,,,
+TDB_Important_talk1,DialogOptionSelected,$option == TDB_Important_talk1,,"""最近的舰船回收站里…送来了一艘放了好久的战损战列巡洋舰…这艘老功臣就这样被回收掉真是可惜…所以呢？西风瞒着其他人将它翻修了一遍…""
+
+西风向后退了几步，她那娇小的身影和冬装在视野中一览无余。
+","TDB_Important_talk2:""真是个好故事，所以呢？""
+TDB_Important_talk3:""你的账单开销没人来检查么？""",
+TDB_Important_talk2,DialogOptionSelected,$option == TDB_Important_talk2,,"西风眨了眨眼睛，顺着自己的思路继续向下。
+
+""…嗯！这艘船在目前的作战序列中也没处可去…西风就送给$playerName啦…？""
+
+她垫了垫自己踩着的厚底凉鞋，发出踩实地面的声音。
+
+""当然当然…这并不是无偿的啦…？在那之前帮西风做一件事怎么样…就当是某种交换…？""
+","TDB_Important_start:""说吧，我想先了解一下情况再做决定。""",
+TDB_Important_talk3,DialogOptionSelected,$option == TDB_Important_talk3,,"西风呆了两秒，似乎是在思考该如何组织语言。
+
+""放心好了…没有挪用公款的哦？都是私款私用…""
+
+""换个话题换个话题…这艘船$playerName的意向…帮西风做一件小事如何…？这条舰船就当是为$playerName准备的与西风合作的纪念品啦…""","TDB_Important_start:""说吧，我想先了解一下情况再做决定。""",
+,,,,,,
+TDB_ImportantDetail,DialogOptionSelected,$option == TDB_Important_start,"$missionId = TDB_Important
+","""…谨慎真是一种好品德啦…西风可以告诉$playerName任务内容…$playerName先听完后再做决定吧…？""
+
+西风闭上眼摇了摇头，长发和鹿角随之摇晃了起来，再睁开眼时，她的目光似乎清醒了一点。
+
+""…任务是去 Kanta之巢 打捞一份机密档案…几天前一队前往与速子科技进行技术交流的舰队在那里遭遇海盗伏击…海盗舰队规模远超预期，嗯…不过如此大规模的坟场以海盗打捞技术短期内应该找不到档案…？海盗舰队目前应该还在原地打捞，晚了点的话就会被捞走啦…""
+
+""…将机密档案打捞起来…送到西风这里就好啦…？""
+","contact_accept:""合作愉快。""
+contact_decline:""但是我拒绝。""",
+,,,,,,
+TDB_ImportantPrintHostilesText,OpenInteractionDialog,"$TDB_objectFlag score:1000
+HostileFleetNearbyAndAware",ShowDefaultVisual,附近有敌对目标，无法进行回收作业。,defaultLeave:离开,
+TDB_ImportantObjectInteraction,OpenInteractionDialog,"$TDB_objectFlag score:1000
+Call $global.TDB_Important_ref updateData","ShowDefaultVisual
+$global.TDB_canReturn = true
+Call $global.TDB_Important_ref updateData
+Call $global.TDB_Important_ref updateStage",你的{$shipOrFleet}靠近了目标并在仪器的帮助下很快找到了目标。,,
+,,,,,,
+TDB_ImportantMissionReturn,PickGreeting,"$TDB_returnHere score:1000
+Call $global.TDB_Important_ref updateData",ShowPersonVisual,"你按照西风提供的时间与地点在空间站上商业街的一家奶茶店面前等待着，你的保镖在身旁护卫着你，将你与密集的人流隔开。
+
+未过多时，西风的身影从人流中探了出来，在密集的人群中分辨出那矮小的身影花费了你不少力气。
+
+她缓下步伐来到你的面前抬起头，平静的眸子望着你。
+
+""$playerName…事情完成的怎么样…？""
+","TDB_Important_talk4:递交任务物品。""很难想象，你居然会选择这种地方会面。""",
+TDB_Important_talk4,DialogOptionSelected,$option == TDB_Important_talk4,,"西风向前，双手接过了你递过的存储装置。
+
+""嗯…西风就放心啦…""
+
+她自顾自地转身，昂起头，面对着奶茶店中的店员。
+
+""两杯奶茶…大杯天然糖…""
+
+她看见你以一种十分怪异的眼神望着她。
+
+""嗯啊…？没人规定会面一定要在酒馆或者办公室吧…作为合作的收尾高兴一些啦…$playerName…喜欢甜的还是不甜的？""","TDB_Important_talk5:表示自己不喜欢喝奶茶
+TDB_Important_talk6:接过奶茶并表示感谢",
+TDB_Important_talk5,DialogOptionSelected,$option == TDB_Important_talk5,,"""船只已送到船坞并拜托星港调度员移交$playerName…崭新出厂配色十新…""
+
+“…舰船上安装了一些穿越者设计局的最新实验设备…虽然西风也不太明白具体工作原理…但在规定范围内使用应该没问题…？毕竟西风自己也驾驶过一段时间…没爆炸…”
+
+她双手拿起奶茶吸了两口珍珠。
+
+""…如果能定期回传一些数据，西风可以帮$playerName继续调整完善这些设备的…""
+",TDB_Importantfinish:表达感谢后离开。,
+TDB_Important_talk6,DialogOptionSelected,$option == TDB_Important_talk6,,"""船只已送到船坞并拜托星港调度员移交$playerName…崭新出厂配色十新…""
+
+“…舰船上安装了一些穿越者设计局的最新实验设备…虽然西风也不太明白具体工作原理…但在规定范围内使用应该没问题…？毕竟西风自己也驾驶过一段时间…没爆炸…”
+
+她双手拿起奶茶吸了两口珍珠。
+
+""…如果能定期回传一些数据，西风可以帮$playerName继续调整完善这些设备的…""
+",TDB_Importantfinish:表达感谢后离开。,
+,,,,,,
+TDB_ImportantFinish,DialogOptionSelected,$option == TDB_Importantfinish,"$global.TDB_finished = true
+$global.TDB_Mission_End = false
+Call $global.TDB_Important_ref updateStage
+FireAll PopulateOptions","""在你离开之前，西风叫住了你。
+
+“…$playerName，一路顺风…”
+
+不等你回应西风便转身离开，她的身影如同一滴水一样在普通的人流中消失不见。
+
+""",,
+,,,,,,
+#维修,,,,,,
+TDB_RepairBlurb,TDB_Repair_blurb,,,"""…嗯…协会的维修站一直很忙碌，保持一支规模庞大的舰队可是很不容易的…但但，如果是$playerName来借用的话…""",,
+TDB_RepairOfferOption,TDB_Repair_option,,,,"TDB_Repair_start:""我想维修部分舰船""
+",
+,,,,,,
+TDB_RepairOfferText,DialogOptionSelected,$option == TDB_Repair_start,$missionId = TDB_Repair,"""…好…最后的那点路程…就麻烦$playerName自己驾驶过去啦？""","TDB_Repair_view:维修
+contact_decline:拒绝",
+TDB_RepairOfferView,DialogOptionSelected,$option == TDB_Repair_view,Call $TDB_Repair_ref showRepair,,,
+#灰风,,,,,,
+TDB_hfBlurb,TDB_hf_blurb,,,灰风正在旁边探头探脑,,
+TDB_hfOfferOption,TDB_hf_option,,,,"TDB_hf_start:""改变灰风职位""
+",
+,,,,,,
+TDB_hfOfferText,DialogOptionSelected,$option == TDB_hf_start,$missionId = TDB_hf,"""没有问题，请自行挑选""
+欧米茄核心——在军官与管理员之间切换
+伽马核心——导弹专精
+阿尔法核心——能量大师
+贝塔核心——实弹专精
+默认——相场调谐
+每次只能选择一种进行更改","TDB_hf_view:确认
+contact_decline:拒绝",
+TDB_hfOfferView,DialogOptionSelected,$option == TDB_hf_view,Call $TDB_hf_ref hf,,,
+#对话彩蛋,,,,,,
+TDB_HanLiu1Opt,PopulateOptions,$id == TDB_HanLiu,,"""如果有什么疑问可以直接向我询问。""",TDB_HanLiu_talk1:询问一些问题,
+TDB_HanLiu_talk1,DialogOptionSelected,$option == TDB_HanLiu_talk1,$TDB_HanLiu = true,,"TDB_HanLiu_talkLLI:关于楼兰军工
+TDB_HanLiu_talkBSF:关于蓝海渔业",
+TDB_HanLiu_talkLLI,DialogOptionSelected,$option == TDB_HanLiu_talkLLI,FireAll PopulateOptions,"设计局在早些时候曾与楼兰军工有过相当深入的合作，我们曾用雨帘级的蓝图交换了浪潮级的蓝图，双方工程师也成功依据各自的海军学说对交换的原型图进行了改造设计——这本应该是一场完美的合作。可惜后续因楼兰立场的转变，也从与其断交演变为今天的彻底敌对。
+
+$personName 叹了口气，并低头喝了口傍边杯子内不知名的饮料，似乎在为失去一个盟友而得到一个敌人感到惋惜。",cutCommLink:切断通讯,
+TDB_HanLiu_talkBSF,DialogOptionSelected,$option == TDB_HanLiu_talkBSF,FireAll PopulateOptions,"""蓝海渔业？他们家的泡面很好吃。咳咳。""
+
+$personName 清了清嗓子，眼神也不自觉的瞟向了一边，似乎在为不小心说出了不合时宜的话而难堪。
+
+""嗯。。。他们在很早之前就与我们是盟友关系了，尽管并没有提供正面战场上的帮助，但在物资补给，科学研究等方面与协会合作颇深。""
+""说到这里就不得提一下设计局出品的层积云级了，可不要被它的外表迷惑了，它的内部系统与布局可是被协会完全重新设计过的,就连蓝海方面的设计师都赞不绝口。""
+
+$personName 似乎在聊到这个话题时有些兴奋，紧紧的盯着你。
+
+""如果感兴趣的话，我可以出厂价出售你。。。当然。。需要锻炉有空闲的空间时。""",cutCommLink:切断通讯,

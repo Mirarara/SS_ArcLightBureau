@@ -1,0 +1,22 @@
+{
+  "variantId": "TDB_fan_guang_yuan_variant",
+  "hullId": "TDB_fan_guang_yuan",
+  "displayName": "无人拦截机",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "TDB_feng_zu"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

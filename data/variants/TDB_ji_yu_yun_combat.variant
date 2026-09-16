@@ -1,0 +1,83 @@
+{
+    "displayName": "常规",
+    "fluxCapacitors": 35,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "TDB_ji_yu_yun",
+    "hullMods": [
+        "TDB_A_pao_ji",
+        "TDB_hang_kong",
+        "frontemitter",
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "TDB_ji_yu_yun_combat",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0022": "TDB_ji_yu_yun_C",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0020": "TDB_ji_yu_yun_missile_R",
+                "WS0019": "TDB_ji_yu_yun_missile_L",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "TDB_ning_hua",
+                "WS0008": "TDB_ning_hua",
+                "WS0006": "TDB_ning_hua",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "TDB_cai_yu",
+                "WS0011": "TDB_cai_yu",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "TDB_Focuspd",
+                "WS0014": "TDB_Focuspd",
+                "WS0013": "TDB_Focuspd",
+                "WS0016": "TDB_Focuspd",
+                "WS0015": "TDB_Focuspd",
+                "WS0018": "TDB_Focuspd",
+                "WS0017": "TDB_Focuspd",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "TDB_fang_tang",
+            }
+        },
+    ],
+    "wings": [
+        "TDB_pian_zhen_guang1_wing",
+        "TDB_pian_zhen_guang1_wing",
+        "TDB_pian_zhen_guang1_wing",
+        "TDB_pian_zhen_guang1_wing",
+    ],
+    "modules": [
+        {"WS0004": "TDB_ji_yu_yun_zuo_combat"},
+        {"WS0007": "TDB_ji_ku_combat"},
+        {"WS0005": "TDB_ji_yu_yun_you_combat"},
+    ],
+}

@@ -1,0 +1,29 @@
+{
+  "hullName": "TDB_yun_cheng_box3",
+  "hullId": "TDB_yun_cheng_box3",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/TDB_yun_cheng/TDB_yun_cheng_box3.png",
+  "style": "TDB_TECH",
+  "height": 40,
+  "width": 106,
+  "center": [53, 20],
+  "collisionRadius": 81.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 65.5,
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "engineSlots": [],
+  "builtInMods": [
+    "TDB_mods",
+  ],
+  "bounds": [
+    17.5, -49,
+    13, -53,
+    -13, -53,
+    -18, -48.5,
+    -18, 48.5,
+    -13, 53,
+    13, 53,
+    17.5, 49
+  ]
+}

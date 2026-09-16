@@ -1,0 +1,15 @@
+{
+    "displayName": "突袭",
+    "fluxCapacitors": 10,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "TDB_dong_yu_armor",
+    "hullMods": [
+        "safetyoverrides",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "TDB_dong_yu_armor_variant",
+    "weaponGroups": []
+}

@@ -1,0 +1,23 @@
+{
+  "variantId": "TDB_yuan_wei_variant",
+  "hullId": "TDB_yuan_wei",
+  "displayName": "常规",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "amblaster",
+        "WS0002": "amblaster"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,194 @@
+{
+  "hullName": "TDB_gu_yu",
+  "hullId": "TDB_gu_yu",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/TDB_gu_yu/TDB_gu_yu.png",
+  "style": "TDB_TECH",
+  "height": 274,
+  "width": 212,
+  "center": [106, 145],
+  "collisionRadius": 214,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 195.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "TDB_ruo_ci_du_cheng",
+    "TDB_gu_yu"
+  ],
+  "builtInWeapons": {
+    "LE1_Left": "TDB_EngineController",
+    "RE1_Right": "TDB_EngineController"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [48.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [76.5, -32]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [76.5, 32]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 180,
+      "locations": [-47.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+	  "renderOrder":-1,
+      "arc": 0,
+      "angle": 45,
+      "locations": [12.5, 72.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+	  "renderOrder":-1,
+      "arc": 0,
+      "angle": -45,
+      "locations": [12.5, -72.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+	  "renderOrder":-1,
+      "arc": 0,
+      "angle": 45,
+      "locations": [23.5, 63.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+	  "renderOrder":-1,
+      "arc": 0,
+      "angle": -45,
+      "locations": [23.5, -63.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        70, 7.5,
+        70, -7,
+        80.5, 7.5,
+        80.5, -7.5
+      ]
+    },
+    {
+      "id": "LE1_Left",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-90, 17]
+    },
+    {
+      "id": "RE1_Right",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -180,
+      "locations": [-90, -17]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-0.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-87.5, 10.5],
+      "length": 40,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-87.5, -11.5],
+      "length": 40,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-90, 17],
+      "length": 28.1478,
+      "width": 8.53261,
+      "angle": -158,
+      "contrailSize": 8.53261,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-90, -17],
+      "length": 28.1478,
+      "width": 8.53261,
+      "angle": 158,
+      "contrailSize": 8.53261,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -85, -7.5,
+    -92, -23,
+    -130.5, -16.5,
+    -45.5, -80.5,
+    -37, -97.5,
+    -27, -74,
+    -34.5, -35,
+    90.5, -10.5,
+    90.5, 10.5,
+    -34.5, 35,
+    -27, 74,
+    -37, 97.5,
+    -45.5, 80.5,
+    -130.5, 16.5,
+    -92, 23,
+    -85, 7.5,
+    -144.5, -0
+  ]
+}

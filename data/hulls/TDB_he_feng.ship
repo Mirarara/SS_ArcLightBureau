@@ -1,0 +1,104 @@
+{
+  "hullName": "TDB_he_feng",
+  "hullId": "TDB_he_feng",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/TDB_he_feng.png",
+  "style": "TDB_TECH",
+  "height": 290,
+  "width": 130,
+  "center": [65, 151.5],
+  "collisionRadius": 198.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 175.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "surveying_equipment",
+    "civgrade",
+    "TDB_ruo_ci_du_cheng"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 118,
+      "angle": 180,
+      "locations": [-78.5, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -65,
+      "locations": [23.5, -46]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 179,
+      "angle": 65,
+      "locations": [23.5, 46]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-104, -0],
+      "length": 50.5,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-98, 38],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-98, -38],
+      "length": 32,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "TDB_TECH"
+    }
+  ],
+  "bounds": [
+    -104, -15,
+    -147.5, -24,
+    -100.5, -26,
+    -99, -42,
+    -123, -54.5,
+    -71, -64,
+    -54, -60.5,
+    -39.5, -41,
+    -40, -54.5,
+    87.5, -53.5,
+    115, -47.5,
+    136, -31,
+    134.5, -4.5,
+    109.5, -5,
+    109.5, 5,
+    134.5, 4.5,
+    136, 31,
+    115, 47.5,
+    87.5, 53.5,
+    -40, 54.5,
+    -39.5, 41,
+    -54, 60.5,
+    -71, 64,
+    -123, 54.5,
+    -99, 42,
+    -100.5, 26,
+    -147.5, 24,
+    -104, 15
+  ]
+}

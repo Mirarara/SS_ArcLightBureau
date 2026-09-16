@@ -1,0 +1,65 @@
+{
+
+	"TDB_yun_chui":[
+		{"file":"sounds/TDB_yun_chui.ogg","pitch":1,"volume":0.2},
+	],
+	"TDB_tai_yang_feng":[
+		{"file":"sounds/TDB_tai_yang_feng.ogg","pitch":1,"volume":0.7},
+	],
+	"TDB_ni_lan":[
+        {"file":"sounds/TDB_ni_lan.ogg","pitch":0.75, "volume":0.85},
+        {"file":"sounds/TDB_ni_lan.ogg","pitch":0.8, "volume":0.9},
+        {"file":"sounds/TDB_ni_lan.ogg","pitch":0.85, "volume":0.95},
+	],
+	"TDB_a":[
+        {"file":"sounds/TDB_a.ogg","pitch":0.75, "volume":1},
+	],
+	"TDB_ning_hua":
+	[
+		{"file":"sounds/TDB_ning_hua.ogg","pitch":1,"volume":1},
+	],	
+	"TDB_yun_ying":
+	[
+		{"file":"sounds/TDB_yun_ying.ogg","pitch":1,"volume":1},
+	],
+	"TDB_lian_yi":
+	[
+		{"file":"sounds/TDB_lian_yi.ogg","pitch":1,"volume":0.3},
+	],
+	"TDB_pd":
+	[
+		{"file":"sounds/TDB_pd.ogg","pitch":2.0,"volume":0.1},
+	],
+	"TDB_duan_hen":
+	[
+		{"file":"sounds/TDB_duan_hen.ogg","pitch":1,"volume":1},
+	],
+	"TDB_CF":
+	[
+		{"file":"sounds/TDB_CF.ogg","pitch":1,"volume":0.5},
+	],
+	"TDB_shao_miao":
+	[
+		{"file":"sounds/TDB_shao_miao.ogg","pitch":1,"volume":0.05},
+	],
+	"TDB_huan_liu":
+	[
+		{"file":"sounds/TDB_huan_liu.ogg","pitch":1,"volume":1},
+	],
+	"TDB_XZ_M":
+	[
+		{"file":"sounds/TDB_XZ_M.ogg","pitch":1,"volume":1},
+	],
+	"TDB_XZ_M2":
+	[
+		{"file":"sounds/TDB_XZ_M2.ogg","pitch":1,"volume":0.8},
+	],
+	"TDB_YQ":
+	[
+		{"file":"sounds/TDB_yq.ogg","pitch":1,"volume":1},
+	],
+	"TDB_pian_yi":
+	[
+		{"file":"sounds/TDB_pian_yi.ogg","pitch":1,"volume":1},
+	],
+}

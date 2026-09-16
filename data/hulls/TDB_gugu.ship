@@ -1,0 +1,164 @@
+{
+  "hullName": "TDB_gugu",
+  "hullId": "TDB_gugu",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/TDB_gugu.png",
+  "style": "TDB_TECH",
+  "height": 64,
+  "width": 80,
+  "center": [39.5, 27.5],
+  "collisionRadius": 70,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 60,
+  "viewOffset": 0,
+  "builtInMods": [
+    "operations_center",
+    "TDB_ruo_ci_du_cheng"
+  ],
+  "builtInWeapons": {
+    "WS0004": "TDB_hang_ji_deng",
+    "WS0005": "TDB_hang_ji_deng",
+    "WS0006": "blinker_red",
+    "WS0007": "blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7, 24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7, -24.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [24, 15.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [24, -16.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [18, 18]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [18, -19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26, 10.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-26, -11],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-21, 18],
+      "length": 21,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-21, -18.5],
+      "length": 21,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-20, 25.5],
+      "length": 26,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-20, -26.5],
+      "length": 26,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "TDB_TECH"
+    },
+    {
+      "location": [-21, 18],
+      "length": 0,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "TDB_TECH2"
+    },
+    {
+      "location": [-21, -18.5],
+      "length": 0,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "TDB_TECH2"
+    }
+  ],
+  "bounds": [
+    -27, -15,
+    -17.5, -32.5,
+    -16.5, -39.5,
+    -6, -39,
+    13.5, -18,
+    19, -13,
+    26, -13,
+    35.5, -3.5,
+    35.5, 3.5,
+    26, 13,
+    19, 13,
+    13.5, 18,
+    -6, 39,
+    -16.5, 39.5,
+    -17.5, 32.5,
+    -27, 15
+  ]
+}
